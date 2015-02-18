@@ -1,0 +1,660 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Dale V. Ross</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Dale V. Ross
+					</h1>
+					<h2>
+						Software Engineer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">kingdale20@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">(352) 564-0917</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="http://coderoom.dajengroup.com">http://coderoom.dajengroup.com</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>Dale currently resides in Crystal River, FL. He has earned a B. Sc. degree from the University of West Indies, majoring in Computer Science and Electronics. While his work focuses on Software Engineering, primarily on the .NET Framework, his non-work interests spans a wide range of areas including AI, Data Science, Machine Learning and Start Ups.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://twitter.com/recursionjm">recursionjm</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://linkedin.com/in/dalevross">dalevross</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://github.com/dalevross">dalevross</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Degreed
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://degreed.com/dvross/index/1">dvross</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Infinity Info Systems</span>
+					<span class="date">
+						2014-06-10 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.infinityinfo.com">http://www.infinityinfo.com</a>
+				</div>
+				<div class="position">
+					Software Developer
+				</div>
+				<div class="summary">
+					<p>Responsibilities include extending/customizing MSCRM environments, writing tools to support SaleLogix/Infor CRM deployments and developing applications using ASP.NET MVC &amp; C#.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Built an application that integrated with multiple ads endpoints including Google Adwords, Google Analytics, Facebook and Bing Ads</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>DaJen Group</span>
+					<span class="date">
+						2012-10-01 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://dajengroup.com">http://dajengroup.com</a>
+				</div>
+				<div class="position">
+					CEO/President
+				</div>
+				<div class="summary">
+					<p>Dajen Group is a software solutions provider which aims to solve problems that affect a wide cross section of society</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Built a chrome extension to add features to online word games</li>
+					<li class="bullet">Built a score management system for an online scrabble league</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Rastival</span>
+					<span class="date">
+						2013-07-03 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.rastival.com">http://www.rastival.com</a>
+				</div>
+				<div class="position">
+					Co Founder
+				</div>
+				<div class="summary">
+					<p>Member of start up team working to make the internet audible</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Circumvented CSP for media sources on medium to allow chrome extension to perform necessary functions</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Genesis 10</span>
+					<span class="date">
+						2013-12-19 — 2014-05-16
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.mcsystems.com">http://www.mcsystems.com</a>
+				</div>
+				<div class="position">
+					Consultant
+				</div>
+				<div class="summary">
+					<p>Member of small team outsourced to client in RV Industrustry</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Management Control Systems</span>
+					<span class="date">
+						2005-10-03 — 2013-12-18
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.mcsystems.com">http://www.mcsystems.com</a>
+				</div>
+				<div class="position">
+					Software Engineer/Team Lead
+				</div>
+				<div class="summary">
+					<p>Member of small team that supported/extended a 24/7 top up (airtime) transaction processing system</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Led a small team of developers</li>
+					<li class="bullet">Primary developer on merger of multiple top up environments which involved duplicated ids across systems</li>
+					<li class="bullet">Key team member for environment relocation to new hosting site</li>
+					<li class="bullet">Participated in deployment of top up environments in multiple Caribbean islands</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>University of the West Indies, Mona</span>
+					<span class="date">
+						2002-08-16 — 2005-05-01
+					</span>
+				</h4>
+				<div class="area">
+					Computer Science &amp; Electronics
+				</div>
+				<div class="studyType">
+					Bachelor
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>CS11A - Introduction to Computer Science I</li>
+					<li>M10A - Basic Introductory Mathematics</li>
+					<li>P14A - Introductory Physics A</li>
+					<li>CS11B - Introduction to Computer Science II</li>
+					<li>M10B - Functions of Real Variables</li>
+					<li>P14B - Introductory Physics B</li>
+					<li>CS20Q - Discrete Mathematics for Computer Scientists</li>
+					<li>CS21Q - Digital Logic and Computer Architectures</li>
+					<li>FD13A - Law, Governance, Economy and Society in the Caribbean</li>
+					<li>P24F - Signals and Systems</li>
+					<li>P24H - Communication Systems</li>
+					<li>CS20A - Information Structures and Algorithms</li>
+					<li>CS28A - Systems Programming</li>
+					<li>FD11A - Caribbean Civilization</li>
+					<li>P24J - Analog Electronics</li>
+					<li>P24K - Digital Electronics</li>
+					<li>CS31A - Operating Systems</li>
+					<li>CS33Q - Introduction to Artificial Intelligence</li>
+					<li>P34F - Digital Signal Processing</li>
+					<li>P34K - Microprocessors</li>
+					<li>CS32Q - Computer Communications and Networks</li>
+					<li>CS37Q - Logic, Computability and Complexity Theory</li>
+					<li>P34H - Digital Communications</li>
+					<li>P34J - Microcontroller Applications</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="awards" class="row">
+		<aside class="col-sm-3">
+			<h3>Awards</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Jasmine Chin Memorial Scolarship</span>
+				</h4>
+				<div class="awarder">
+					<em>by</em>
+					<strong>University of the West Indies</strong>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Merville Campbell Prize</span>
+				</h4>
+				<div class="awarder">
+					<em>by</em>
+					<strong>University of the West Indies</strong>
+				</div>
+				<div class="summary">
+					Best Performance in Level 1 Mathematics
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Level 1 Physics Departmental Prize</span>
+				</h4>
+				<div class="awarder">
+					<em>by</em>
+					<strong>University of the West Indies</strong>
+				</div>
+				<div class="summary">
+					Best Performance
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Karl Robinson Award for Computer Science</span>
+				</h4>
+				<div class="awarder">
+					<em>by</em>
+					<strong>University of the West Indies</strong>
+				</div>
+				<div class="summary">
+					Best Performance
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Level 2 Physics Departmental Prize</span>
+				</h4>
+				<div class="awarder">
+					<em>by</em>
+					<strong>University of the West Indies</strong>
+				</div>
+				<div class="summary">
+					Best Performance
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Front End</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+					<li>JSON</li>
+					<li>jQuery</li>
+					<li>Kendo UI</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Backend</h4>
+				</div>
+				<ul class="keywords">
+					<li>PHP</li>
+					<li>Python</li>
+					<li>ASP.NET MVC</li>
+					<li>C#</li>
+					<li>MSSQL</li>
+					<li>TSQL</li>
+					<li>MySQL</li>
+					<li>C</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web Services</h4>
+				</div>
+				<ul class="keywords">
+					<li>WCF</li>
+					<li>ASMX</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Source Control/ALM</h4>
+				</div>
+				<ul class="keywords">
+					<li>TFS</li>
+					<li>Git</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Other</h4>
+				</div>
+				<ul class="keywords">
+					<li>Chrome Extensions</li>
+					<li>Google App Engine</li>
+					<li>SQL Server Reporting Services</li>
+					<li>K2 BlackPearl</li>
+					<li>Scribe Insight and Online</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Spanish</strong>
+				</div>
+				<div class="fluency">
+					Amateur
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>German</strong>
+				</div>
+				<div class="fluency">
+					Learning
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Scrabble</h4>
+				</div>
+				<ul class="keywords">
+					<li>Tournaments</li>
+					<li>Online</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Math</h4>
+				</div>
+				<ul class="keywords">
+					<li>Calculus</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+
+	</div>
+	
+	</body>
+</html>

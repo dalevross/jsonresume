@@ -1,108 +1,212 @@
 {
   "basics": {
     "name": "Dale V. Ross",
-    "label": "Programmer",
-    "picture": "",
+    "label": "Software Engineer",
+    "picture": "http://www.gravatar.com/avatar/7dfee93ad99243a655235d037e1cd59d?s=100&r=pg&d=mm",
     "email": "kingdale20@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "phone": "(352) 564-0917",
+    "website": "http://coderoom.dajengroup.com",
+    "summary": "Dale currently resides in Crystal River, Florida. He has earned a B. Sc. degree from the University of West Indies, majoring in Computer Science and Electronics. While his work focuses on Software Engineering, primarily on the .NET Framework, his non-work interests spans a wide range of areas including AI, Data Science, Machine Learning and Start Ups.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "4885 North Mattox Point",
+      "postalCode": "34428",
+      "city": "Crystal River",
       "countryCode": "US",
-      "region": "California"
+      "region": "Florida"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "username": "recursionjm",
+        "url": "https://twitter.com/recursionjm"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.com/dandymusicnl"
+        "network": "LinkedIn",
+        "username": "dalevross",
+        "url": "http://linkedin.com/in/dalevross"
+      },
+      {
+        "network": "Github",
+        "username": "dalevross",
+        "url": "http://github.com/dalevross"
+      },
+      {
+        "network": "Degreed",
+        "username": "dvross",
+        "url": "https://degreed.com/dvross/index/1"
       }
     ]
   },
   "work": [
+   {
+      "company": "Infinity Info Systems",
+      "position": "Software Developer",
+      "website": "http://www.infinityinfo.com",
+      "startDate": "2014-06-10",
+      "summary": "Responsibilities include extending/customizing MSCRM environments, writing tools to support SaleLogix/Infor CRM deployments and developing applications using ASP.NET MVC & C#.",
+      "highlights": [
+        "Built an application that integrated with multiple ads endpoints including Google Adwords, Google Analytics, Facebook and Bing Ads"
+      ]
+    },
     {
-      "company": "Pied Piper",
+      "company": "DaJen Group",
       "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "website": "http://dajengroup.com",
+      "startDate": "2012-10-01",
+      "summary": "Dajen Group is a software solutions provider which aims to solve problems that affect a wide cross section of society",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Built a chrome extension to add features to online word games",
+        "Built a score management system for an online scrabble league"
+      ]
+    },
+     {
+      "company": "Rastival",
+      "position": "Co Founder",
+      "website": "http://www.rastival.com",
+      "startDate": "2013-07-03",
+      "summary": "Member of start up team working to make the internet audible",
+      "highlights": [
+        "Circumvented CSP for media sources on medium to allow chrome extension to perform necessary functions"        
+      ]
+    },
+     {
+      "company": "Genesis 10",
+      "position": "Consultant",
+      "website": "http://www.mcsystems.com",
+      "startDate": "2013-12-19",
+      "endDate": "2014-05-16",
+      "summary": "Member of small team outsourced to client in RV Industrustry"      
+    },
+     {
+      "company": "Management Control Systems",
+      "position": "Software Engineer/Team Lead",
+      "website": "http://www.mcsystems.com",
+      "startDate": "2005-10-03",
+      "endDate": "2013-12-18",
+      "summary": "Member of small team that supported/extended a 24/7 top up (airtime) transaction processing system",
+      "highlights": [
+        "Led a small team of developers",
+        "Primary developer on merger of multiple top up environments which involved duplicated ids across systems",
+        "Key team member for environment relocation to new hosting site",
+        "Participated in deployment of top up environments in multiple Caribbean islands"
       ]
     }
-  ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
-      ]
-    }
-  ],
+    
+  ], 
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
+      "institution": "University of the West Indies, Mona",
+      "area": "Computer Science & Electronics",
       "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
+      "startDate": "2002-08-16",
+      "endDate": "2005-05-01",
       "gpa": "4.0",
       "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+        "CS11A - Introduction to Computer Science I",
+        "M10A - Basic Introductory Mathematics",
+        "P14A - Introductory Physics A",
+        "CS11B - Introduction to Computer Science II",
+        "M10B - Functions of Real Variables",
+        "P14B - Introductory Physics B",
+        "CS20Q - Discrete Mathematics for Computer Scientists",
+        "CS21Q - Digital Logic and Computer Architectures",
+        "FD13A - Law, Governance, Economy and Society in the Caribbean",
+        "P24F - Signals and Systems",
+        "P24H - Communication Systems",
+        "CS20A - Information Structures and Algorithms",
+        "CS28A - Systems Programming",
+        "FD11A - Caribbean Civilization",
+        "P24J - Analog Electronics",
+        "P24K - Digital Electronics",
+        "CS31A - Operating Systems",
+        "CS33Q - Introduction to Artificial Intelligence",
+        "P34F - Digital Signal Processing",
+        "P34K - Microprocessors",
+        "CS32Q - Computer Communications and Networks",
+        "CS37Q - Logic, Computability and Complexity Theory",
+        "P34H - Digital Communications",
+        "P34J - Microcontroller Applications"
       ]
     }
   ],
   "awards": [
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "title": "Jasmine Chin Memorial Scolarship",
+      "awarder": "University of the West Indies",
+      "date": "2003-06-01"
+    },
+     {
+      "title": "Merville Campbell Prize",
+      "awarder": "University of the West Indies",
+      "date": "2003-06-01",
+      "summary": "Best Performance in Level 1 Mathematics"
+    },
+     {
+      "title": "Level 1 Physics Departmental Prize",
+      "awarder": "University of the West Indies",
+      "date": "2003-06-01",
+      "summary": "Best Performance"
+    },
+     {
+      "title": "Karl Robinson Award for Computer Science",
+      "awarder": "University of the West Indies",
+      "date" : "2003-06-01",
+      "summary": "Best Performance"
+    },
+     {
+      "title": "Level 2 Physics Departmental Prize",
+      "awarder": "University of the West Indies",
+      "date": "2004-06-01",
+      "summary": "Best Performance"
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Front End",
       "keywords": [
         "HTML",
         "CSS",
-        "Javascript"
+        "Javascript",
+        "JSON",
+        "jQuery",
+        "Kendo UI"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Backend",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "PHP",
+        "Python",
+        "ASP.NET MVC",
+        "C#",
+        "MSSQL",
+        "TSQL",
+        "MySQL",
+        "C"
+      ]
+    },
+     {
+      "name": "Web Services",
+      "keywords": [
+        "WCF",
+        "ASMX"
+      ]
+    },
+    {
+      "name": "Source Control/ALM",
+      "keywords": [
+        "TFS",
+        "Git"
+      ]
+    },
+     {
+      "name": "Other",
+      "keywords": [
+        "Chrome Extensions",
+        "Google App Engine",
+        "SQL Server Reporting Services",
+        "K2 BlackPearl",
+        "Scribe Insight and Online"
       ]
     }
   ],
@@ -110,21 +214,30 @@
     {
       "language": "English",
       "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Amateur"
+    },
+    {
+      "language": "German",
+      "fluency": "Learning"
     }
+
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Scrabble",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Tournaments",
+        "Online"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    },
+     {
+      "name": "Math",
+      "keywords": [
+        "Calculus"
+      ]
     }
   ]
 }
