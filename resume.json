@@ -38,17 +38,7 @@
     ]
   },
   "work": [
-   {
-      "company": "Infinity Info Systems",
-      "position": "Software Developer",
-      "website": "http://www.infinityinfo.com",
-      "startDate": "2014-06-10",
-      "summary": "Responsibilities include extending/customizing MSCRM environments, writing tools to support SaleLogix/Infor CRM deployments and developing applications using ASP.NET MVC & C#.",
-      "highlights": [
-        "Built an application that integrated with multiple ads endpoints including Google Adwords, Google Analytics, Facebook and Bing Ads"
-      ]
-    },
-    {
+     {
       "company": "DaJen Group",
       "position": "CEO/President",
       "website": "http://dajengroup.com",
@@ -66,7 +56,19 @@
       "startDate": "2013-07-03",
       "summary": "Member of start up team working to make the internet audible",
       "highlights": [
+		"Primary chrome extension developer, JavaScript guy",
         "Circumvented CSP for media sources on medium to allow chrome extension to perform necessary functions"        
+      ]
+    },
+	{
+      "company": "Infinity Info Systems",
+      "position": "Software Developer",
+      "website": "http://www.infinityinfo.com",
+      "startDate": "2014-06-10",
+	  "endDate": "2015-02-18",
+      "summary": "Responsibilities included extending/customizing MSCRM environments, writing tools to support SalesLogix/Infor CRM deployments and developing applications using ASP.NET MVC & C#.",
+      "highlights": [
+        "Built an application that integrated with multiple ads endpoints including Google AdWords, Google Analytics, Facebook and Bing Ads"
       ]
     },
      {
