@@ -66,9 +66,10 @@
       "website": "http://www.infinityinfo.com",
       "startDate": "2014-06-10",
 	  "endDate": "2015-02-18",
-      "summary": "Responsibilities included extending/customizing MSCRM environments, writing tools to support SalesLogix/Infor CRM deployments and developing applications using ASP.NET MVC & C#.",
+      "summary": "Accomplishments include extending or customizing multiple MSCRM environments, writing tools to support SalesLogix/Infor CRM deployments and developing custom applications. Infinity Info’s clients range from mid-sized to multinational Fortune 500 corporations",
       "highlights": [
-        "Built an application that integrated with multiple ads endpoints including Google AdWords, Google Analytics, Facebook and Bing Ads"
+        "Wrote an application that integrated with multiple ads endpoints including Google AdWords, Google Analytics, Facebook and Bing Ads",
+        "Developed components of  a web based meeting management system for a company that pioneered the development of treatment for patients with rare diseases"
       ]
     },
      {
@@ -77,7 +78,12 @@
       "website": "http://www.mcsystems.com",
       "startDate": "2013-12-19",
       "endDate": "2014-05-16",
-      "summary": "Member of small team outsourced to client in RV Industrustry"      
+      "summary": "Outsourced to Stag Parkway, a leading provider of products and services to RV Dealers",
+      "highlights": [
+        "Participated in the preparation of the initial project plans and discussions for a major client requested system upgrade",
+        "Resolved multiple issues client was experiencing in SSIS packages, ASP.NET MVC web applications and other technologies",
+        "Documented critical SSIS ETL packages in preparation for environment upgrade"
+      ]
     },
      {
       "company": "Management Control Systems",
@@ -85,12 +91,18 @@
       "website": "http://www.mcsystems.com",
       "startDate": "2005-10-03",
       "endDate": "2013-12-18",
-      "summary": "Member of small team that supported/extended a 24/7 top up (airtime) transaction processing system",
+      "summary": "Primary activities included supporting/extending a 24/7 top up (airtime) transaction processing system for leading telecommunication companies.",
       "highlights": [
-        "Led a small team of developers",
-        "Primary developer on merger of multiple top up environments which involved duplicated ids across systems",
-        "Key team member for environment relocation to new hosting site",
-        "Participated in deployment of top up environments in multiple Caribbean islands"
+        "Led a team of developers",
+        "Identified and resolved long standing issues in environment, thus increasing environment throughput and by extension system profitability",
+        "Used AT commands to request SIM numbers from SIM cards used in POS terminals to allow logistics team to better track their resources in the field",
+        "Developed jobs to automate the transfer of balances between merchant accounts across disparate systems based on sale history to reduce merchant complaints",
+        "Developed or modified applications to consolidate multiple top up environments thus increasing operational efficiency and allowing merchants to manage their accounts from a centralized system"
+        "Integrated multiple additional products into environment to augment core top up business",
+        "Participated as a key player in relocation of environment to new hosting site after sale",
+        "Deployed instances of the top up environment across the Caribbean",
+        "During my tenure, profitability of the platform increased to such a degree that the system was sold by MC Systems to a third party company which continues to grow"
+
       ]
     }
     
@@ -241,5 +253,29 @@
         "Calculus"
       ]
     }
-  ]
+  ],
+  "references": [{
+    "name": "Delton Phillips",
+    "reference": "Many things could be said about this developer, one word that comes to mind is reliable, open and knowledgeable. As a technical lead, I relied heavily on Dale's recommendations and his ability to work through technical challenges. His pragmatic approach to problem solving coupled with his advanced knowledge of various technologies contributed significantly to the profitability of the company"
+  },
+  {
+    "name": "Ryan Simons",
+    "reference": "I worked with Dale for just under 4 years at Management Control Systems and I found him to be an exceptional colleague. Resourceful, dedicated to timelines and adept at finding creative solutions to issues faced, even outside of his preferred languages. In time, Dale became the person with whom I'd trade development ideas and game changing proof of concepts. His work speaks volumes."
+  },
+  {
+    "name": "Nathaniel Nation",
+    "reference": "As it relates to mathematics, software engineering and analysis, just to name a few, Dale is the one. He is very good problem solver and can very quickly come up with solutions to open doors, break barriers and make anything a success."
+  },
+  {
+    "name": "Wayne Baker",
+    "reference": "Working with Dale is one of my best experiences. Learning from him helped me to develope into a senior developer I am today. He is very focused and adapts quickly to new technologies. I am comfortable recommending his work to anyone that's interested."
+  },
+  {
+    "name": "Wayne Baker",
+    "reference": "Working with Dale is one of my best experiences. Learning from him helped me to develope into a senior developer I am today. He is very focused and adapts quickly to new technologies. I am comfortable recommending his work to anyone that's interested."
+  },
+  {
+    "name": "Kay Möller",
+    "reference": "I know Dale V Ross through our membership of an online Scrabble/word game group, and he has proved himself invaluable when it comes to the technical aspects of score-keeping, etc. When the official Scrabble site changed the format of the game recently, omitting key features, Dale designed an app to address these shortfalls, improving vastly on the original. I can thoroughly recommend Dale as someone who anticipates others’ needs before they are aware of them, and solves problems promptly and with a (virtual) smile."
+  }]
 }
