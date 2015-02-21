@@ -97,7 +97,7 @@
         "Identified and resolved long standing issues in environment, thus increasing environment throughput and by extension system profitability",
         "Used AT commands to request SIM numbers from SIM cards used in POS terminals to allow logistics team to better track their resources in the field",
         "Developed jobs to automate the transfer of balances between merchant accounts across disparate systems based on sale history to reduce merchant complaints",
-        "Developed or modified applications to consolidate multiple top up environments thus increasing operational efficiency and allowing merchants to manage their accounts from a centralized system"
+        "Developed or modified applications to consolidate multiple top up environments thus increasing operational efficiency and allowing merchants to manage their accounts from a centralized system",
         "Integrated multiple additional products into environment to augment core top up business",
         "Participated as a key player in relocation of environment to new hosting site after sale",
         "Deployed instances of the top up environment across the Caribbean",
@@ -265,10 +265,6 @@
   {
     "name": "Nathaniel Nation",
     "reference": "As it relates to mathematics, software engineering and analysis, just to name a few, Dale is the one. He is very good problem solver and can very quickly come up with solutions to open doors, break barriers and make anything a success."
-  },
-  {
-    "name": "Wayne Baker",
-    "reference": "Working with Dale is one of my best experiences. Learning from him helped me to develope into a senior developer I am today. He is very focused and adapts quickly to new technologies. I am comfortable recommending his work to anyone that's interested."
   },
   {
     "name": "Wayne Baker",
