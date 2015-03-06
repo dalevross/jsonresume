@@ -111,7 +111,7 @@
     {
       "institution": "University of the West Indies, Mona",
       "area": "Computer Science & Electronics",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor of Science",
       "startDate": "2002-08-16",
       "endDate": "2005-05-01",
       "gpa": "4.0",
@@ -273,5 +273,10 @@
   {
     "name": "Kay Möller",
     "reference": "I know Dale V Ross through our membership of an online Scrabble/word game group, and he has proved himself invaluable when it comes to the technical aspects of score-keeping, etc. When the official Scrabble site changed the format of the game recently, omitting key features, Dale designed an app to address these shortfalls, improving vastly on the original. I can thoroughly recommend Dale as someone who anticipates others’ needs before they are aware of them, and solves problems promptly and with a (virtual) smile."
+  },
+  ,
+  {
+    "name": "Gean Martinez",
+    "reference": "As a developer on my team, Dale worked on various complex projects and I was always very impressed with his ability to receive high level requirements and produce great results. Often times, I had no real requirements for him but a vision and he was able to deliver each time. His development skills span client side and server side components and he is a great Microsoft technologist. We worked on innovative solutions including a mobile-first asp.net MVC project utilizing the Telerik Kendo Framework. We also worked on creating a custom Single Sign On (SSO) solution which we implemented on an already built custom application. I appreciated his cool and calm demeanor which I found helpful when dealing with complex solutions."
   }]
 }
