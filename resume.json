@@ -196,7 +196,8 @@
         "MSSQL",
         "TSQL",
         "MySQL",
-        "C"
+        "C",
+		"LINQ"
       ]
     },
      {
