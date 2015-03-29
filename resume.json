@@ -38,6 +38,18 @@
     ]
   },
   "work": [
+   {
+      "company": "AgriLogic Crop Insurance Services",
+      "position": "Software Developer",
+      "website": "http://www.agrilogic.com",
+      "startDate": "2015-03-16",
+      "summary": "Received fantastic feedback based on performance in first two weeks",
+      "highlights": [
+        "Investigated and resolved issues with limited knowledge of complex crop insurance system",
+        "Promptly resolved assigned tickets with ranging complexities",
+        "Quickly conformed to software practices used by team"
+      ]
+    },
      {
       "company": "DaJen Group",
       "position": "CEO/President",
@@ -183,7 +195,8 @@
         "Javascript",
         "JSON",
         "jQuery",
-        "Kendo UI"
+        "Kendo UI",
+        "Telerik"
       ]
     },
     {
@@ -204,14 +217,16 @@
       "name": "Web Services",
       "keywords": [
         "WCF",
-        "ASMX"
+        "ASMX",
+        "Web API"
       ]
     },
     {
       "name": "Source Control/ALM",
       "keywords": [
         "TFS",
-        "Git"
+        "Git",
+        "Jira"
       ]
     },
      {
