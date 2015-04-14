@@ -4,13 +4,13 @@
     "label": "Software Engineer",
     "picture": "http://www.gravatar.com/avatar/7dfee93ad99243a655235d037e1cd59d?s=100&r=pg&d=mm",
     "email": "kingdale20@gmail.com",
-    "phone": "(352) 564-0917",
+    "phone": "(352) 364-3453",
     "website": "http://coderoom.dajengroup.com",
-    "summary": "Dale currently resides in Crystal River, Florida. He has earned a B. Sc. degree from the University of West Indies, majoring in Computer Science and Electronics. While his work focuses on Software Engineering, primarily on the .NET Framework, his non-work interests spans a wide range of areas including AI, Data Science, Machine Learning and Start Ups.",
+    "summary": "Dale currently resides in Orlando, Florida. He has earned a B. Sc. degree from the University of West Indies, majoring in Computer Science and Electronics. While his work focuses on Software Engineering, primarily on the .NET Framework, his non-work interests spans a wide range of areas including AI, Data Science, Machine Learning and Start Ups.",
     "location": {
-      "address": "4885 North Mattox Point",
-      "postalCode": "34428",
-      "city": "Crystal River",
+      "address": "4290 Cynthia Street",
+      "postalCode": "32811",
+      "city": "Orlando",
       "countryCode": "US",
       "region": "Florida"
     },
@@ -234,6 +234,8 @@
       "keywords": [
         "Chrome Extensions",
         "Google App Engine",
+        "Bamboo",
+        "Azure",
         "SQL Server Reporting Services",
         "K2 BlackPearl",
         "Scribe Insight and Online"
