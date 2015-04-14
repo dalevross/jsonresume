@@ -63,10 +63,10 @@ IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
 
 REM Use the Executecmd macro to execute and validate the command worked
 echo Building Resume
-call :Executecmd npm install
+call :Executecmd npm install resume-cli
 IF !ERRORLEVEL! NEQ 0 goto error
 REM This creates the **index.html** which is deployed by Azure Websites.
-call :Executecmd node .\node_modules\resume-cli\index.js export index -f html
+call :Executecmd resume export index -f html
 IF !ERRORLEVEL! NEQ 0 goto error
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
