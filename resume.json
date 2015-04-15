@@ -2,10 +2,10 @@
   "basics": {
     "name": "Dale V. Ross",
     "label": "Software Engineer",
-    "picture": "http://www.gravatar.com/avatar/af793573f327e83552d93d9a869b60e9.png",
-    "email": "dross@dajengroup.com",
+    "picture": "http://www.gravatar.com/avatar/7dfee93ad99243a655235d037e1cd59d?s=100&r=pg&d=mm",
+    "email": "kingdale20@gmail.com",
     "phone": "(352) 364-3453",
-    "website": "http://www.dalevross.com",
+    "website": "http://coderoom.dajengroup.com",
     "summary": "Dale currently resides in Orlando, Florida. He has earned a B. Sc. degree from the University of West Indies, majoring in Computer Science and Electronics. While his work focuses on Software Engineering, primarily on the .NET Framework, his non-work interests span a wide range of areas including AI, Data Science, Machine Learning and Start Ups.",
     "location": {
       "address": "4290 Cynthia Street",
@@ -234,6 +234,8 @@
       "keywords": [
         "Chrome Extensions",
         "Google App Engine",
+        "Bamboo",
+        "Azure",
         "SQL Server Reporting Services",
         "K2 BlackPearl",
         "Scribe Insight and Online"
