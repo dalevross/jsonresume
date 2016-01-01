@@ -8,7 +8,6 @@
     "website": "http://coderoom.dajengroup.com",
     "summary": "Dale currently resides in Orlando, Florida. He has earned a B. Sc. (Hons) degree from the University of West Indies, majoring in Computer Science and Electronics. While his work focuses on Software Engineering, primarily on the .NET Framework, his non-work interests span a wide range of areas including AI, Data Science, Machine Learning and Start Ups.",
     "location": {
-      "address": "4290 Cynthia Street",
       "postalCode": "32811",
       "city": "Orlando",
       "countryCode": "US",
@@ -43,6 +42,7 @@
       "position": "Software Developer",
       "website": "http://www.agrilogic.com",
       "startDate": "2015-03-16",
+      "endDate": "2015-09-04",
       "summary": "Received fantastic feedback based on performance in first two weeks",
       "highlights": [
         "Investigated and resolved issues with limited knowledge of complex crop insurance system",
