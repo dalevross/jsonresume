@@ -38,6 +38,14 @@
   },
   "work": [
    {
+      "company": "Vacation Innovations",
+      "position": "Software Developer",
+      "website": "http://www.vactioninnovations.com",
+      "startDate": "2015-10-07",
+      "endDate": "2015-12-17"
+      
+    },
+   {
       "company": "AgriLogic Crop Insurance Services",
       "position": "Software Developer",
       "website": "http://www.agrilogic.com",
