@@ -42,7 +42,13 @@
       "position": "Software Developer",
       "website": "http://www.vactioninnovations.com",
       "startDate": "2015-10-07",
-      "endDate": "2015-12-17"
+      "endDate": "2015-12-17",
+      "summary": "Member of small team of .NET developers working on products in the timeshare industry.",
+      "highlights": [
+        "Analyzed existing applications to identify and resolve defects",
+        "Developed ASP.NET MVC application with Quartz.NET to automate data transfer and provide statistics",
+        "Performed enhancements to existing applications"
+        ]
       
     },
    {
@@ -51,11 +57,11 @@
       "website": "http://www.agrilogic.com",
       "startDate": "2015-03-16",
       "endDate": "2015-09-04",
-      "summary": "Received fantastic feedback based on performance in first two weeks",
+      "summary": "Worked primarily on maintenance team to extend or support leagacy system",
       "highlights": [
         "Investigated and resolved issues with limited knowledge of complex crop insurance system",
-        "Promptly resolved assigned tickets with ranging complexities",
-        "Quickly conformed to software practices used by team"
+        "Resolved assigned tickets with ranging complexities",
+        "Conformed to software practices used by team"
       ]
     },
      {
@@ -218,7 +224,11 @@
         "TSQL",
         "MySQL",
         "C",
-		"LINQ"
+        "Quart.NET",
+		    "LINQ",
+        "myBatis.NET",
+        "Ninject",
+        "Moq"
       ]
     },
      {
