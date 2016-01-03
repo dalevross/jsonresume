@@ -38,6 +38,28 @@
   },
   "work": [
    {
+      "company": "DaJen Group",
+      "position": "CEO/President",
+      "website": "http://dajengroup.com",
+      "startDate": "2012-10-01",
+      "summary": "Dajen Group is a software solutions provider which aims to solve problems that affect a wide cross section of society",
+      "highlights": [
+        "Built a chrome extension to add features to online word games",
+        "Built a score management system for an online scrabble league"
+      ]
+    },
+     {
+      "company": "Rastival",
+      "position": "Co Founder",
+      "website": "http://www.rastival.com",
+      "startDate": "2013-07-03",
+      "summary": "Member of start up team working to make the internet audible",
+      "highlights": [
+    "Primary chrome extension developer, JavaScript guy",
+        "Circumvented CSP for media sources on medium to allow chrome extension to perform necessary functions"        
+      ]
+    },
+   {
       "company": "Vacation Innovations",
       "position": "Software Developer",
       "website": "http://www.vactioninnovations.com",
@@ -64,29 +86,7 @@
         "Conformed to software practices used by team"
       ]
     },
-     {
-      "company": "DaJen Group",
-      "position": "CEO/President",
-      "website": "http://dajengroup.com",
-      "startDate": "2012-10-01",
-      "summary": "Dajen Group is a software solutions provider which aims to solve problems that affect a wide cross section of society",
-      "highlights": [
-        "Built a chrome extension to add features to online word games",
-        "Built a score management system for an online scrabble league"
-      ]
-    },
-     {
-      "company": "Rastival",
-      "position": "Co Founder",
-      "website": "http://www.rastival.com",
-      "startDate": "2013-07-03",
-      "summary": "Member of start up team working to make the internet audible",
-      "highlights": [
-		"Primary chrome extension developer, JavaScript guy",
-        "Circumvented CSP for media sources on medium to allow chrome extension to perform necessary functions"        
-      ]
-    },
-	{
+	  {
       "company": "Infinity Info Systems",
       "position": "Software Developer",
       "website": "http://www.infinityinfo.com",
