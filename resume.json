@@ -1,9 +1,9 @@
 {
   "basics": {
     "name": "Dale V. Ross",
-    "label": "Software Engineer",
+    "label": "Software Engineer/Problem Solver",
     "picture": "http://www.gravatar.com/avatar/7dfee93ad99243a655235d037e1cd59d?s=100&r=pg&d=mm",
-    "email": "dalevross@gmail.com",
+    "email": "dross@dajengroup.com",
     "phone": "(352) 364-3453",
     "website": "http://coderoom.dajengroup.com",
     "summary": "Dale currently resides in Orlando, Florida. He has earned a B. Sc. (Hons) degree from the University of West Indies, majoring in Computer Science and Electronics. While his work focuses on Software Engineering, primarily on the .NET Framework, his non-work interests span a wide range of areas including AI, Data Science, Machine Learning and Start Ups.",
@@ -13,31 +13,41 @@
       "countryCode": "US",
       "region": "Florida"
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "recursionjm",
-        "url": "https://twitter.com/recursionjm"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "dalevross",
-        "url": "http://linkedin.com/in/dalevross"
-      },
-      {
-        "network": "Github",
-        "username": "dalevross",
-        "url": "http://github.com/dalevross"
-      },
-      {
-        "network": "Degreed",
-        "username": "dvross",
-        "url": "https://degreed.com/dvross/index/1"
-      }
-    ]
+    "profiles": [{
+      "network": "Twitter",
+      "username": "recursionjm",
+      "url": "https://twitter.com/recursionjm"
+    }, {
+      "network": "LinkedIn",
+      "username": "dalevross",
+      "url": "http://linkedin.com/in/dalevross"
+    }, {
+      "network": "Github",
+      "username": "dalevross",
+      "url": "http://github.com/dalevross"
+    }, {
+      "network": "Degreed",
+      "username": "dvross",
+      "url": "https://degreed.com/dvross/index/1"
+    }]
   },
-  "work": [
-   {
+  "work": [{
+      "company": "Zero Chaos",
+      "position": "Application Developer",
+      "website": "http://www.zerochaos.com",
+      "startDate": "2016-01-29",
+      "summary": "Started as a member of the Implementations Development team responsible for developing custom integrations for new clients being imported and eventually migrated to primary Integrations developer (internal)",
+      "highlights": [
+        "Quickly became a dependable go-to guy after team reorganizations shortly after start",
+        "Participated in requirements gathering, discovery and development planning for new client onboarding",
+        "Developed and/or supported tools used for inbound/outbound feed management",
+        "Investigated and resolved issues indentified in existing feeds",
+        "Helped new team members to understand processes I had 'mastered', while at the same increasing my mastery",
+        "Kept team spirits high with a positive attitude towards problem solving",
+        "Helped to standardize authentication methods used by replacing legacy library with Auth0",
+        "Got tagged for improving integrations between internal systems through reducing redundancies and identifying other general opportunities for improvement"
+      ]
+    }, {
       "company": "DaJen Group",
       "position": "CEO/President",
       "website": "http://dajengroup.com",
@@ -47,19 +57,17 @@
         "Built a chrome extension to add features to online word games",
         "Built a score management system for an online scrabble league"
       ]
-    },
-     {
+    }, {
       "company": "Rastival",
       "position": "Co Founder",
       "website": "http://www.rastival.com",
       "startDate": "2013-07-03",
       "summary": "Member of start up team working to make the internet audible",
       "highlights": [
-    "Primary chrome extension developer, JavaScript guy",
-        "Circumvented CSP for media sources on medium to allow chrome extension to perform necessary functions"        
+        "Primary chrome extension developer, JavaScript guy",
+        "Circumvented CSP for media sources on medium to allow chrome extension to perform necessary functions"
       ]
-    },
-   {
+    }, {
       "company": "Vacation Innovations",
       "position": "Software Developer",
       "website": "http://www.vactioninnovations.com",
@@ -70,10 +78,9 @@
         "Analyzed existing applications to identify and resolve defects",
         "Developed ASP.NET MVC application with Quartz.NET to automate data transfer and provide statistics",
         "Performed enhancements to existing applications"
-        ]
-      
-    },
-   {
+      ]
+
+    }, {
       "company": "AgriLogic Crop Insurance Services",
       "position": "Software Developer",
       "website": "http://www.agrilogic.com",
@@ -85,20 +92,18 @@
         "Resolved assigned tickets with ranging complexities",
         "Quickly conformed to software practices used by team"
       ]
-    },
-	  {
+    }, {
       "company": "Infinity Info Systems",
       "position": "Software Developer",
       "website": "http://www.infinityinfo.com",
       "startDate": "2014-06-10",
-	  "endDate": "2015-02-18",
+      "endDate": "2015-02-18",
       "summary": "Accomplishments include extending or customizing multiple MSCRM environments, writing tools to support SalesLogix/Infor CRM deployments and developing custom applications. Infinity Info’s clients range from mid-sized to multinational Fortune 500 corporations",
       "highlights": [
         "Wrote an application that integrated with multiple ads endpoints including Google AdWords, Google Analytics, Facebook and Bing Ads",
         "Developed components of  a web based meeting management system for a company that pioneered the development of treatment for patients with rare diseases"
       ]
-    },
-     {
+    }, {
       "company": "Genesis 10",
       "position": "Consultant",
       "website": "http://www.genesis10.com",
@@ -110,8 +115,7 @@
         "Resolved multiple issues client was experiencing in SSIS packages, ASP.NET MVC web applications and other technologies",
         "Documented critical SSIS ETL packages in preparation for environment upgrade"
       ]
-    },
-     {
+    }, {
       "company": "Management Control Systems",
       "position": "Software Engineer/Team Lead",
       "website": "http://www.mcsystems.com",
@@ -131,186 +135,162 @@
 
       ]
     }
-    
-  ], 
-  "education": [
-    {
-      "institution": "University of the West Indies, Mona",
-      "area": "Computer Science & Electronics",
-      "studyType": "Bachelor of Science",
-      "startDate": "2002-08-16",
-      "endDate": "2005-05-01",
-      "gpa": "4.0",
-      "courses": [
-        "CS11A - Introduction to Computer Science I",
-        "M10A - Basic Introductory Mathematics",
-        "P14A - Introductory Physics A",
-        "CS11B - Introduction to Computer Science II",
-        "M10B - Functions of Real Variables",
-        "P14B - Introductory Physics B",
-        "CS20Q - Discrete Mathematics for Computer Scientists",
-        "CS21Q - Digital Logic and Computer Architectures",
-        "FD13A - Law, Governance, Economy and Society in the Caribbean",
-        "P24F - Signals and Systems",
-        "P24H - Communication Systems",
-        "CS20A - Information Structures and Algorithms",
-        "CS28A - Systems Programming",
-        "FD11A - Caribbean Civilization",
-        "P24J - Analog Electronics",
-        "P24K - Digital Electronics",
-        "CS31A - Operating Systems",
-        "CS33Q - Introduction to Artificial Intelligence",
-        "P34F - Digital Signal Processing",
-        "P34K - Microprocessors",
-        "CS32Q - Computer Communications and Networks",
-        "CS37Q - Logic, Computability and Complexity Theory",
-        "P34H - Digital Communications",
-        "P34J - Microcontroller Applications"
-      ]
-    }
+
   ],
-  "awards": [
-    {
-      "title": "Jasmine Chin Memorial Scolarship",
-      "awarder": "University of the West Indies",
-      "date": "2003-06-01"
-    },
-     {
-      "title": "Merville Campbell Prize",
-      "awarder": "University of the West Indies",
-      "date": "2003-06-01",
-      "summary": "Best Performance in Level 1 Mathematics"
-    },
-     {
-      "title": "Level 1 Physics Departmental Prize",
-      "awarder": "University of the West Indies",
-      "date": "2003-06-01",
-      "summary": "Best Performance"
-    },
-     {
-      "title": "Karl Robinson Award for Computer Science",
-      "awarder": "University of the West Indies",
-      "date" : "2003-06-01",
-      "summary": "Best Performance"
-    },
-     {
-      "title": "Level 2 Physics Departmental Prize",
-      "awarder": "University of the West Indies",
-      "date": "2004-06-01",
-      "summary": "Best Performance"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Front End",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "JSON",
-        "jQuery",
-        "Kendo UI",
-        "Telerik"
-      ]
-    },
-    {
-      "name": "Backend",
-      "keywords": [
-        "PHP",
-        "Python",
-        "ASP.NET MVC",
-        "C#",
-        "MSSQL",
-        "TSQL",
-        "MySQL",
-        "C",
-        "Quart.NET",
-		    "LINQ",
-        "myBatis.NET",
-        "Ninject",
-        "Moq"
-      ]
-    },
-     {
-      "name": "Web Services",
-      "keywords": [
-        "WCF",
-        "ASMX",
-        "Web API"
-      ]
-    },
-    {
-      "name": "Source Control/ALM",
-      "keywords": [
-        "TFS",
-        "Git",
-        "Jira"
-      ]
-    },
-     {
-      "name": "Other",
-      "keywords": [
-        "Chrome Extensions",
-        "Google App Engine",
-        "Bamboo",
-        "Azure",
-        "SQL Server Reporting Services",
-        "K2 BlackPearl",
-        "Scribe Insight and Online"
-      ]
-    }
-  ],
-  "languages": [
-    {
+  "education": [{
+    "institution": "University of the West Indies, Mona",
+    "area": "Computer Science & Electronics",
+    "studyType": "Bachelor of Science",
+    "startDate": "2002-08-16",
+    "endDate": "2005-05-01",
+    "gpa": "4.0",
+    "courses": [
+      "CS11A - Introduction to Computer Science I",
+      "M10A - Basic Introductory Mathematics",
+      "P14A - Introductory Physics A",
+      "CS11B - Introduction to Computer Science II",
+      "M10B - Functions of Real Variables",
+      "P14B - Introductory Physics B",
+      "CS20Q - Discrete Mathematics for Computer Scientists",
+      "CS21Q - Digital Logic and Computer Architectures",
+      "FD13A - Law, Governance, Economy and Society in the Caribbean",
+      "P24F - Signals and Systems",
+      "P24H - Communication Systems",
+      "CS20A - Information Structures and Algorithms",
+      "CS28A - Systems Programming",
+      "FD11A - Caribbean Civilization",
+      "P24J - Analog Electronics",
+      "P24K - Digital Electronics",
+      "CS31A - Operating Systems",
+      "CS33Q - Introduction to Artificial Intelligence",
+      "P34F - Digital Signal Processing",
+      "P34K - Microprocessors",
+      "CS32Q - Computer Communications and Networks",
+      "CS37Q - Logic, Computability and Complexity Theory",
+      "P34H - Digital Communications",
+      "P34J - Microcontroller Applications"
+    ]
+  }],
+  "awards": [{
+    "title": "Jasmine Chin Memorial Scolarship",
+    "awarder": "University of the West Indies",
+    "date": "2003-06-01"
+  }, {
+    "title": "Merville Campbell Prize",
+    "awarder": "University of the West Indies",
+    "date": "2003-06-01",
+    "summary": "Best Performance in Level 1 Mathematics"
+  }, {
+    "title": "Level 1 Physics Departmental Prize",
+    "awarder": "University of the West Indies",
+    "date": "2003-06-01",
+    "summary": "Best Performance"
+  }, {
+    "title": "Karl Robinson Award for Computer Science",
+    "awarder": "University of the West Indies",
+    "date": "2003-06-01",
+    "summary": "Best Performance"
+  }, {
+    "title": "Level 2 Physics Departmental Prize",
+    "awarder": "University of the West Indies",
+    "date": "2004-06-01",
+    "summary": "Best Performance"
+  }],
+  "skills": [{
+    "name": "Front End",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "JSON",
+      "jQuery",
+      "Kendo UI",
+      "Telerik"
+    ]
+  }, {
+    "name": "Backend",
+    "keywords": [
+      "PHP",
+      "Python",
+      "ASP.NET MVC",
+      "C#",
+      "MSSQL",
+      "TSQL",
+      "MySQL",
+      "C",
+      "Quart.NET",
+      "LINQ",
+      "myBatis.NET",
+      "Ninject",
+      "Moq"
+    ]
+  }, {
+    "name": "Web Services",
+    "keywords": [
+      "WCF",
+      "ASMX",
+      "Web API"
+    ]
+  }, {
+    "name": "Source Control/ALM",
+    "keywords": [
+      "TFS",
+      "Git",
+      "Jira"
+    ]
+  }, {
+    "name": "Other",
+    "keywords": [
+      "Chrome Extensions",
+      "Google App Engine",
+      "Bamboo",
+      "Azure",
+      "SQL Server Reporting Services",
+      "K2 BlackPearl",
+      "Scribe Insight and Online",
+      "Jitterbit"
+    ]
+  }],
+  "languages": [{
       "language": "English",
       "fluency": "Native speaker"
-    },
-    {
+    }, {
       "language": "Spanish",
       "fluency": "Amateur"
-    },
-    {
+    }, {
       "language": "German",
       "fluency": "Learning"
     }
 
   ],
-  "interests": [
-    {
-      "name": "Scrabble",
-      "keywords": [
-        "Tournaments",
-        "Online"
-      ]
-    },
-     {
-      "name": "Math",
-      "keywords": [
-        "Calculus"
-      ]
-    }
-  ],
+  "interests": [{
+    "name": "Scrabble",
+    "keywords": [
+      "Tournaments",
+      "Online"
+    ]
+  }, {
+    "name": "Math",
+    "keywords": [
+      "Calculus"
+    ]
+  }],
   "references": [{
     "name": "Delton Phillips",
     "reference": "Many things could be said about this developer, one word that comes to mind is reliable, open and knowledgeable. As a technical lead, I relied heavily on Dale's recommendations and his ability to work through technical challenges. His pragmatic approach to problem solving coupled with his advanced knowledge of various technologies contributed significantly to the profitability of the company"
-  },
-  {
+  }, {
     "name": "Ryan Simons",
     "reference": "I worked with Dale for just under 4 years at Management Control Systems and I found him to be an exceptional colleague. Resourceful, dedicated to timelines and adept at finding creative solutions to issues faced, even outside of his preferred languages. In time, Dale became the person with whom I'd trade development ideas and game changing proof of concepts. His work speaks volumes."
-  },
-  {
+  }, {
     "name": "Nathaniel Nation",
     "reference": "As it relates to mathematics, software engineering and analysis, just to name a few, Dale is the one. He is very good problem solver and can very quickly come up with solutions to open doors, break barriers and make anything a success."
-  },
-  {
+  }, {
     "name": "Wayne Baker",
     "reference": "Working with Dale is one of my best experiences. Learning from him helped me to develope into a senior developer I am today. He is very focused and adapts quickly to new technologies. I am comfortable recommending his work to anyone that's interested."
-  },
-  {
+  }, {
     "name": "Kay Möller",
     "reference": "I know Dale V Ross through our membership of an online Scrabble/word game group, and he has proved himself invaluable when it comes to the technical aspects of score-keeping, etc. When the official Scrabble site changed the format of the game recently, omitting key features, Dale designed an app to address these shortfalls, improving vastly on the original. I can thoroughly recommend Dale as someone who anticipates others’ needs before they are aware of them, and solves problems promptly and with a (virtual) smile."
-  },
-  {
+  }, {
     "name": "Gean Martinez",
     "reference": "As a developer on my team, Dale worked on various complex projects and I was always very impressed with his ability to receive high level requirements and produce great results. Often times, I had no real requirements for him but a vision and he was able to deliver each time. His development skills span client side and server side components and he is a great Microsoft technologist. We worked on innovative solutions including a mobile-first asp.net MVC project utilizing the Telerik Kendo Framework. We also worked on creating a custom Single Sign On (SSO) solution which we implemented on an already built custom application. I appreciated his cool and calm demeanor which I found helpful when dealing with complex solutions."
   }]
