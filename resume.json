@@ -32,6 +32,16 @@
     }]
   },
   "work": [{
+      "company": "Ross Squared",
+      "position": "Principal Innovator",
+      "website": "http://www.rosssquared.org",
+      "startDate": "2016-11-01",
+      "summary": "Ross Squared aims to provide solutions to the hardest problems in the long term. In the short term Ross Squared will continue to connect people, devices and platforms to simplify life",
+      "highlights": [
+        "Rebranded and migrated solutions to new parent organization",
+        "Attracted new clients with potential long term partnerships"
+      ]
+    }, {
       "company": "Zero Chaos",
       "position": "Application Developer",
       "website": "http://www.zerochaos.com",
@@ -52,6 +62,7 @@
       "position": "CEO/President",
       "website": "http://dajengroup.com",
       "startDate": "2012-10-01",
+      "endDate": "2016-10-31",
       "summary": "Dajen Group is a software solutions provider which aims to solve problems that affect a wide cross section of society",
       "highlights": [
         "Built a chrome extension to add features to online word games",
