@@ -3,7 +3,7 @@
     "name": "Dale V. Ross",
     "label": "Software Engineer/Problem Solver",
     "picture": "http://www.gravatar.com/avatar/7dfee93ad99243a655235d037e1cd59d?s=100&r=pg&d=mm",
-    "email": "dross@dajengroup.com",
+    "email": "dvross@rosssquared.com",
     "phone": "(352) 364-3453",
     "website": "http://coderoom.dajengroup.com",
     "summary": "Dale currently resides in Orlando, Florida. He has earned a B. Sc. (Hons) degree from the University of West Indies, majoring in Computer Science and Electronics. While his work focuses on Software Engineering, primarily on the .NET Framework, his non-work interests span a wide range of areas including AI, Data Science, Machine Learning and Start Ups.",
@@ -33,7 +33,7 @@
   },
   "work": [{
       "company": "Ross Squared",
-      "position": "Principal Innovator",
+      "position": "Principal Innovator, Interim President and CEO",
       "website": "http://www.rosssquared.org",
       "startDate": "2016-11-01",
       "summary": "Ross Squared aims to provide solutions to the hardest problems in the long term. In the short term Ross Squared will continue to connect people, devices and platforms to simplify life",
@@ -46,6 +46,7 @@
       "position": "Application Developer",
       "website": "http://www.zerochaos.com",
       "startDate": "2016-01-29",
+      "endDate": "2016-12-23",
       "summary": "Started as a member of the Implementations Development team responsible for developing custom integrations for new clients being imported and eventually migrated to primary Integrations developer (internal)",
       "highlights": [
         "Quickly became a dependable go-to guy after team reorganizations shortly after start",
@@ -100,7 +101,7 @@
       "summary": "Worked primarily on maintenance team to extend or support leagacy system",
       "highlights": [
         "Investigated and resolved issues with limited knowledge of complex crop insurance system",
-        "Resolved assigned tickets with ranging complexities",
+        "Resolved assigned tickets with a wide range of complexities",
         "Quickly conformed to software practices used by team"
       ]
     }, {
@@ -135,16 +136,15 @@
       "summary": "Primary activities included supporting/extending a 24/7 top up (airtime) transaction processing system for leading telecommunication companies.",
       "highlights": [
         "Led a team of developers",
+        "During my tenure, profitability of the platform increased to such a degree that the system was sold by MC Systems to a third party company which continues to grow",        
         "Identified and resolved long standing issues in environment, thus increasing environment throughput and by extension system profitability",
         "Used AT commands to request SIM numbers from SIM cards used in POS terminals to allow logistics team to better track their resources in the field",
         "Developed jobs to automate the transfer of balances between merchant accounts across disparate systems based on sale history to reduce merchant complaints",
         "Developed or modified applications to consolidate multiple top up environments thus increasing operational efficiency and allowing merchants to manage their accounts from a centralized system",
         "Integrated multiple additional products into environment to augment core top up business",
         "Participated as a key player in relocation of environment to new hosting site after sale",
-        "Deployed instances of the top up environment across the Caribbean",
-        "During my tenure, profitability of the platform increased to such a degree that the system was sold by MC Systems to a third party company which continues to grow"
-
-      ]
+        "Deployed instances of the top up environment across the Caribbean"
+        ]
     }
 
   ],

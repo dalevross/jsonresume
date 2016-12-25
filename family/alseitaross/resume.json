@@ -1,0 +1,89 @@
+{
+    "basics": {
+        "name": "Alseita Ross",
+        "label": "Certified Nursing Assistant/Home Health Aide",
+        "picture": "",
+        "email": "goldenross51@gmail.com",
+        "phone": "(347) 207-8793",
+        "website": "http://resume.dalevross.com/family/alseitaross",
+        "summary": "18 years CNA Experience",
+        "location": {
+            "postalCode": "10469",
+            "city": "Bronx",
+            "countryCode": "US",
+            "region": "New York"
+        }
+    },
+    "work": [{
+        "company": "Salem Hills Rehabilitation",
+        "position": "Certified Nursing Assistant",
+        "website": "http://waterviewhills.com/long-term-care.php",
+        "startDate": "1998-07-01",
+        "endDate": "2016-10-01",
+        "summary": "Provided extra-ordinary care to senior citizens",
+        "highlights": [
+            "Helped patients with their basic needs such as helping them bathe, dress and feed themselves. These patients included stroke victims, the elderly residents of the nursing home.",
+            "In line with meeting patients' basic needs, duties included serving meals to patients, making beds aand helping clean rooms. This can mean cleaning out bedpans and changing soiled sheets. It also means getting the chance to have regular, one-on-one contact with patients—the compassionate relationships that can help people make it through times of illness with dignity.",
+            "Worked closely with patients on a daily basis, while observing not only the obvious changes in a patient's physical condition but the subtleties of their emotional state."
+        ]
+    }, {
+        "company": "May Pen Unit Class for the Deaf",
+        "position": "Teacher",
+        "website": "http://www.jamdeaf.org.jm/services",
+        "startDate": "1989-09-01",
+        "endDate": "1995-07-01",
+        "summary": "Oversaw the training for Hearing Impaired Students ages 6-19",
+        "highlights": [
+            "Did Lesson Plans for the each curriculum",
+            "Planned educational outing for students",
+            "Performed duties of the Principal while she was out on training"
+        ]
+    }, {
+        "company": "Glenmuir Preparatory School",
+        "position": "Teacher",
+        "website": "https://www.facebook.com/pages/Glenmuir-Preparatory-School/",
+        "startDate": "1978-09-01",
+        "endDate": "1989-06-01",
+        "summary": "Oversaw the training for Hearing Impaired Students ages 6-19",
+        "highlights": [
+            "Prepared Grade 5 students for Common Entrance Examinations",
+            "Worked with Girl Guides",
+            "Taught regular classes"
+        ]
+    }],
+    "education": [{
+        "institution": "M.I.C.O Teachers College",
+        "area": "Education",
+        "studyType": "Bachelor of Science",
+        "startDate": "1971-09-01",
+        "endDate": "1974-04-01",
+        "courses": []
+    }],
+    "awards": [],
+    "skills": [{
+        "name": "Sign Language",
+        "level": "Advanced"
+    }, {
+        "name": "Cooking",
+        "level": "Intermediate"
+    }, {
+        "name": "Singing",
+        "level": "Intermediate"
+    }],
+    "languages": [{
+        "name": "English",
+        "level": "Native speaker"
+    }],
+    "interests": [{
+        "name": "Church",
+        "keywords": [
+            "Salvation",
+            "Ministering",
+            "Choir"
+        ]
+    }, {
+        "name": "Mathematics",
+        "keywords": []
+    }],
+    "references": []
+}
