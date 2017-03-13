@@ -14,22 +14,28 @@
             "region": "Florida"
         },
         "profiles": [{
-            "network": "Twitter",
-            "username": "recursionjm",
-            "url": "https://twitter.com/recursionjm"
-        }, {
-            "network": "LinkedIn",
-            "username": "dalevross",
-            "url": "http://linkedin.com/in/dalevross"
-        }, {
-            "network": "Github",
-            "username": "dalevross",
-            "url": "http://github.com/dalevross"
-        }, {
-            "network": "Degreed",
-            "username": "dvross",
-            "url": "https://degreed.com/dvross/index/1"
-        }]
+                "network": "Twitter",
+                "username": "dalevross",
+                "url": "https://twitter.com/recursionjm"
+            }, {
+                "network": "LinkedIn",
+                "username": "dalevross",
+                "url": "http://linkedin.com/in/dalevross"
+            }, {
+                "network": "Github",
+                "username": "dalevross",
+                "url": "http://github.com/dalevross"
+            }, {
+                "network": "Degreed",
+                "username": "dvross",
+                "url": "https://degreed.com/dvross/index/1"
+            },
+            {
+                "network": "Instagram",
+                "username": "dalevross",
+                "url": "https://instagram.com/recursionjm"
+            }
+        ]
     },
     "work": [{
             "company": "Ross Squared",
