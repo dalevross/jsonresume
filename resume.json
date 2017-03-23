@@ -47,7 +47,8 @@
                 "Rebranded and migrated solutions to new parent organization",
                 "Provided free code tutoring sessions in-person and on slack. New platform to be decided.",
                 "Finalist in the Founder Institute, New York chapter",
-                "Built a winning team split between Orlando, USA, Jamaica and India"
+                "Built a winning team split between Orlando, USA, Jamaica and India",
+                "Technologies/Services Used: HTML5, CSS3, Javascript, C#, Python, Node.js, Azure, Digital Ocean, NGinx, MongoDB, MySQL, Git"
             ]
         }, {
             "company": "Zero Chaos",
@@ -64,7 +65,8 @@
                 "Helped new team members to understand processes I had 'mastered', while at the same increasing my mastery",
                 "Kept team spirits high with a positive attitude towards problem solving",
                 "Helped to standardize authentication methods used by replacing legacy library with Auth0",
-                "Got tagged for improving integrations between internal systems through reducing redundancies and identifying other general opportunities for improvement"
+                "Got tagged for improving integrations between internal systems through reducing redundancies and identifying other general opportunities for improvement",
+                "Technologies/Services Used: HTML5, CSS3, Javascript, C#, Azure, Auth0, JitterBit, MongoDB, MSSSQL, Git"
             ]
         }, {
             "company": "DaJen Group",
@@ -75,7 +77,8 @@
             "summary": "Dajen Group is a software solutions provider which aims to solve problems that affect a wide cross section of society",
             "highlights": [
                 "Built a chrome extension to add features to online word games",
-                "Built a score management system for an online scrabble league"
+                "Built a score management system for an online scrabble league",
+                "Technologies/Services Used: HTML5, CSS3, Javascript, C#, PHP, Python, Node.js, Chrome Extensions, Azure, Digital Ocean, MongoDB, MySQL, Heroku, Google App Engine"
             ]
         }, {
             "company": "Rastival",
@@ -85,7 +88,8 @@
             "summary": "Member of start up team working to make the internet audible",
             "highlights": [
                 "Primary chrome extension developer, JavaScript guy",
-                "Circumvented CSP for media sources on medium to allow chrome extension to perform necessary functions"
+                "Circumvented CSP for media sources on medium to allow chrome extension to perform necessary functions",
+                "Technologies/Services Used: HTML5, CSS3, Javascript, Python, Chrome Extensions"
             ]
         }, {
             "company": "Vacation Innovations",
@@ -97,7 +101,8 @@
             "highlights": [
                 "Analyzed existing applications to identify and resolve defects",
                 "Developed ASP.NET MVC application with Quartz.NET to automate data transfer and provide statistics",
-                "Performed enhancements to existing applications"
+                "Performed enhancements to existing applications",
+                "Technologies/Services Used: HTML5, CSS3, Javascript, C#, Quartz.NET"
             ]
 
         }, {
@@ -110,7 +115,8 @@
             "highlights": [
                 "Investigated and resolved issues with limited knowledge of complex crop insurance system",
                 "Resolved assigned tickets with a wide range of complexities",
-                "Quickly conformed to software practices used by team"
+                "Quickly conformed to software practices used by team",
+                "Technologies/Services Used: HTML5, CSS3, Javascript, C#, VB.NET, Fluent Validation, MyBatis.NET, Moq, Ninject, MSSQL"
             ]
         }, {
             "company": "Infinity Info Systems",
@@ -121,7 +127,8 @@
             "summary": "Accomplishments include extending or customizing multiple MSCRM environments, writing tools to support SalesLogix/Infor CRM deployments and developing custom applications. Infinity Info’s clients range from mid-sized to multinational Fortune 500 corporations",
             "highlights": [
                 "Wrote an application that integrated with multiple ads endpoints including Google AdWords, Google Analytics, Facebook and Bing Ads",
-                "Developed components of  a web based meeting management system for a company that pioneered the development of treatment for patients with rare diseases"
+                "Developed components of  a web based meeting management system for a company that pioneered the development of treatment for patients with rare diseases",
+                "Technologies/Services Used: HTML5, CSS3, Javascript, C#, Microsoft Dynamics CRM, K2 Blackpearl, Scribe"
             ]
         }, {
             "company": "Genesis 10",
@@ -133,7 +140,8 @@
             "highlights": [
                 "Participated in the preparation of the initial project plans and discussions for a major client requested system upgrade",
                 "Resolved multiple issues client was experiencing in SSIS packages, ASP.NET MVC web applications and other technologies",
-                "Documented critical SSIS ETL packages in preparation for environment upgrade"
+                "Documented critical SSIS ETL packages in preparation for environment upgrade",
+                "Technologies/Services Used: HTML5, CSS3, Javascript, C#, SSIS, TFS, ASP.NET MVC"
             ]
         }, {
             "company": "Management Control Systems",
@@ -151,7 +159,8 @@
                 "Developed or modified applications to consolidate multiple top up environments thus increasing operational efficiency and allowing merchants to manage their accounts from a centralized system",
                 "Integrated multiple additional products into environment to augment core top up business",
                 "Participated as a key player in relocation of environment to new hosting site after sale",
-                "Deployed instances of the top up environment across the Caribbean"
+                "Deployed instances of the top up environment across the Caribbean",
+                "Technologies/Services Used: C, C++, VB6, ASP, ASP.NET, HTML5, CSS3, Javascript, C#, SSIS, TFS, Git, MSSQL, SSRS, WCF, ASMX Web Services, VeriFone POS"
             ]
         }
 
