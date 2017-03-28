@@ -52,14 +52,22 @@
         ]
     }],
     "education": [{
-        "institution": "M.I.C.O Teachers College",
-        "area": "Education",
-        "studyType": "Bachelor of Science",
-        "startDate": "1971-09-01",
-        "endDate": "1974-04-01",
-        "courses": []
-    }],
-    "awards": [],
+            "institution": "M.I.C.O Teachers College",
+            "area": "Education",
+            "studyType": "Bachelor of Science",
+            "startDate": "1971-09-01",
+            "endDate": "1974-04-01",
+            "courses": []
+        },
+        {
+            "institution": "Allen School for Physician Aides",
+            "area": "Education",
+            "studyType": "Certificate",
+            "startDate": "1998-01-01",
+            "endDate": "1998-05-07",
+            "courses": ["Nursing Assistant / Orderly"]
+        }
+    ],
     "skills": [{
         "name": "Sign Language",
         "level": "Advanced"
@@ -83,7 +91,18 @@
         ]
     }, {
         "name": "Mathematics",
-        "keywords": []
+        "keywords": ["Algebra"]
     }],
-    "references": []
+    "references": [{
+            "name": "Rev. Clifford E. Thompson",
+            "reference": "See accompanying documment"
+        }, {
+            "name": "Monica Brown",
+            "reference": "See accompanying document"
+        },
+        {
+            "name": "Salem Hills Rehabilitation & Health",
+            "reference": "Contact HR @ (914) 277-3691"
+        }
+    ]
 }
