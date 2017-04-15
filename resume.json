@@ -25,15 +25,20 @@
                 "network": "Github",
                 "username": "dalevross",
                 "url": "http://github.com/dalevross"
-            }, {
-                "network": "Degreed",
-                "username": "dvross",
-                "url": "https://degreed.com/dvross/index/1"
             },
             {
                 "network": "Instagram",
                 "username": "dalevross",
                 "url": "https://instagram.com/dalevross"
+            }, {
+                "network": "StackOverflow",
+                "username": "dalevross",
+                "url": "http://stackoverflow.com/story/dalevross"
+            },
+            {
+                "network": "Degreed",
+                "username": "dvross",
+                "url": "https://degreed.com/dvross/index/1"
             }
         ]
     },
@@ -60,13 +65,13 @@
             "highlights": [
                 "Quickly became a dependable go-to guy after team reorganizations shortly after start",
                 "Participated in requirements gathering, discovery and development planning for new client onboarding",
-                "Developed and/or supported tools used for inbound/outbound feed management",
-                "Investigated and resolved issues identified in existing feeds",
+                "Developed and/or supported tools used for inbound/outbound feed management using C# based Windows Service with SQL Server backend and Desktop Interface for configuration (Logs were managed in MongoDB)",
+                "Investigated and resolved issues identified in existing feeds in internal tool built in C# and Jitterbit v4.0 and 8.0",
                 "Helped new team members to understand processes I had 'mastered', while at the same increasing my mastery",
                 "Kept team spirits high with a positive attitude towards problem solving",
                 "Helped to standardize authentication methods used by replacing legacy library with Auth0",
                 "Got tagged for improving integrations between internal systems through reducing redundancies and identifying other general opportunities for improvement",
-                "Technologies/Services Used: HTML5, CSS3, Javascript, C#, Azure, Auth0, JitterBit, MongoDB, MSSSQL, Git"
+                "Technologies/Services Used: HTML5, CSS3, Javascript, C#, Linq, Azure, Auth0, JitterBit, MongoDB, MSSSQL, Git"
             ]
         }, {
             "company": "DaJen Group",
