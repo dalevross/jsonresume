@@ -1,22 +1,22 @@
 {
     "basics": {
         "name": "Dale V. Ross",
-        "label": "Software Engineer/Problem Solver",
+        "label": "Full Stack Software Engineer",
         "picture": "http://www.gravatar.com/avatar/7dfee93ad99243a655235d037e1cd59d?s=100&r=pg&d=mm",
-        "email": "dvross@rosssquared.com",
+        "email": "dalevross@gmail.com",
         "phone": "(352) 364-3453",
-        "website": "http://coderoom.dajengroup.com",
-        "summary": "Dale currently resides in Orlando, Florida. He has earned a B. Sc. (Hons) degree from the University of West Indies, majoring in Computer Science and Electronics. While his work focuses on Software Engineering, primarily on the .NET Framework, his non-work interests span a wide range of areas including AI, Data Science, Machine Learning and Start Ups.",
+        "website": "http://dalevross.gihub.io",
+        "summary": "Dale currently resides in Bronx, New York. He has earned a B. Sc. (Hons) degree from the University of West Indies, majoring in Computer Science and Electronics. While his work focuses on Software Engineering, primarily on the .NET Framework, his non-work interests span a wide range of areas including AI, Data Science, Machine Learning and Start Ups.",
         "location": {
-            "postalCode": "32804",
-            "city": "Orlando",
+            "postalCode": "10469",
+            "city": "Bronx",
             "countryCode": "US",
-            "region": "Florida"
+            "region": "New York"
         },
         "profiles": [{
                 "network": "Twitter",
                 "username": "dalevross",
-                "url": "https://twitter.com/recursionjm"
+                "url": "https://twitter.com/dalevross"
             }, {
                 "network": "LinkedIn",
                 "username": "dalevross",
@@ -51,9 +51,9 @@
             "highlights": [
                 "Rebranded and migrated solutions to new parent organization",
                 "Provided free code tutoring sessions in-person and on slack. New platform to be decided.",
-                "Finalist in the Founder Institute, New York chapter",
                 "Built a winning team split between Orlando, USA, Jamaica and India",
-                "Technologies/Services Used: HTML5, CSS3, Javascript, C#, Python, Node.js, Azure, Digital Ocean, NGinx, MongoDB, MySQL, Git"
+                "Primary developer on multiple products"
+                "Technologies/Services Used/Learnt: HTML5, CSS3, Javascript, C#, Python, Node.js, Azure, Digital Ocean, NGinx, MongoDB, MySQL, Git, Angular1.2, Angular 2"
             ]
         }, {
             "company": "Zero Chaos",
@@ -83,6 +83,7 @@
             "highlights": [
                 "Built a chrome extension to add features to online word games",
                 "Built a score management system for an online scrabble league",
+                "Provided remote support to users"
                 "Technologies/Services Used: HTML5, CSS3, Javascript, C#, PHP, Python, Node.js, Chrome Extensions, Azure, Digital Ocean, MongoDB, MySQL, Heroku, Google App Engine"
             ]
         }, {
