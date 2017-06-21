@@ -5,8 +5,8 @@
         "picture": "http://www.gravatar.com/avatar/7dfee93ad99243a655235d037e1cd59d?s=100&r=pg&d=mm",
         "email": "dalevross@gmail.com",
         "phone": "(352) 364-3453",
-        "website": "http://dalevross.gihub.io",
-        "summary": "Dale currently resides in Bronx, New York. He has earned a B. Sc. (Hons) degree from the University of West Indies, majoring in Computer Science and Electronics. While his work focuses on Software Engineering, primarily on the .NET Framework, his non-work interests span a wide range of areas including AI, Data Science, Machine Learning and Start Ups.",
+        "website": "http://www.dalevross.com",
+        "summary": "Dale is first a foremost a servant of the true and living God. Dale currently resides in Bronx, New York. He has earned a B. Sc. (Hons) degree from the University of West Indies, majoring in Computer Science and Electronics. While his work focuses on Software Engineering, primarily on the .NET Framework, his non-work interests span a wide range of areas including AI, Data Science, Machine Learning and Start Ups.",
         "location": {
             "postalCode": "10469",
             "city": "Bronx",
@@ -43,17 +43,32 @@
         ]
     },
     "work": [{
+            "company": "DaJen Group",
+            "position": "President & CEO",
+            "website": "http://dajengroup.com",
+            "startDate": "2012-10-01",
+            "summary": "Dajen Group is a software solutions provider which aims to solve problems that affect a wide cross section of society",
+            "highlights": [
+                "Built a chrome extension to add features to online word games",
+                "Built a score management system for an online scrabble league",
+                "Provided remote support to users",
+                "Provided services to multiple startup teams",
+                "Technologies/Services Used: HTML5, CSS3, Javascript, C#, PHP, Python, Node.js, Chrome Extensions, Azure, Digital Ocean, MongoDB, MySQL, Heroku, Google App Engine"
+            ]
+        }, {
             "company": "Ross Squared",
-            "position": "President and CEO",
+            "position": "Principal Innovator",
             "website": "http://www.rosssquared.org",
             "startDate": "2016-11-01",
             "summary": "Ross Squared aims to provide solutions to the hardest problems in the long term. In the short term Ross Squared will continue to connect people, devices and platforms to simplify life",
             "highlights": [
-                "Rebranded and migrated solutions to new parent organization",
                 "Provided free code tutoring sessions in-person and on slack. New platform to be decided.",
-                "Built a winning team split between Orlando, USA, Jamaica and India",
+                "Built a winning team split between USA, Jamaica and India",
                 "Primary developer on multiple products",
-                "Technologies/Services Used/Learnt: HTML5, CSS3, Javascript, C#, Python, Node.js, Azure, Digital Ocean, NGinx, MongoDB, MySQL, Git, Angular1.2, Angular 2"
+                "Performed social media operations to identify potential clients, opportunities, and target markets",
+                "Connected with parties across multiple industries and verticals including EdTech, Health, Mental Health and Emotional Intelligence",
+                "Mentored junior developers and provided access to avenues for growth I had used in my career.",
+                "Technologies/Services Used/Learnt: HTML5, CSS3, Javascript, C#, Python, Node.js, Azure, Digital Ocean, NGinx, MongoDB, MySQL, Git"
             ]
         }, {
             "company": "Zero Chaos",
@@ -74,23 +89,11 @@
                 "Technologies/Services Used: HTML5, CSS3, Javascript, C#, Linq, Azure, Auth0, JitterBit, MongoDB, MSSSQL, Git"
             ]
         }, {
-            "company": "DaJen Group",
-            "position": "CEO/President",
-            "website": "http://dajengroup.com",
-            "startDate": "2012-10-01",
-            "endDate": "2016-10-31",
-            "summary": "Dajen Group is a software solutions provider which aims to solve problems that affect a wide cross section of society",
-            "highlights": [
-                "Built a chrome extension to add features to online word games",
-                "Built a score management system for an online scrabble league",
-                "Provided remote support to users"
-                "Technologies/Services Used: HTML5, CSS3, Javascript, C#, PHP, Python, Node.js, Chrome Extensions, Azure, Digital Ocean, MongoDB, MySQL, Heroku, Google App Engine"
-            ]
-        }, {
             "company": "Rastival",
             "position": "Co Founder",
             "website": "http://www.rastival.com",
             "startDate": "2013-07-03",
+            "endDate": "2017-06-21",
             "summary": "Member of start up team working to make the internet audible",
             "highlights": [
                 "Primary chrome extension developer, JavaScript guy",
@@ -298,34 +301,79 @@
 
     ],
     "interests": [{
-        "name": "Scrabble",
-        "keywords": [
-            "Tournaments",
-            "Online"
-        ]
-    }, {
-        "name": "Math",
-        "keywords": [
-            "Calculus"
-        ]
-    }],
+            "name": "Scrabble",
+            "keywords": [
+                "Tournaments",
+                "Online"
+            ]
+        }, {
+            "name": "Math",
+            "keywords": [
+                "Calculus"
+            ]
+        },
+        {
+            "name": "The Mind",
+            "keywords": [
+                "Mental Illnesses",
+                "Stigma",
+                "Anxiety",
+                "Bipolar disorder",
+                "Schizophrenia",
+                "Autism",
+                "Asperger syndrome",
+                "ADHD",
+                "Depression"
+            ]
+        },
+        {
+            "name": "Philosophy",
+            "keywords": [
+                "Stoicism",
+                "The Ego",
+                "Being",
+                "Zen"
+            ]
+        },
+        {
+            "name": "Art",
+            "keywords": [
+                "Music",
+                "Graphical Art",
+                "Human Art"
+            ]
+        }
+    ],
     "references": [{
-        "name": "Delton Phillips",
-        "reference": "Many things could be said about this developer, one word that comes to mind is reliable, open and knowledgeable. As a technical lead, I relied heavily on Dale's recommendations and his ability to work through technical challenges. His pragmatic approach to problem solving coupled with his advanced knowledge of various technologies contributed significantly to the profitability of the company"
-    }, {
-        "name": "Ryan Simons",
-        "reference": "I worked with Dale for just under 4 years at Management Control Systems and I found him to be an exceptional colleague. Resourceful, dedicated to timelines and adept at finding creative solutions to issues faced, even outside of his preferred languages. In time, Dale became the person with whom I'd trade development ideas and game changing proof of concepts. His work speaks volumes."
-    }, {
-        "name": "Nathaniel Nation",
-        "reference": "As it relates to mathematics, software engineering and analysis, just to name a few, Dale is the one. He is very good problem solver and can very quickly come up with solutions to open doors, break barriers and make anything a success."
-    }, {
-        "name": "Wayne Baker",
-        "reference": "Working with Dale is one of my best experiences. Learning from him helped me to develope into a senior developer I am today. He is very focused and adapts quickly to new technologies. I am comfortable recommending his work to anyone that's interested."
-    }, {
-        "name": "Kay Möller",
-        "reference": "I know Dale V Ross through our membership of an online Scrabble/word game group, and he has proved himself invaluable when it comes to the technical aspects of score-keeping, etc. When the official Scrabble site changed the format of the game recently, omitting key features, Dale designed an app to address these shortfalls, improving vastly on the original. I can thoroughly recommend Dale as someone who anticipates others’ needs before they are aware of them, and solves problems promptly and with a (virtual) smile."
-    }, {
-        "name": "Gean Martinez",
-        "reference": "As a developer on my team, Dale worked on various complex projects and I was always very impressed with his ability to receive high level requirements and produce great results. Often times, I had no real requirements for him but a vision and he was able to deliver each time. His development skills span client side and server side components and he is a great Microsoft technologist. We worked on innovative solutions including a mobile-first asp.net MVC project utilizing the Telerik Kendo Framework. We also worked on creating a custom Single Sign On (SSO) solution which we implemented on an already built custom application. I appreciated his cool and calm demeanor which I found helpful when dealing with complex solutions."
-    }]
+            "name": "Delton Phillips",
+            "reference": "Many things could be said about this developer, one word that comes to mind is reliable, open and knowledgeable. As a technical lead, I relied heavily on Dale's recommendations and his ability to work through technical challenges. His pragmatic approach to problem solving coupled with his advanced knowledge of various technologies contributed significantly to the profitability of the company"
+        }, {
+            "name": "Ryan Simons",
+            "reference": "I worked with Dale for just under 4 years at Management Control Systems and I found him to be an exceptional colleague. Resourceful, dedicated to timelines and adept at finding creative solutions to issues faced, even outside of his preferred languages. In time, Dale became the person with whom I'd trade development ideas and game changing proof of concepts. His work speaks volumes."
+        }, {
+            "name": "Nathaniel Nation",
+            "reference": "As it relates to mathematics, software engineering and analysis, just to name a few, Dale is the one. He is very good problem solver and can very quickly come up with solutions to open doors, break barriers and make anything a success."
+        }, {
+            "name": "Wayne Baker",
+            "reference": "Working with Dale is one of my best experiences. Learning from him helped me to develope into a senior developer I am today. He is very focused and adapts quickly to new technologies. I am comfortable recommending his work to anyone that's interested."
+        }, {
+            "name": "Kay Möller",
+            "reference": "I know Dale V Ross through our membership of an online Scrabble/word game group, and he has proved himself invaluable when it comes to the technical aspects of score-keeping, etc. When the official Scrabble site changed the format of the game recently, omitting key features, Dale designed an app to address these shortfalls, improving vastly on the original. I can thoroughly recommend Dale as someone who anticipates others’ needs before they are aware of them, and solves problems promptly and with a (virtual) smile."
+        }, {
+            "name": "Gean Martinez",
+            "reference": "As a developer on my team, Dale worked on various complex projects and I was always very impressed with his ability to receive high level requirements and produce great results. Often times, I had no real requirements for him but a vision and he was able to deliver each time. His development skills span client side and server side components and he is a great Microsoft technologist. We worked on innovative solutions including a mobile-first asp.net MVC project utilizing the Telerik Kendo Framework. We also worked on creating a custom Single Sign On (SSO) solution which we implemented on an already built custom application. I appreciated his cool and calm demeanor which I found helpful when dealing with complex solutions."
+        },
+        {
+            "name": "Daniel Stembridge",
+            "reference": "Dale has been a friend to me for many years over the information highway, and I very much hope to meet him in person one day to shake his hand and thank him for all the time, effort, assistance and dedication he has always offered to me freely in this time. He is one of those people who see Solutions rather than Problems, and is always my 'go-to guy' for all things tech. I wish him a bright and rewarding future, and I do not doubt he would prove to be a valuable member of any team."
+        },
+        {
+            "name": "Elliott Manley",
+            "reference": "A couple of years ago I had an enjoyable and rewarding time collaborating remotely with Dale on a Chrome extension. What we (mostly Dale) created continues to be used by an ever-growing community. He is always willing to learn and always willing to teach. He also always puts the right thing to do above all else .I sincerely hope we 'll have the opportunity to collaborate again. I wish him well in all he does."
+        },
+        {
+            "name": "Elisabeth Jardine",
+            "reference": "As a long-standing member of the Scrabble world, I got to know Dale through his involvement in the on-line Scrabble community. He has been a tremendous help setting up many tools to improve the functionality and enjoyment of the game. He is always on hand to help with problems and his knowledge is immense and invaluable."
+        }
+    ]
 }
