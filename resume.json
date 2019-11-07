@@ -3,15 +3,15 @@
         "name": "Dale V. Ross",
         "label": "Software Engineer/Problem Solver",
         "picture": "http://www.gravatar.com/avatar/7dfee93ad99243a655235d037e1cd59d?s=100&r=pg&d=mm",
-        "email": "dvross@rosssquared.com",
+        "email": "dalevross@gmail.com",
         "phone": "(352) 364-3453",
         "website": "http://coderoom.dajengroup.com",
-        "summary": "Dale currently resides in Orlando, Florida. He has earned a B. Sc. (Hons) degree from the University of West Indies, majoring in Computer Science and Electronics. While his work focuses on Software Engineering, primarily on the .NET Framework, his non-work interests span a wide range of areas including AI, Data Science, Machine Learning and Start Ups.",
+        "summary": "Dale currently resides in Lansdowne, PA. He has earned a B. Sc. (Hons) degree from the University of West Indies, majoring in Computer Science and Electronics. While his work focuses on Software Engineering, primarily on the .NET Framework, his non-work interests span a wide range of areas including AI, Data Science and Machine Learning.",
         "location": {
-            "postalCode": "32811",
-            "city": "Orlando",
+            "postalCode": "19050",
+            "city": "Lansdowne",
             "countryCode": "US",
-            "region": "Florida"
+            "region": "Pennsylvania"
         },
         "profiles": [{
                 "network": "Twitter",
@@ -32,24 +32,12 @@
             },
             {
                 "network": "Instagram",
-                "username": "dalevross",
-                "url": "https://instagram.com/dalevross"
+                "username": "dalevivianross",
+                "url": "https://instagram.com/dalevivianross"
             }
         ]
     },
-    "work": [{
-            "company": "Ross Squared",
-            "position": "Principal and CEO",
-            "website": "http://www.rosssquared.org",
-            "startDate": "2016-11-01",
-            "summary": "Ross Squared aims to provide solutions to the hardest problems in the long term. In the short term Ross Squared will continue to connect people, devices and platforms to simplify life",
-            "highlights": [
-                "Rebranded and migrated solutions to new parent organization",
-                "Provided free code tutoring sessions in-person and on slack. New platform to be decided.",
-                "Finalist in the Founder Institute, New York chapter",
-                "Built a winning team split between Orlando, USA, Jamaica and India"
-            ]
-        }, {
+    "work": [ {
             "company": "Zero Chaos",
             "position": "Application Developer",
             "website": "http://www.zerochaos.com",
@@ -61,7 +49,7 @@
                 "Participated in requirements gathering, discovery and development planning for new client onboarding",
                 "Developed and/or supported tools used for inbound/outbound feed management",
                 "Investigated and resolved issues identified in existing feeds",
-                "Helped new team members to understand processes I had 'mastered', while at the same increasing my mastery",
+                "Helped new team members to understand processes I had 'mastered', while at the same time increasing my mastery",
                 "Kept team spirits high with a positive attitude towards problem solving",
                 "Helped to standardize authentication methods used by replacing legacy library with Auth0",
                 "Got tagged for improving integrations between internal systems through reducing redundancies and identifying other general opportunities for improvement"
@@ -69,7 +57,6 @@
         }, {
             "company": "DaJen Group",
             "position": "CEO/President",
-            "website": "http://dajengroup.com",
             "startDate": "2012-10-01",
             "endDate": "2016-10-31",
             "summary": "Dajen Group is a software solutions provider which aims to solve problems that affect a wide cross section of society",
