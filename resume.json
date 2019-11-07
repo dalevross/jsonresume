@@ -299,5 +299,8 @@
     }, {
         "name": "Gean Martinez",
         "reference": "As a developer on my team, Dale worked on various complex projects and I was always very impressed with his ability to receive high level requirements and produce great results. Often times, I had no real requirements for him but a vision and he was able to deliver each time. His development skills span client side and server side components and he is a great Microsoft technologist. We worked on innovative solutions including a mobile-first asp.net MVC project utilizing the Telerik Kendo Framework. We also worked on creating a custom Single Sign On (SSO) solution which we implemented on an already built custom application. I appreciated his cool and calm demeanor which I found helpful when dealing with complex solutions."
-    }]
+    }],
+     "meta": {
+    "theme": "elegant"
+  }
 }
