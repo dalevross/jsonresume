@@ -1,0 +1,31 @@
+{
+  "name": "resume_dalevross",
+  "version": "3.1.4",
+  "description": "My resume generation using the jsonresume standard",
+  "main": "resume.html",
+  "dependencies": {
+    "jsonresume-theme-elegant": "^1.13.2",
+    "resume-cli": "^1.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalevross/jsonresume.git"
+  },
+  "keywords": [
+    "resume",
+    "dalevross",
+    "dale",
+    "vivian",
+    "ross"
+  ],
+  "author": "Dale V Ross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dalevross/jsonresume/issues"
+  },
+  "homepage": "https://github.com/dalevross/jsonresume"
+}
