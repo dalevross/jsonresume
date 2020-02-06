@@ -52,6 +52,24 @@
         ]
     },
     "work": [
+	    {
+            "company": "Ross Squared",
+            "position": "CTO and Principal Innovator",
+            "website": "https://www.rosssquared.org",
+            "startDate": "2020-01-11",
+            "summary": "Simultaneously Lead Software Engineer and Chief Technical Officer",
+            "highlights": [
+                "Initiated conversations with Church to start bring vision of teaching coding to underserved groups to life",
+		"Tagged as Lead Developer on Pressurized Tank Level Monitoring System (PTLMS) project for client Integral Energy",
+		"Overseeing Azure DevOps project for release pipeline and sprint management for PTLMS project",
+                "Developing a web application using ASP.NET Core to be hosted on Ubuntu in the cloud.",
+		"In discussions with California based partner concerning potential partnership for bringing multiple ideas to life", 
+		"Mentored at We Connect The Dots (WCTD) Code-A-Thon event in Lansdowne, PA",
+		"Working with a team of four, myself included, along with a mentee from Code-A-Thon (WCTD), an Engineer and Teacher learning to code",
+		"Establishing a mastermind with aforementioned team of 4, to enncourage personal growth and the ultimate success of each member",
+		"Consolidating Ross family brand under one umbrella (Christian Ministry, Music, Event Planning, etc."
+            ]
+        },
         {
             "company": "Self Employed",
             "position": "Independent Software Contractor",
@@ -60,7 +78,8 @@
             "summary": "Joined an undisclosed company as an independent contractor for a payroll management product",
             "highlights": [
                 "Responsible for potential migration of Kotlin based Android Application to Xamarin",
-			    "Looking into client-server solution using Signal-R to solve an issue where clients aren't comfortable exposing a public IP in their environment"
+		"Responsible for supporting/extending Kotlin application while  Xamarin app is being developed",
+                "Looking into client-server solution using Signal-R to solve an issue where clients aren't comfortable exposing a public IP in their environment"
             ]
         },
         {
