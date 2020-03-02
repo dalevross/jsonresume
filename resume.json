@@ -48,6 +48,11 @@
                 "network": "Degreed",
                 "username": "dvross",
                 "url": "https://degreed.com/dvross/index/1"
+            },
+            {
+                "network": "freeCodeCamp",
+                "username": "dalevross",
+                "url": "https://www.freecodecamp.org/dalevross"
             }
         ]
     },
@@ -59,15 +64,15 @@
             "startDate": "2020-01-11",
             "summary": "Simultaneously Lead Software Engineer and Chief Technical Officer",
             "highlights": [
-                "Initiated conversations with Church to start bring vision of teaching coding to underserved groups to life",
+                "Initiated conversations with Church to start bring the vision of teaching coding to underserved groups to life",
 		"Tagged as Lead Developer on Pressurized Tank Level Monitoring System (PTLMS) project for client Integral Energy",
 		"Overseeing Azure DevOps project for release pipeline and sprint management for PTLMS project",
                 "Developing a web application using ASP.NET Core to be hosted on Ubuntu in the cloud.",
-		"In discussions with California based partner concerning potential partnership for bringing multiple ideas to life", 
+		"In discussions with California based developer concerning a potential partnership for bringing multiple ideas to life", 
 		"Mentored at We Connect The Dots (WCTD) Code-A-Thon event in Lansdowne, PA",
 		"Working with a team of four, myself included, along with a mentee from Code-A-Thon (WCTD), an Engineer and Teacher learning to code",
-		"Establishing a mastermind with aforementioned team of 4, to enncourage personal growth and the ultimate success of each member",
-		"Consolidating Ross family brand under one umbrella (Christian Ministry, Music, Event Planning, etc."
+		"Establishing a mastermind with the aforementioned team of 4, to encourage personal growth and the ultimate success of each member",
+		"Consolidating Ross family brand under one umbrella (Christian Ministry, Music, Event Planning, etc)."
             ]
         },
         {
