@@ -5,6 +5,7 @@
   "main": "resume.html",
   "dependencies": {
     "jsonresume-theme-elegant": "^1.13.2",
+    "jsonresume-theme-stackoverflow": "^1.4.0",
     "resume-cli": "^1.2.7"
   },
   "devDependencies": {},

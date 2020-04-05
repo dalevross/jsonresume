@@ -1,1876 +1,1560 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html>
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Dale V. Ross</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-    <style>
-      @font-face {
-        font-family: 'icomoon';
-        src: url('fonts/icomoon.eot?z1lat9');
-        src: url('fonts/icomoon.eot?z1lat9#iefix') format('embedded-opentype'),
-          url('fonts/icomoon.ttf?z1lat9') format('truetype'),
-          url('fonts/icomoon.woff?z1lat9') format('woff'),
-          url('fonts/icomoon.svg?z1lat9#icomoon') format('svg');
-        font-weight: normal;
-        font-style: normal;
-      }
-
-      [class^="icon-"],
-      [class*=" icon-"] {
-        /* use !important to prevent issues with browser extensions that change fonts */
-        font-family: 'icomoon' !important;
-        speak: none;
-        font-style: normal;
-        font-weight: normal;
-        font-variant: normal;
-        text-transform: none;
-        line-height: 1;
-
-        /* Better Font Rendering =========== */
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-      }
-
-      .icon-gitlab .path1:before {
-        content: "\e906";
-        color: rgb(252, 109, 38);
-      }
-
-      .icon-gitlab .path2:before {
-        content: "\e907";
-        margin-left: -1em;
-        color: rgb(226, 67, 41);
-      }
-
-      .icon-gitlab .path3:before {
-        content: "\e908";
-        margin-left: -1em;
-        color: rgb(252, 109, 38);
-      }
-
-      .icon-gitlab .path4:before {
-        content: "\e909";
-        margin-left: -1em;
-        color: rgb(252, 163, 38);
-      }
-
-      .icon-gitlab .path5:before {
-        content: "\e90a";
-        margin-left: -1em;
-        color: rgb(226, 67, 41);
-      }
-
-      .icon-gitlab .path6:before {
-        content: "\e90b";
-        margin-left: -1em;
-        color: rgb(252, 109, 38);
-      }
-
-      .icon-gitlab .path7:before {
-        content: "\e90c";
-        margin-left: -1em;
-        color: rgb(252, 163, 38);
-      }
-
-      .icon-gitlab .path8:before {
-        content: "\e90d";
-        margin-left: -1em;
-        color: rgb(226, 67, 41);
-      }
-
-      .icon-meetup .path1:before {
-        content: "\e901";
-        color: rgb(255, 255, 255);
-      }
-
-      .icon-meetup .path2:before {
-        content: "\e902";
-        margin-left: -1.5em;
-        color: rgb(240, 1, 1);
-      }
-
-      .icon-meetup .path3:before {
-        content: "\e903";
-        margin-left: -1.5em;
-        color: rgb(3, 3, 3);
-      }
-
-      .icon-blogger:before {
-        content: "\e900";
-      }
-
-      .icon-exercism:before {
-        content: "\e601";
-      }
-
-      .icon-telegram:before {
-        content: "\e904";
-      }
-
-      .icon-flickr:before {
-        content: "\f16e";
-      }
-
-      .icon-medium:before {
-        content: "\f23a";
-      }
-
-      .icon-heart:before {
-        content: "\f004";
-      }
-
-      .icon-book:before {
-        content: "\f02d";
-      }
-
-      .icon-linkedin:before {
-        content: "\f08c";
-      }
-
-      .icon-twitter:before {
-        content: "\f099";
-      }
-
-      .icon-github:before {
-        content: "\f09b";
-      }
-
-      .icon-link:before {
-        content: "\f0c1";
-      }
-
-      .icon-bars:before {
-        content: "\f0c9";
-      }
-
-      .icon-pinterest:before {
-        content: "\f0d2";
-      }
-
-      .icon-googleplus:before {
-        content: "\f0d5";
-      }
-
-      .icon-circle:before {
-        content: "\f111";
-      }
-
-      .icon-code:before {
-        content: "\f121";
-      }
-
-      .icon-youtube:before {
-        content: "\f167";
-      }
-
-      .icon-stackoverflow:before {
-        content: "\f16c";
-      }
-
-      .icon-bitbucket:before {
-        content: "\f171";
-      }
-
-      .icon-tumblr:before {
-        content: "\f173";
-      }
-
-      .icon-dribbble:before {
-        content: "\f17d";
-      }
-
-      .icon-skype:before {
-        content: "\f17e";
-      }
-
-      .icon-foursquare:before {
-        content: "\f180";
-      }
-
-      .icon-gittip:before {
-        content: "\f184";
-      }
-
-      .icon-gratipay:before {
-        content: "\f184";
-      }
-
-      .icon-stackexchange:before {
-        content: "\f18d";
-      }
-
-      .icon-vimeo:before {
-        content: "\f194";
-      }
-
-      .icon-graduation-cap:before {
-        content: "\f19d";
-      }
-
-      .icon-language:before {
-        content: "\f1ab";
-      }
-
-      .icon-child:before {
-        content: "\f1ae";
-      }
-
-      .icon-behance:before {
-        content: "\f1b5";
-      }
-
-      .icon-spotify:before {
-        content: "\f1bc";
-      }
-
-      .icon-soundcloud:before {
-        content: "\f1be";
-      }
-
-      .icon-codepen:before {
-        content: "\f1cb";
-      }
-
-      .icon-hackernews:before {
-        content: "\f1d4";
-      }
-
-      .icon-lastfm:before {
-        content: "\f202";
-      }
-
-      .icon-angellist:before {
-        content: "\f209";
-      }
-
-      .icon-facebook:before {
-        content: "\f230";
-      }
-
-      .icon-instagram:before {
-        content: "\e905";
-      }
-
-      .icon-trophy:before {
-        content: "\e605";
-      }
-
-      .icon-office:before {
-        content: "\e606";
-      }
-
-      .icon-clock:before {
-        content: "\e60a";
-      }
-
-      .icon-reddit:before {
-        content: "\e609";
-      }
-
-      .icon-profile:before {
-        content: "\e600";
-      }
-
-      .icon-tools:before {
-        content: "\e034";
-      }
-
-      .icon-location:before {
-        content: "\e602";
-      }
-
-      .icon-mail:before {
-        content: "\e603";
-      }
-
-      .icon-phone:before {
-        content: "\e03f";
-      }
-
-      .icon-newspaper:before {
-        content: "\e607";
-      }
-
-      .icon-chevron-down:before {
-        content: "\e60c";
-      }
-
-      .icon-chevron-up:before {
-        content: "\e60d";
-      }
-
-      .icon-dots-three-horizontal:before {
-        content: "\e60b";
-      }
-
-      .icon-thumbs-up:before {
-        content: "\e604";
-      }
-
-      .icon-board:before {
-        content: "\e608";
-      }
-
-      .relative {
-        position: relative;
-      }
-
-      .clear-margin {
-        margin: 0;
-      }
-
-      .space-top {
-        margin-top: 10px;
-      }
-
-      .space-right {
-        margin-right: 10px;
-      }
-
-      .space-bottom {
-        margin-bottom: 10px;
-      }
-
-      .mr-5 {
-        margin-right: 5px;
-      }
-
-      .mr-10 {
-        margin-right: 10px;
-      }
-
-      .ml-5 {
-        margin-left: 5px;
-      }
-
-      .labels {
-        line-height: 2;
-      }
-
-      .label-keyword {
-        display: inline-block;
-        background: #7eb0db;
-        color: white;
-        font-size: 0.9em;
-        padding: 5px;
-        border: 1px solid #357ebd;
-        margin-right: 5px;
-      }
-
-      .label-keyword:last-child {
-        margin-right: 0;
-      }
-
-      .link-disguise {
-        color: inherit;
-      }
-
-      .link-disguise:hover {
-        color: inherit;
-      }
-
-      .clear-margin {
-        margin: 0;
-      }
-
-      @media (max-width: 992px) {
-        .clear-margin-sm {
-          margin-bottom: 0;
-        }
-      }
-
-      .fs-lg {
-        font-size: 1.33333333em;
-        line-height: 0.75em;
-        vertical-align: -15%;
-      }
-
-      .fs-2x {
-        font-size: 2em;
-      }
-
-      .fs-3x {
-        font-size: 3em;
-      }
-
-      .fs-4x {
-        font-size: 4em;
-      }
-
-      .btn-circle-sm {
-        width: 28px;
-        height: 28px;
-        line-height: 28px;
-        border-radius: 50%;
-        text-align: center;
-        padding: 0;
-        outline: none !important;
-      }
-
-      /* the version when the icon file is last updated */
-      @font-face {
-        font-family: 'jst-elegant';
-        src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo");
-        src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
-        font-weight: normal;
-        font-style: normal;
-      }
-
-      [class^="icon-"],
-      [class*=" icon-"] {
-        /* use !important to prevent issues with browser extensions that change fonts */
-        font-family: 'jst-elegant' !important;
-      }
-
-      body {
-        font-family: 'Lato';
-        background: #f0f0f0;
-        color: #333;
-      }
-
-      .main {
-        padding: 5px;
-      }
-
-      .card {
-        background: white;
-        border: 1px solid #e6e6e6;
-        border-radius: 3px;
-        min-height: 300px;
-        padding: 10px 0;
-      }
-
-      .card-nested {
-        min-height: 0;
-        border-width: 1px 0 0 0;
-      }
-
-      .card-nested:before,
-      .card-nested:after {
-        content: " ";
-        display: table;
-      }
-
-      .card-nested:after {
-        clear: both;
-      }
-
-      @media (max-width: 480px) {
-        .card-nested {
-          padding: 5px 0;
-        }
-      }
-
-      .background-card {
-        padding: 10px 20px;
-      }
-
-      .card-wrapper {
-        padding: 5px;
-      }
-
-      @media (max-width: 992px) {
-        .card-wrapper {
-          float: none !important;
-        }
-      }
-
-      .background-details .detail {
-        display: table;
-      }
-
-      .background-details .detail .icon {
-        min-width: 45px;
-        max-width: 45px;
-        text-align: center;
-      }
-
-      .background-details .detail .info {
-        width: 100%;
-      }
-
-      .background-details .detail .title,
-      .background-details .detail .icon {
-        color: #707070;
-      }
-
-      .background-details .detail .mobile-title {
-        display: none;
-      }
-
-      @media (max-width: 480px) {
-        .background-details .detail .mobile-title {
-          display: inline-block;
-          margin-left: 5px;
-          font-weight: bold;
-          text-transform: uppercase;
-          vertical-align: middle;
-        }
-      }
-
-      .background-details .detail .icon,
-      .background-details .detail .info {
-        display: table-cell;
-        padding: 0 10px;
-      }
-
-      @media (max-width: 480px) {
-        .background-details .detail {
-          display: block;
-        }
-
-        .background-details .detail .icon {
-          max-width: inherit;
-          min-width: inherit;
-          text-align: left;
-        }
-
-        .background-details .detail .icon,
-        .background-details .detail .info {
-          display: block;
-          padding: 10px 0;
-        }
-
-        .background-details .detail .title {
-          display: none;
-        }
-      }
-
-      .info .content.has-sidebar {
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Dale V. Ross</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <style>
+  /********************************************
+* 	reset from
+* 	http://meyerweb.com/eric/tools/css/reset/
+*******************************************/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/****************
+*	COMMONS
+****************/
+
+body,
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 13px;
+    color: #40484f;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.46153846;
+    text-align: left;
+    -webkit-text-size-adjust: 100%;
+}
+
+p {
+    display: block;
+    margin-bottom: 1.3em;
+}
+
+a {
+    color: #0095ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0c65a5;
+    text-decoration: underline;
+}
+
+ul {
+    margin-top: 1rem;
+}
+
+li {
+    list-style-type: square;
+    list-style-position: outside;
+    margin-left: 1.3em;
+}
+
+.highlights>li>p {
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.67rem;
+}
+
+h3 {
+    font-size: 1.27rem;
+}
+
+em {
+    color: #757575;
+}
+
+blockquote {
+    margin-bottom: 1em;
+}
+
+strong {
+    font-weight: 700;
+}
+
+
+/* main container */
+
+#resume {
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+
+/* every section wrapper */
+
+.section {
+    margin-bottom: 1rem;
+}
+
+section .location {
+    margin-right: .5em;
+    color: #606d76;
+    font-weight: 700;
+}
+
+#contact {
+    margin-top: .5rem;
+}
+
+#profiles .item {
+    padding: 0;
+}
+
+#header>#profiles,
+#header>#contact,
+#skills,
+#languages,
+#interests {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+#header>div {
+    line-height: 1.5;
+}
+
+#header>div>div {
+    margin-right: 1.2em;
+}
+
+#header h1.name {
+    font-size: 2.8rem;
+    font-weight: 100;
+    line-height: 100%;
+}
+
+#header h2.label {
+    color: #202931;
+    font-size: 1.47rem;
+    font-weight: 300;
+}
+
+#header .picture {
+    width: 11em;
+    float: right;
+    border-radius: 4px;
+}
+
+.main-summary {
+    background: #f1f8ff;
+    padding: 1.2em 1em;
+    margin-top: 1rem;
+}
+
+.main-summary p {
+    margin: .15em 0 0;
+}
+
+h2.section-title {
+    display: inline-block;
+    background: #fff;
+    padding: 0 1em 0.3em 0;
+    color: #ff6d1f;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    font-size: .9rem;
+}
+
+.section>header {
+    position: relative;
+}
+
+.fa {
+    margin-right: 0.25em;
+}
+
+.section>header::after {
+    position: absolute;
+    left: 0;
+    top: .7em;
+    height: 1px;
+    background: #ccc;
+    content: "";
+    width: 100%;
+    z-index: -100;
+    display: block;
+}
+
+.section.main-summary>section {
+    margin: 0;
+}
+
+.section>section>header {
+    font-size: 1.38rem;
+    position: relative;
+    margin-top: .7em;
+}
+
+.section>section>header:first-of-type {
+    margin: 0;
+}
+
+.section>section>header .space-left {
+    position: absolute;
+    left: -1.56rem;
+    top: 5px;
+    color: #aaa;
+    line-height: 1;
+    opacity: 0;
+}
+
+.position,
+.company,
+.organization,
+.institution,
+.date,
+.area,
+.studyType,
+.title,
+.awarder {
+    display: inline;
+}
+
+.position,
+.studyType,
+.area,
+.title,
+.language,
+.name {
+    font-weight: 600;
+}
+
+.company::before,
+.institution::before,
+.organization::before,
+.awarder::before {
+    content: "at "
+}
+
+.company,
+.institution,
+.organization,
+.awarder {
+    color: #606d76;
+    font-weight: 400;
+}
+
+.section header .date {
+    font-size: 1rem;
+    display: inline-table;
+    padding: .1em 0;
+    font-weight: 600;
+}
+
+ul.keywords,
+ul.courses {
+    margin-top: .5em;
+}
+
+ul.keywords li,
+ul.courses li {
+    display: inline-block;
+    margin: 2px 2px 2px 0;
+    padding: 4px 5px 5px;
+    font-size: .9rem;
+    line-height: 1;
+    text-transform: lowercase;
+    color: #3e6d8e;
+    background-color: #dfeaf1;
+    border: 0 solid #dfeaf1;
+    white-space: nowrap;
+}
+
+ul.keywords li:hover,
+ul.courses li:hover {
+    background: #dfeaf0;
+}
+
+.item {
+    padding: .5em 0;
+}
+
+.gpa {
+    padding-bottom: .5em;
+}
+
+.fa.social {
+    font-size: 1.1em;
+}
+
+
+/* Social Media Brand Colors */
+
+.google-plus {
+    color: #dd4b39;
+}
+
+.tumblr {
+    color: #32506d;
+}
+
+.foursquare {
+    color: #0072b1;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.linkedin {
+    color: #007bb6;
+}
+
+.pinterest {
+    color: #cb2027;
+}
+
+.dribbble {
+    color: #ea4c89;
+}
+
+.instagram {
+    color: #517fa4;
+}
+
+.twitter {
+    color: #00aced;
+}
+
+.soundcloud {
+    color: #ff3a00;
+}
+
+.wordpress {
+    color: #21759b;
+}
+
+.youtube {
+    color: #bb0000;
+}
+
+.github {
+    color: #171515;
+}
+
+.stack-overflow {
+    color: #828386;
+    position: relative;
+}
+
+.flickr {
+    color: #ff0084;
+}
+
+.stack-overflow::after {
+    position: absolute;
+    left: 0;
+    content: '\f16c';
+    color: #f68a1f;
+    overflow: hidden;
+    height: 100%;
+}
+
+.telegram {
+    color: #2291c3;
+}
+
+#languages .item,
+#skills .item,
+#interests .item {
+    width: 15em;
+    padding: 0 .5em .5em 0;
+    border-bottom: none;
+}
+
+#skills .item {
+    width: 16em;
+}
+
+#skills .item .keywords {
+    width: 15em;
+}
+
+
+/* Skill chart */
+
+.level {
+    margin-bottom: .5em;
+}
+
+.level .bar {
+    border: 1px solid #ddd;
+    display: block;
+    width: 10em;
+    height: 5px;
+    position: relative;
+}
+
+.level .bar::after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    background: black;
+    height: 5px;
+}
+
+.level.beginner .bar::after {
+    background: #EB5F51;
+    width: 2.5em;
+}
+
+.level.intermediate .bar::after {
+    background: #ffdf1f;
+    width: 5em;
+}
+
+.level.advanced .bar::after,
+.level.fluent .bar::after {
+    background: #5CB85C;
+    width: 7.5em;
+}
+
+.level.master .bar::after,
+.level.native.speaker .bar::after {
+    background: #59C596;
+    width: 10em;
+}
+
+#references .item {
+    padding-left: .5em;
+    border-left: 5px solid #ff6d1f;
+}
+
+.toggle-item {
+  visibility: hidden;
+}
+
+/******************
+*	HELPER CLASSES
+******************/
+
+.clear::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.display {
+    display: block;
+    opacity: 1 !important;
+}
+
+.margin1 {
+    margin-bottom: .5rem;
+}
+
+
+/****************
+*		TABLET
+****************/
+
+@media screen and (min-width: 602px) {
+    #resume {
         width: 80%;
-        box-sizing: border-box;
+        margin: 0 auto;
+    }
+}
+
+
+/****************
+*		LAPTOP
+****************/
+
+@media screen and (min-width: 1025px) {
+    li {
+        margin-left: 1.5em;
+    }
+    #resume {
+        width: 820px;
+        margin: 2rem auto;      
+    }
+    .section>section>header .space-left {
+        opacity: 1;
+        cursor: pointer;
+    }
+    .section>section {
+        margin-left: 1.67rem;
+    }
+    .toggle-item {
+        transform: translate(-9999px);
+    }
+    .toggle-item+label {
+        display: block;
+        margin-top: -16px;
+    }
+    .toggle-item:checked+label:after {
+        content: '\f0d7';
+    }
+    .toggle-item+label:after {
         float: left;
-        padding: 0 10px;
-        border-right: 1px solid #cdcdcd;
-      }
-
-      @media (max-width: 992px) {
-        .info .content.has-sidebar {
-          width: 100%;
-          border-right: 0;
-        }
-      }
-
-      @media (max-width: 480px) {
-        .info .content.has-sidebar {
-          padding: 0 2px;
-        }
-      }
-
-      .info .sidebar {
-        margin-left: 80%;
-        box-sizing: border-box;
-        padding: 10px;
-      }
-
-      @media (max-width: 480px) {
-        ul {
-          padding-left: 25px;
-        }
-      }
-
-      .current-event {
-        font-size: 8px;
-        color: #5ACE24;
-        position: absolute;
-        right: 100%;
-        top: 4px;
-        left: -10px;
-      }
-
-      .mop-wrapper>p:last-child {
-        margin: 0;
-      }
-
-      /*
-    Credits: http://codyhouse.co/demo/smart-fixed-navigation/index.html
-*/
-      .floating-nav-trigger {
-        width: 50px;
-        height: 50px;
-        -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-        -webkit-transition: background-color 0.5s ease;
-        -o-transition: background-color 0.5s ease;
-        transition: background-color 0.5s ease;
-        display: block;
-        border-radius: 50%;
-        text-align: center;
-        background-color: white;
-        font-size: 1.5em;
-        color: #357ebd;
-        z-index: 100;
-        position: fixed;
-        bottom: 10px;
-        right: 10px;
-        text-decoration: none !important;
-      }
-
-      .floating-nav-trigger>[class^="icon-"],
-      .floating-nav-trigger [class*=" icon-"],
-      .floating-nav-trigger>.close-icon {
-        line-height: 50px;
-      }
-
-      .floating-nav-trigger .close-icon {
+        cursor: pointer;
+        margin-left: -20px;
+        color: #aaa;
+        font-size: 16px;
+        content: '\f0da';
+        font-family: Fontawesome;
+    }
+    .toggle-item~.item {
+        height: 0;
+        opacity: 0;
+    }
+    .toggle-item:checked~.item {
+        height: auto;
+        opacity: 1;
+        transition: all .5s linear;
+    }
+    .company::before,
+    .institution::before,
+    .organization::before,
+    .awarder::before {
+        content: "| ";
+    }
+    .header-left {
+        float: left;
+        width: 70%;
+        word-break: normal;
+    }
+    .section header .date {
+        float: right;
+        padding: .2em;
+    }
+    .display {
         display: none;
-      }
-
-      .floating-nav-trigger:hover {
-        color: #1f496e;
-        background-color: #e6e6e6;
-      }
-
-      .floating-nav-trigger.is-open {
-        -webkit-box-shadow: none;
-        box-shadow: none;
-      }
-
-      .floating-nav-trigger.is-open .close-icon {
-        display: inherit;
-      }
-
-      .floating-nav-trigger.is-open .icon-bars {
-        display: none;
-      }
-
-      .floating-nav-trigger.is-open:hover {
-        background-color: white;
-      }
-
-      .floating-nav {
-        -webkit-transform: scale(0);
-        -ms-transform: scale(0);
-        -o-transform: scale(0);
-        transform: scale(0);
-        -webkit-transform-origin: 100% 100%;
-        -moz-transform-origin: 100% 100%;
-        -ms-transform-origin: 100% 100%;
-        transform-origin: 100% 100%;
-        -webkit-transition: transform 0.3s, visibility 0s 0.3s;
-        -o-transition: transform 0.3s, visibility 0s 0.3s;
-        transition: transform 0.3s, visibility 0s 0.3s;
-        -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-        position: fixed;
-        z-index: 50;
-        right: 10px;
-        bottom: 10px;
-        background-color: white;
-        width: 90%;
-        max-width: 400px;
-        visibility: hidden;
-        overflow: hidden;
-      }
-
-      .floating-nav ul {
-        font-size: 1.2em;
-        margin: 0;
-      }
-
-      .floating-nav ul li {
-        border-bottom: 1px solid #eff2f6;
-      }
-
-      .floating-nav ul li a {
-        padding: 20px;
-        text-decoration: none;
-        color: #357ebd;
+    }
+    .display:not(.none) {
         display: block;
-      }
-
-      .floating-nav ul li a:hover {
-        color: #1f496e;
-      }
-
-      .floating-nav ul li:last-child {
-        border-bottom: 0;
-      }
-
-      .floating-nav.is-visible {
-        -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-        -o-transform: scale(1);
-        transform: scale(1);
-        -webkit-transition: transform 0.3s, visibility 0s 0s;
-        -o-transition: transform 0.3s, visibility 0s 0s;
-        transition: transform 0.3s, visibility 0s 0s;
-        visibility: visible;
-      }
-
-      @media (max-width: 992px) {
-        .profile-card-wrapper {
-          position: relative;
-        }
-      }
-
-      .profile-card-wrapper .profile-card {
-        padding: 10px;
-      }
-
-      .profile-pic {
-        padding: 20px 0;
-      }
-
-      @media (max-width: 992px) {
-        .profile-pic {
-          padding: 10px 0;
-        }
-      }
-
-      .profile-pic img {
-        width: 100px;
-        height: 100px;
-      }
-
-      @media (max-width: 992px) {
-        .name {
-          margin-top: 10px;
-        }
-      }
-
-      @media (max-width: 768px) {
-        .contact-details {
-          text-align: center;
-        }
-      }
-
-      .contact-details .detail {
-        display: table;
-        padding: 10px 0;
-      }
-
-      .contact-details .detail .icon {
-        padding: 0 10px;
-        color: #707070;
-      }
-
-      @media (max-width: 992px) {
-        .contact-details .detail .icon {
-          padding: 0 5px 0 0;
-        }
-      }
-
-      .contact-details .detail .info {
-        font-size: 0.8em;
-      }
-
-      .contact-details .detail .icon,
-      .contact-details .detail .info {
-        display: table-cell;
-        vertical-align: middle;
-      }
-
-      @media (max-width: 768px) {
-        .contact-details .detail {
-          position: relative;
-          float: left;
-          width: 100%;
-          min-height: 1px;
-          padding-left: 15px;
-          padding-right: 15px;
-        }
-      }
-
-      @media (max-width: 992px) {
-        .contact-details .detail {
-          position: relative;
-          min-height: 1px;
-          padding-left: 15px;
-          padding-right: 15px;
-          padding: 10px;
-        }
-
-        .contact-details .detail .icon,
-        .contact-details .detail .info {
-          display: inline-block;
-        }
-      }
-
-      @media (max-width: 992px) and (min-width: 768px) {
-        .contact-details .detail {
-          float: left;
-          width: 25%;
-        }
-      }
-
-      .social-links {
-        line-height: 2.5;
-      }
-
-      .social-link {
-        margin-left: 5px;
-        min-width: 35px;
-        display: inline-block;
-      }
-
-      .social-link:first-child {
-        margin-left: 0;
-      }
-
-      .social-link:hover {
-        text-decoration: none;
-      }
-
-      .link-github {
-        color: #454545;
-      }
-
-      .link-github:hover,
-      .link-github:focus {
-        text-decoration: none;
-        color: #2b2b2b;
-      }
-
-      .link-twitter {
-        color: #33ccff;
-      }
-
-      .link-twitter:hover,
-      .link-twitter:focus {
-        text-decoration: none;
-        color: #00bfff;
-      }
-
-      .link-blog {
-        color: #f36f24;
-      }
-
-      .link-blog:hover,
-      .link-blog:focus {
-        text-decoration: none;
-        color: #d8560c;
-      }
-
-      .link-linkedin {
-        color: #007bb6;
-      }
-
-      .link-linkedin:hover,
-      .link-linkedin:focus {
-        text-decoration: none;
-        color: #005983;
-      }
-
-      .link-skype {
-        color: #12A5F4;
-      }
-
-      .link-skype:hover,
-      .link-skype:focus {
-        text-decoration: none;
-        color: #0986ca;
-      }
-
-      .link-instagram {
-        color: #e4405f;
-      }
-
-      .link-instagram:hover,
-      .link-instagram:focus {
-        text-decoration: none;
-        color: #d31e40;
-      }
-
-      .link-stackoverflow {
-        color: #8e8e92;
-      }
-
-      .link-stackoverflow:hover,
-      .link-stackoverflow:focus {
-        text-decoration: none;
-        color: #747479;
-      }
-
-      .link-stackexchange {
-        color: #62b0df;
-      }
-
-      .link-stackexchange:hover,
-      .link-stackexchange:focus {
-        text-decoration: none;
-        color: #389bd6;
-      }
-
-      .link-lastfm {
-        color: #d12127;
-      }
-
-      .link-lastfm:hover,
-      .link-lastfm:focus {
-        text-decoration: none;
-        color: #a51a1f;
-      }
-
-      .link-soundcloud {
-        color: #e8822d;
-      }
-
-      .link-soundcloud:hover,
-      .link-soundcloud:focus {
-        text-decoration: none;
-        color: #cc6916;
-      }
-
-      .link-googleplus {
-        color: #dd4b39;
-      }
-
-      .link-googleplus:hover,
-      .link-googleplus:focus {
-        text-decoration: none;
-        color: #c23321;
-      }
-
-      .link-youtube {
-        color: #dd4b39;
-      }
-
-      .link-youtube:hover,
-      .link-youtube:focus {
-        text-decoration: none;
-        color: #c23321;
-      }
-
-      .link-pinterest {
-        color: #bd091f;
-      }
-
-      .link-pinterest:hover,
-      .link-pinterest:focus {
-        text-decoration: none;
-        color: #8c0717;
-      }
-
-      .link-gratipay {
-        color: #630;
-      }
-
-      .link-gratipay:hover,
-      .link-gratipay:focus {
-        text-decoration: none;
-        color: #331a00;
-      }
-
-      .link-vimeo {
-        color: #17b3e8;
-      }
-
-      .link-vimeo:hover,
-      .link-vimeo:focus {
-        text-decoration: none;
-        color: #128fba;
-      }
-
-      .link-behance {
-        color: #2c98cf;
-      }
-
-      .link-behance:hover,
-      .link-behance:focus {
-        text-decoration: none;
-        color: #2379a5;
-      }
-
-      .link-codepen {
-        color: #1c1c1c;
-      }
-
-      .link-codepen:hover,
-      .link-codepen:focus {
-        text-decoration: none;
-        color: #020202;
-      }
-
-      .link-foursquare {
-        color: #fa4778;
-      }
-
-      .link-foursquare:hover,
-      .link-foursquare:focus {
-        text-decoration: none;
-        color: #f91554;
-      }
-
-      .link-reddit {
-        color: #545454;
-      }
-
-      .link-reddit:hover,
-      .link-reddit:focus {
-        text-decoration: none;
-        color: #3b3b3b;
-      }
-
-      .link-spotify {
-        color: #acd200;
-      }
-
-      .link-spotify:hover,
-      .link-spotify:focus {
-        text-decoration: none;
-        color: #829f00;
-      }
-
-      .link-tumblr {
-        color: #2d4661;
-      }
-
-      .link-tumblr:hover,
-      .link-tumblr:focus {
-        text-decoration: none;
-        color: #1d2d3e;
-      }
-
-      .link-dribbble {
-        color: #ce366f;
-      }
-
-      .link-dribbble:hover,
-      .link-dribbble:focus {
-        text-decoration: none;
-        color: #a82959;
-      }
-
-      .link-facebook {
-        color: #4b6daa;
-      }
-
-      .link-facebook:hover,
-      .link-facebook:focus {
-        text-decoration: none;
-        color: #3b5687;
-      }
-
-      .link-angellist {
-        color: black;
-      }
-
-      .link-angellist:hover,
-      .link-angellist:focus {
-        text-decoration: none;
-        color: #000000;
-      }
-
-      .link-bitbucket {
-        color: #205081;
-      }
-
-      .link-bitbucket:hover,
-      .link-bitbucket:focus {
-        text-decoration: none;
-        color: #163758;
-      }
-
-      .link-hackernews {
-        color: #ff6600;
-      }
-
-      .link-hackernews:hover,
-      .link-hackernews:focus {
-        text-decoration: none;
-        color: #cc5200;
-      }
-
-      .link-exercism {
-        color: #d81d4e;
-      }
-
-      .link-exercism:hover,
-      .link-exercism:focus {
-        text-decoration: none;
-        color: #ab173e;
-      }
-
-      .link-blogger {
-        color: #FF9234;
-      }
-
-      .link-blogger:hover,
-      .link-blogger:focus {
-        text-decoration: none;
-        color: #ff7701;
-      }
-
-      .link-medium {
-        color: #00AB6C;
-      }
-
-      .link-medium:hover,
-      .link-medium:focus {
-        text-decoration: none;
-        color: #00784c;
-      }
-
-      .link-flickr {
-        color: black;
-      }
-
-      .link-flickr:hover,
-      .link-flickr:focus {
-        text-decoration: none;
-        color: #000000;
-      }
-
-      .link-telegram {
-        color: #3BABDD;
-      }
-
-      .link-telegram:hover,
-      .link-telegram:focus {
-        text-decoration: none;
-        color: #2291c3;
-      }
-
-      .card-skills {
-        position: relative;
-      }
-
-      .skill-level {
-        border-radius: 3px;
-        position: absolute;
-        top: 10px;
-        bottom: 10px;
-        left: 0;
-        width: 10px;
-        box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
-      }
-
-      .skill-level .skill-progress {
-        position: absolute;
-        border-radius: 3px;
-        bottom: 0;
-        width: 100%;
-        -webkit-transition: height 1s ease;
-      }
-
-      .skill-level .skill-progress.beginner {
-        height: 50%;
-        background: #e74c3c;
-      }
-
-      .skill-level .skill-progress.intermediate {
-        height: 70%;
-        background: #f1c40f;
-      }
-
-      .skill-level .skill-progress.advanced {
-        height: 80%;
-        background: #428bca;
-      }
-
-      .skill-level .skill-progress.master {
-        height: 95%;
-        background: #5cb85c;
-      }
-
-      .skill-info {
-        margin-left: 15px;
-      }
-
-      @media (max-width: 480px) {
-        .skill-info {
-          margin-left: 20px;
-        }
-      }
-
-      @media (max-width: 768px) {
-        .quote {
-          font-size: inherit;
-        }
-      }
-
-      .icon-meetup .path2:before {
-        margin-left: 0;
-      }
-
-      @media print {
-        a[href]:after {
-          content: none !important;
-        }
-
-        .profile-card {
-          text-align: center;
-        }
-
-        .profile-pic {
-          display: inline-block;
-          vertical-align: middle;
-        }
-
-        .profile-pic img {
-          border-radius: 0;
-        }
-
-        .name-and-profession {
-          display: inline-block;
-          vertical-align: middle;
-          margin-left: 15px;
-        }
-
-        .contact-details .detail {
-          position: relative;
-          float: left;
-          width: 25%;
-          min-height: 1px;
-          padding-left: 15px;
-          padding-right: 15px;
-          padding: 0;
-        }
-
-        .floating-nav,
-        .floating-nav-trigger {
-          display: none;
-        }
-
-        .pagebreak {
-          page-break-before: always;
-        }
-      }
-    </style>
+    }
+}
+
+@media print {
+    #resume {
+        margin: 0;
+        padding: 0;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
+        line-height: 1.3;
+        /*font-family: Arial, Georgia, "Lucida Grande", sans-serif;*/
+    }
+    @page {
+        margin: 1cm 1.4cm;
+    }
+    .item-count {
+        display: none;
+    }
+    .company::before,
+    .institution::before,
+    .organization::before,
+    .awarder::before {
+        content: "at ";
+    }
+    .main-summary {
+        padding: 2rem 0;
+    }
+    .section {
+        margin: .8rem 0;
+        padding: 0;
+    }
+    .section header {
+        padding-bottom: .15rem;
+    }
+    .section .location {
+        padding-bottom: .15rem;
+    }
+    .stack-overflow::after {
+        content: "";
+    }
+    .fa.social {
+        color: #828386;
+    }
+    ul {
+        margin-top: .4em;
+    }
+    ul,
+    li {
+        padding: 0;
+    }
+    ul.keywords li,
+    ul.courses li {
+        margin: 0;
+        padding: 0;
+        font-size: .8rem;
+        text-transform: lowercase;
+    }
+    ul.keywords li::after,
+    ul.courses li::after {
+        padding: 0 0 0 .1rem;
+        content: " |";
+    }
+    ul.keywords::before,
+    ul.courses::before {
+        font-size: .8rem;
+        font-weight: 600;
+    }
+    ul.keywords::before {
+        content: "Skills acquired: ";
+    }
+    #skills .keywords::before {
+        content: '';
+    }
+    .section p {
+        margin: 0;
+        padding: 0;
+    }
+    ul.courses::before {
+        content: "Major courses: ";
+    }
+    ul.keywords li:last-of-type::after,
+    ul.courses li:last-of-type::after {
+        content: "";
+    }
+    .level em {
+        font-style: normal;
+        padding: .1em 0;
+    }
+    .level .bar {
+        display: none;
+    }
+    #profiles .item {
+        padding: 0;
+    }
+    .item.display {
+        display: block;
+        opacity: 1 !important;
+    }
+}
+
+  </style>
+  
   </head>
-
-  <body itemscope="itemscope" itemtype="http://schema.org/Person">
-    <div class="container-fluid">
-      <div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i
-            class="icon-bars"></i><span class="close-icon">&times;</span></a>
-        <nav class="floating-nav js-floating-nav">
-          <ul class="list-unstyled">
-            <li><a href="#about"><i class="mr-10 icon-board"></i>About</a></li>
-            <li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a></li>
-            <li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a></li>
-            <li><a href="#education"><i class="mr-10 icon-graduation-cap"></i>Education</a></li>
-            <li><a href="#awards"><i class="mr-10 icon-trophy"></i>Awards</a></li>
-            <li><a href="#interests"><i class="mr-10 icon-heart"></i>Interests</a></li>
-            <li><a href="#references"><i class="mr-10 icon-thumbs-up"></i>References</a></li>
+  <body>
+  
+  <div id="resume">
+    	<header id="header" class="clear">
+    		<img class="picture" src="http://www.gravatar.com/avatar/7dfee93ad99243a655235d037e1cd59d?s&#x3D;100&amp;r&#x3D;pg&amp;d&#x3D;mm" alt="Dale V. Ross" />
+    		<div class="middle">
+    			<h1 class="name">Dale V. Ross</h1>
+    			<h2 class="label">Software Engineer/Problem Solver</h2>
+    		</div>
+    		
+    		<span class="location">
+    			<span class="postalCode">19050,</span> 
+    			<span class="city">Lansdowne,</span> 
+    			<span class="region">Pennsylvania</span> 
+    			<span class="countryCode">US</span> 
+    		</span>
+    		
+    
+    		<div id="contact">
+    			<div class="website">
+    				<span class="fa fa-external-link"></span>
+    				<a target="_blank" target="_blank" href="https://www.dalevross.com">https://www.dalevross.com</a>
+    			</div>
+    			<div class="email">
+    				<span class="fa fa-envelope-o"></span>
+    				<a href="mailto:dalevross@gmail.com">dalevross@gmail.com</a>
+    			</div>
+    			<div class="phone">
+    				<span class="fa fa-mobile"></span>
+    				<a href="tel:(352) 364-3453">(352) 364-3453</a>
+    			</div>
+    		</div>
+    
+    		<div id="profiles">
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-twitter twitter social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://twitter.com/dalevross">dalevross</a>
+    					</span> 
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-linkedin linkedin social"></span>
+    					<span class="url">
+    						<a target="_blank" href="http://linkedin.com/in/dalevross">dalevross</a>
+    					</span> 
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-github github social"></span>
+    					<span class="url">
+    						<a target="_blank" href="http://github.com/dalevross">dalevross</a>
+    					</span> 
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-instagram instagram social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://instagram.com/dalevivianross">dalevivianross</a>
+    					</span> 
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-leetcode leetcode social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://leetcode.com/dalevross">dalevross</a>
+    					</span> 
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-hackerrank hackerrank social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://www.hackerrank.com/dalevross">dalevross</a>
+    					</span> 
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-degreed degreed social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://degreed.com/dvross/index/1">dvross</a>
+    					</span> 
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-freecodecamp freecodecamp social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://www.freecodecamp.org/dalevross">dalevross</a>
+    					</span> 
+    				</div>
+    			</div>
+    		</div>
+    	</header>
+    
+    	<section class="section main-summary">
+    		<section>
+    			<div><p>Dale currently resides in Lansdowne, PA. He has earned a B. Sc. (Hons) degree from the University of West Indies, majoring in Computer Science and Electronics. While his work focuses on Software Engineering, primarily on the .NET Framework, his non-work interests span a wide range of areas including AI, Data Science and Machine Learning.</p></div>
+    		</section>
+    	</section>
+    
+    <section class="section margin1">
+    	<header>
+    		<h2 class='section-title'>Skills</h2>
+    	</header>
+    	<section id="skills">
+    		<div class="item">
+    			<h3 class="name">
+    				Front End
+    			</h3>
+    			 			<ul class="keywords">
+    				<li>HTML</li>
+    				<li>CSS</li>
+    				<li>Javascript</li>
+    				<li>JSON</li>
+    				<li>jQuery</li>
+    				<li>Kendo UI</li>
+    				<li>Telerik</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Backend
+    			</h3>
+    			 			<ul class="keywords">
+    				<li>PHP</li>
+    				<li>Python</li>
+    				<li>ASP.NET MVC</li>
+    				<li>C#</li>
+    				<li>MSSQL</li>
+    				<li>TSQL</li>
+    				<li>MySQL</li>
+    				<li>C</li>
+    				<li>Quart.NET</li>
+    				<li>LINQ</li>
+    				<li>myBatis.NET</li>
+    				<li>Ninject</li>
+    				<li>Moq</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Web Services
+    			</h3>
+    			 			<ul class="keywords">
+    				<li>WCF</li>
+    				<li>ASMX</li>
+    				<li>Web API</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Source Control/ALM
+    			</h3>
+    			 			<ul class="keywords">
+    				<li>TFS</li>
+    				<li>Git</li>
+    				<li>Jira</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Other
+    			</h3>
+    			 			<ul class="keywords">
+    				<li>Chrome Extensions</li>
+    				<li>Google App Engine</li>
+    				<li>Bamboo</li>
+    				<li>Azure</li>
+    				<li>SQL Server Reporting Services</li>
+    				<li>K2 BlackPearl</li>
+    				<li>Scribe Insight and Online</li>
+    				<li>Jitterbit</li>
+    			</ul>
+    		</div>
+    	</section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Work Experience <span class="item-count">(10)</span></h2>
+      </header>
+    
+      <section id="work">
+        <section class="work-item">
+    
+            <input id="work-item-0" type="checkbox" class="toggle-item" checked="checked" />
+            <label for="work-item-0"></label>
+    
+    			<header>
+    				<div class="position">CTO and Principal Innovator</div>
+    				<div class="company">Ross Squared</div>
+    				<div class="date">
+    				  <span class="startDate">January 2020</span> 
+    					<span class="endDate">- Current</span>
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="https://www.rosssquared.org">https://www.rosssquared.org</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Simultaneously Lead Software Engineer and Chief Technical Officer</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Initiated conversations with Church to start bring the vision of teaching coding to underserved groups to life</p></li>
+                <li><p>Tagged as Lead Developer on Pressurized Tank Level Monitoring System (PTLMS) project for client Integral Energy</p></li>
+                <li><p>Overseeing Azure DevOps project for release pipeline and sprint management for PTLMS project</p></li>
+                <li><p>Developing a web application using ASP.NET Core to be hosted on Ubuntu in the cloud.</p></li>
+                <li><p>In discussions with California based developer concerning a potential partnership for bringing multiple ideas to life</p></li>
+                <li><p>Mentored at We Connect The Dots (WCTD) Code-A-Thon event in Lansdowne, PA</p></li>
+                <li><p>Working with a team of four, myself included, along with a mentee from Code-A-Thon (WCTD), an Engineer and Teacher learning to code</p></li>
+                <li><p>Establishing a mastermind with the aforementioned team of 4, to encourage personal growth and the ultimate success of each member</p></li>
+                <li><p>Consolidating Ross family brand under one umbrella (Christian Ministry, Music, Event Planning, etc).</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-1" type="checkbox" class="toggle-item" />
+            <label for="work-item-1"></label>
+    
+    			<header>
+    				<div class="position">Independent Software Contractor</div>
+    				<div class="company">Self Employed</div>
+    				<div class="date">
+    				  <span class="startDate">December 2019</span> 
+    					<span class="endDate">- Current</span>
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="https://www.dalevross.com">https://www.dalevross.com</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Joined an undisclosed company as an independent contractor for a payroll management product</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Responsible for potential migration of Kotlin based Android Application to Xamarin</p></li>
+                <li><p>Responsible for supporting/extending Kotlin application while  Xamarin app is being developed</p></li>
+                <li><p>Looking into client-server solution using Signal-R to solve an issue where clients aren't comfortable exposing a public IP in their environment</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-2" type="checkbox" class="toggle-item" />
+            <label for="work-item-2"></label>
+    
+    			<header>
+    				<div class="position">Application Developer</div>
+    				<div class="company">Zero Chaos</div>
+    				<div class="date">
+    				  <span class="startDate">January 2016</span> 
+    					<span class="endDate">- December 2016</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="https://www.zerochaos.com">https://www.zerochaos.com</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Started as a member of the Implementations Development team responsible for developing custom integrations for new clients being imported and eventually migrated to primary Integrations developer (internal)</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Quickly became a dependable go-to guy after team reorganizations shortly after start</p></li>
+                <li><p>Participated in requirements gathering, discovery and development planning for new client onboarding</p></li>
+                <li><p>Developed and/or supported tools used for inbound/outbound feed management</p></li>
+                <li><p>Investigated and resolved issues identified in existing feeds</p></li>
+                <li><p>Helped new team members to understand processes I had 'mastered', while at the same time increasing my mastery</p></li>
+                <li><p>Kept team spirits high with a positive attitude towards problem solving</p></li>
+                <li><p>Helped to standardize authentication methods used by replacing legacy library with Auth0</p></li>
+                <li><p>Got tagged for improving integrations between internal systems through reducing redundancies and identifying other general opportunities for improvement</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-3" type="checkbox" class="toggle-item" />
+            <label for="work-item-3"></label>
+    
+    			<header>
+    				<div class="position">CEO/President</div>
+    				<div class="company">DaJen Group/Ross Squared</div>
+    				<div class="date">
+    				  <span class="startDate">October 2012</span> 
+    					<span class="endDate">- July 2017</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="https://blog.dalevross.com">https://blog.dalevross.com</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Dajen Group is a software solutions provider which aims to solve problems that affect a wide cross section of society</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Built a chrome extension to add features to online word games</p></li>
+                <li><p>Built a score management system for an online scrabble league</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-4" type="checkbox" class="toggle-item" />
+            <label for="work-item-4"></label>
+    
+    			<header>
+    				<div class="position">Co Founder</div>
+    				<div class="company">Rastival</div>
+    				<div class="date">
+    				  <span class="startDate">July 2013</span> 
+    					<span class="endDate">- June 2017</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="https://www.youtube.com/watch?v&#x3D;BZIHsA0emtE">https://www.youtube.com/watch?v&#x3D;BZIHsA0emtE</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Member of start up team working to make the internet audible</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Primary chrome extension developer, JavaScript guy</p></li>
+                <li><p>Circumvented CSP for media sources on medium to allow chrome extension to perform necessary functions</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-5" type="checkbox" class="toggle-item" />
+            <label for="work-item-5"></label>
+    
+    			<header>
+    				<div class="position">Software Developer</div>
+    				<div class="company">Vacation Innovations</div>
+    				<div class="date">
+    				  <span class="startDate">October 2015</span> 
+    					<span class="endDate">- December 2015</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="http://www.vactioninnovations.com">http://www.vactioninnovations.com</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Member of small team of .NET developers working on products in the timeshare industry.</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Analyzed existing applications to identify and resolve defects</p></li>
+                <li><p>Developed ASP.NET MVC application with Quartz.NET to automate data transfer and provide statistics</p></li>
+                <li><p>Performed enhancements to existing applications</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-6" type="checkbox" class="toggle-item" />
+            <label for="work-item-6"></label>
+    
+    			<header>
+    				<div class="position">Software Developer</div>
+    				<div class="company">AgriLogic Crop Insurance Services</div>
+    				<div class="date">
+    				  <span class="startDate">March 2015</span> 
+    					<span class="endDate">- September 2015</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="http://www.agrilogic.com">http://www.agrilogic.com</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Worked primarily on maintenance team to extend or support leagacy system</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Investigated and resolved issues with limited knowledge of complex crop insurance system</p></li>
+                <li><p>Resolved assigned tickets with a wide range of complexities</p></li>
+                <li><p>Quickly conformed to software practices used by team</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-7" type="checkbox" class="toggle-item" />
+            <label for="work-item-7"></label>
+    
+    			<header>
+    				<div class="position">Software Developer</div>
+    				<div class="company">Infinity Info Systems</div>
+    				<div class="date">
+    				  <span class="startDate">June 2014</span> 
+    					<span class="endDate">- February 2015</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="http://www.infinityinfo.com">http://www.infinityinfo.com</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Accomplishments include extending or customizing multiple MSCRM environments, writing tools to support SalesLogix/Infor CRM deployments and developing custom applications. Infinity Info’s clients range from mid-sized to multinational Fortune 500 corporations</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Wrote an application that integrated with multiple ads endpoints including Google AdWords, Google Analytics, Facebook and Bing Ads</p></li>
+                <li><p>Developed components of  a web based meeting management system for a company that pioneered the development of treatment for patients with rare diseases</p></li>
+                <li><p>Obtained a  MS CRM Certification: MS: Microsoft Dynamics Customization and Configuration in CRM 2013 Specialist</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-8" type="checkbox" class="toggle-item" />
+            <label for="work-item-8"></label>
+    
+    			<header>
+    				<div class="position">Consultant</div>
+    				<div class="company">Genesis 10</div>
+    				<div class="date">
+    				  <span class="startDate">December 2013</span> 
+    					<span class="endDate">- May 2014</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="http://www.genesis10.com">http://www.genesis10.com</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Outsourced to Stag Parkway, a leading provider of products and services to RV Dealers</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Participated in the preparation of the initial project plans and discussions for a major client requested system upgrade</p></li>
+                <li><p>Resolved multiple issues client was experiencing in SSIS packages, ASP.NET MVC web applications and other technologies</p></li>
+                <li><p>Documented critical SSIS ETL packages in preparation for environment upgrade</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-9" type="checkbox" class="toggle-item" />
+            <label for="work-item-9"></label>
+    
+    			<header>
+    				<div class="position">Software Engineer/Team Lead</div>
+    				<div class="company">Management Control Systems</div>
+    				<div class="date">
+    				  <span class="startDate">October 2005</span> 
+    					<span class="endDate">- December 2013</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="http://www.mcsystems.com">http://www.mcsystems.com</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Primary activities included supporting/extending a 24/7 top up (airtime) transaction processing system for leading telecommunication companies.</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Led a team of developers</p></li>
+                <li><p>During my tenure, profitability of the platform increased to such a degree that the system was sold by MC Systems to a third party company which continues to grow</p></li>
+                <li><p>Identified and resolved long standing issues in environment, thus increasing environment throughput and by extension system profitability</p></li>
+                <li><p>Used AT commands to request SIM numbers from SIM cards used in POS terminals to allow logistics team to better track their resources in the field</p></li>
+                <li><p>Developed jobs to automate the transfer of balances between merchant accounts across disparate systems based on sale history to reduce merchant complaints</p></li>
+                <li><p>Developed or modified applications to consolidate multiple top up environments thus increasing operational efficiency and allowing merchants to manage their accounts from a centralized system</p></li>
+                <li><p>Integrated multiple additional products into environment to augment core top up business</p></li>
+                <li><p>Participated as a key player in relocation of environment to new hosting site after sale</p></li>
+                <li><p>Deployed instances of the top up environment across the Caribbean</p></li>
+            </ul>
+        	</div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Education <span class="item-count">(1)</span></h2>
+      </header>
+    
+      <section id="education">
+        <section class="education-item">
+          <header>
+            <div class="header-left">
+              <div class="studyType">
+                Bachelor of Science
+              </div>
+              <div class="area">
+                Computer Science &amp; Electronics
+              </div>
+              <div class="institution">
+                University of the West Indies, Mona
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2002
+              </span>
+              <span class="endDate">
+              - 2005
+              </span>
+            </div>
+          </header>
+    
+    
+          <ul class="courses">
+            <li>CS11A - Introduction to Computer Science I</li>
+            <li>M10A - Basic Introductory Mathematics</li>
+            <li>P14A - Introductory Physics A</li>
+            <li>CS11B - Introduction to Computer Science II</li>
+            <li>M10B - Functions of Real Variables</li>
+            <li>P14B - Introductory Physics B</li>
+            <li>CS20Q - Discrete Mathematics for Computer Scientists</li>
+            <li>CS21Q - Digital Logic and Computer Architectures</li>
+            <li>FD13A - Law, Governance, Economy and Society in the Caribbean</li>
+            <li>P24F - Signals and Systems</li>
+            <li>P24H - Communication Systems</li>
+            <li>CS20A - Information Structures and Algorithms</li>
+            <li>CS28A - Systems Programming</li>
+            <li>FD11A - Caribbean Civilization</li>
+            <li>P24J - Analog Electronics</li>
+            <li>P24K - Digital Electronics</li>
+            <li>CS31A - Operating Systems</li>
+            <li>CS33Q - Introduction to Artificial Intelligence</li>
+            <li>P34F - Digital Signal Processing</li>
+            <li>P34K - Microprocessors</li>
+            <li>CS32Q - Computer Communications and Networks</li>
+            <li>CS37Q - Logic, Computability and Complexity Theory</li>
+            <li>P34H - Digital Communications</li>
+            <li>P34J - Microcontroller Applications</li>
           </ul>
-        </nav>
-        <section class="col-md-3 card-wrapper profile-card-wrapper affix">
-          <div class="card profile-card"><span class="profile-pic-container">
-              <div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100"
-                  alt="Dale V. Ross"
-                  src="http://www.gravatar.com/avatar/7dfee93ad99243a655235d037e1cd59d?s=100&amp;r=pg&amp;d=mm"
-                  itemprop="image" /></div>
-              <div class="name-and-profession text-center">
-                <h3 itemprop="name"><b>Dale V. Ross</b></h3>
-                <h5 class="text-muted" itemprop="jobTitle">Software Engineer/Problem Solver</h5>
-              </div>
-            </span>
-            <hr />
-            <div class="contact-details clearfix">
-              <div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span
-                  class="info">Lansdowne, Pennsylvania, US, 19050</span></div>
-              <div class="detail"><span class="icon"><i class="icon fs-lg icon-phone"></i></span><span class="info"
-                  itemprop="telephone">(352) 364-3453</span></div>
-              <div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a
-                    class="link-disguise" href="mailto:dalevross@gmail.com"
-                    itemprop="email">dalevross@gmail.com</a></span></div>
-              <div class="detail"><span class="icon"><i class="icon fs-lg icon-link"></i></span><span class="info"><a
-                    href="https://www.dalevross.com" target="_blank">https://www.dalevross.com</a></span></div>
-              <div class="detail"><span class="icon" title="Languages I speak"><i
-                    class="icon fs-lg icon-language"></i></span><span class="info">English, Spanish, German</span></div>
-            </div>
-            <hr />
-            <div class="social-links text-center">
-              <div><a class="fs-2x social-link link-twitter icon-twitter" href="https://twitter.com/dalevross"
-                  target="_blank" data-toggle="tooltip" title="Dale V. Ross on Twitter"></a><a
-                  class="fs-2x social-link link-linkedin icon-linkedin" href="http://linkedin.com/in/dalevross"
-                  target="_blank" data-toggle="tooltip" title="Dale V. Ross on LinkedIn"></a><a
-                  class="fs-2x social-link link-github icon-github" href="http://github.com/dalevross" target="_blank"
-                  data-toggle="tooltip" title="Dale V. Ross on Github"></a><a
-                  class="fs-2x social-link link-instagram icon-instagram" href="https://instagram.com/dalevivianross"
-                  target="_blank" data-toggle="tooltip" title="Dale V. Ross on Instagram"></a><a
-                  class="fs-2x social-link link-leetcode icon-leetcode" href="https://leetcode.com/dalevross"
-                  target="_blank" data-toggle="tooltip" title="Dale V. Ross on Leetcode"></a><button
-                  class="btn btn-default btn-sm btn-circle-sm pull-right js-profiles-collapse" data-toggle="collapse"
-                  data-target="#remaining-profiles"><i class="icon-chevron-down fs-lg"></i></button>
-                <div class="collapse text-left" id="remaining-profiles"><a
-                    class="fs-2x social-link link-hackerrank icon-hackerrank"
-                    href="https://www.hackerrank.com/dalevross" target="_blank" data-toggle="tooltip"
-                    title="Dale V. Ross on HackerRank"></a><a class="fs-2x social-link link-degreed icon-degreed"
-                    href="https://degreed.com/dvross/index/1" target="_blank" data-toggle="tooltip"
-                    title="Dale V. Ross on Degreed"></a></div>
-              </div>
+    
+          <div class="item">
+            <div class='gpa'>
+              <strong> Grade:</strong> <span>4.0</span>
             </div>
           </div>
         </section>
-        <section class="col-md-9 card-wrapper pull-right">
-          <div class="card background-card">
-            <h4 class="text-uppercase">Background</h4>
-            <hr />
-            <div class="background-details">
-              <div class="detail" id="about">
-                <div class="icon"><i class="fs-lg icon-board"></i><span class="mobile-title">About</span></div>
-                <div class="info">
-                  <h4 class="title text-uppercase">About</h4>
-                  <div class="card card-nested">
-                    <div class="content mop-wrapper" itemprop="description">
-                      <p>Dale currently resides in Lansdowne, PA. He has earned a B. Sc. (Hons) degree from the
-                        University of West Indies, majoring in Computer Science and Electronics. While his work focuses
-                        on Software Engineering, primarily on the .NET Framework, his non-work interests span a wide
-                        range of areas including AI, Data Science and Machine Learning.</p>
-                    </div>
-                  </div>
-                </div>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Awards</h2>
+      </header>
+      <section id="awards">
+        <section class="award-item">
+    
+          <header>
+            <div class="header-left">
+              <div class="title">
+                Jasmine Chin Memorial Scolarship
               </div>
-              <div class="detail" id="work-experience">
-                <div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span>
-                </div>
-                <div class="info">
-                  <h4 class="title text-uppercase">Work Experience</h4>
-                  <ul class="list-unstyled clear-margin">
-                    <li class="card card-nested clearfix">
-                      <div class="content">
-                        <p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip"
-                            title="Currently Working" data-placement="left"></i><strong>Independent Software
-                            Contractor</strong>,&nbsp;<a href="https://www.dalevross.com" target="_blank">Self
-                            Employed</a></p>
-                        <p class="text-muted"><small><span class="space-right">Dec, 2019 - Present</span></small></p>
-                        <div class="mop-wrapper space-bottom">
-                          <p>Joined an undisclosed company as an independent contractor for a payroll management product
-                          </p>
-                        </div>
-                        <ul>
-                          <li class="mop-wrapper">
-                            <p>Responsible for potential migration of Kotlin based Android Application to Xamarin</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Looking into client-server solution using Signal-R to solve an issue where clients aren't
-                              comfortable exposing a public IP in their environment</p>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li class="card card-nested clearfix">
-                      <div class="content">
-                        <p class="clear-margin relative"><strong>Application Developer</strong>,&nbsp;<a
-                            href="https://www.zerochaos.com" target="_blank">Zero Chaos</a></p>
-                        <p class="text-muted"><small><span class="space-right">Jan, 2016 - Dec, 2016</span><span><i
-                                class="icon-clock mr-5"></i>10 months</span></small></p>
-                        <div class="mop-wrapper space-bottom">
-                          <p>Started as a member of the Implementations Development team responsible for developing
-                            custom integrations for new clients being imported and eventually migrated to primary
-                            Integrations developer (internal)</p>
-                        </div>
-                        <ul>
-                          <li class="mop-wrapper">
-                            <p>Quickly became a dependable go-to guy after team reorganizations shortly after start</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Participated in requirements gathering, discovery and development planning for new client
-                              onboarding</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Developed and/or supported tools used for inbound/outbound feed management</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Investigated and resolved issues identified in existing feeds</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Helped new team members to understand processes I had 'mastered', while at the same time
-                              increasing my mastery</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Kept team spirits high with a positive attitude towards problem solving</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Helped to standardize authentication methods used by replacing legacy library with Auth0
-                            </p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Got tagged for improving integrations between internal systems through reducing
-                              redundancies and identifying other general opportunities for improvement</p>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li class="card card-nested clearfix">
-                      <div class="content">
-                        <p class="clear-margin relative"><strong>CEO/President</strong>,&nbsp;<a
-                            href="https://blog.dalevross.com" target="_blank">DaJen Group/Ross Squared</a></p>
-                        <p class="text-muted"><small><span class="space-right">Oct, 2012 - Jul, 2017</span><span><i
-                                class="icon-clock mr-5"></i>4 years 9 months</span></small></p>
-                        <div class="mop-wrapper space-bottom">
-                          <p>Dajen Group is a software solutions provider which aims to solve problems that affect a
-                            wide cross section of society</p>
-                        </div>
-                        <ul>
-                          <li class="mop-wrapper">
-                            <p>Built a chrome extension to add features to online word games</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Built a score management system for an online scrabble league</p>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li class="card card-nested clearfix">
-                      <div class="content">
-                        <p class="clear-margin relative"><strong>Co Founder</strong>,&nbsp;<a
-                            href="https://www.youtube.com/watch?v=BZIHsA0emtE" target="_blank">Rastival</a></p>
-                        <p class="text-muted"><small><span class="space-right">Jul, 2013 - Jun, 2017</span><span><i
-                                class="icon-clock mr-5"></i>3 years 10 months</span></small></p>
-                        <div class="mop-wrapper space-bottom">
-                          <p>Member of start up team working to make the internet audible</p>
-                        </div>
-                        <ul>
-                          <li class="mop-wrapper">
-                            <p>Primary chrome extension developer, JavaScript guy</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Circumvented CSP for media sources on medium to allow chrome extension to perform
-                              necessary functions</p>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li class="card card-nested clearfix">
-                      <div class="content">
-                        <p class="clear-margin relative"><strong>Software Developer</strong>,&nbsp;<a
-                            href="http://www.vactioninnovations.com" target="_blank">Vacation Innovations</a></p>
-                        <p class="text-muted"><small><span class="space-right">Oct, 2015 - Dec, 2015</span><span><i
-                                class="icon-clock mr-5"></i>2 months</span></small></p>
-                        <div class="mop-wrapper space-bottom">
-                          <p>Member of small team of .NET developers working on products in the timeshare industry.</p>
-                        </div>
-                        <ul>
-                          <li class="mop-wrapper">
-                            <p>Analyzed existing applications to identify and resolve defects</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Developed ASP.NET MVC application with Quartz.NET to automate data transfer and provide
-                              statistics</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Performed enhancements to existing applications</p>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li class="card card-nested clearfix">
-                      <div class="content">
-                        <p class="clear-margin relative"><strong>Software Developer</strong>,&nbsp;<a
-                            href="http://www.agrilogic.com" target="_blank">AgriLogic Crop Insurance Services</a></p>
-                        <p class="text-muted"><small><span class="space-right">Mar, 2015 - Sep, 2015</span><span><i
-                                class="icon-clock mr-5"></i>5 months</span></small></p>
-                        <div class="mop-wrapper space-bottom">
-                          <p>Worked primarily on maintenance team to extend or support leagacy system</p>
-                        </div>
-                        <ul>
-                          <li class="mop-wrapper">
-                            <p>Investigated and resolved issues with limited knowledge of complex crop insurance system
-                            </p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Resolved assigned tickets with a wide range of complexities</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Quickly conformed to software practices used by team</p>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li class="card card-nested clearfix">
-                      <div class="content">
-                        <p class="clear-margin relative"><strong>Software Developer</strong>,&nbsp;<a
-                            href="http://www.infinityinfo.com" target="_blank">Infinity Info Systems</a></p>
-                        <p class="text-muted"><small><span class="space-right">Jun, 2014 - Feb, 2015</span><span><i
-                                class="icon-clock mr-5"></i>8 months</span></small></p>
-                        <div class="mop-wrapper space-bottom">
-                          <p>Accomplishments include extending or customizing multiple MSCRM environments, writing tools
-                            to support SalesLogix/Infor CRM deployments and developing custom applications. Infinity
-                            Info’s clients range from mid-sized to multinational Fortune 500 corporations</p>
-                        </div>
-                        <ul>
-                          <li class="mop-wrapper">
-                            <p>Wrote an application that integrated with multiple ads endpoints including Google
-                              AdWords, Google Analytics, Facebook and Bing Ads</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Developed components of a web based meeting management system for a company that
-                              pioneered the development of treatment for patients with rare diseases</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Obtained a MS CRM Certification: MS: Microsoft Dynamics Customization and Configuration
-                              in CRM 2013 Specialist</p>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li class="card card-nested clearfix">
-                      <div class="content">
-                        <p class="clear-margin relative"><strong>Consultant</strong>,&nbsp;<a
-                            href="http://www.genesis10.com" target="_blank">Genesis 10</a></p>
-                        <p class="text-muted"><small><span class="space-right">Dec, 2013 - May, 2014</span><span><i
-                                class="icon-clock mr-5"></i>4 months</span></small></p>
-                        <div class="mop-wrapper space-bottom">
-                          <p>Outsourced to Stag Parkway, a leading provider of products and services to RV Dealers</p>
-                        </div>
-                        <ul>
-                          <li class="mop-wrapper">
-                            <p>Participated in the preparation of the initial project plans and discussions for a major
-                              client requested system upgrade</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Resolved multiple issues client was experiencing in SSIS packages, ASP.NET MVC web
-                              applications and other technologies</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Documented critical SSIS ETL packages in preparation for environment upgrade</p>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li class="card card-nested clearfix">
-                      <div class="content">
-                        <p class="clear-margin relative"><strong>Software Engineer/Team Lead</strong>,&nbsp;<a
-                            href="http://www.mcsystems.com" target="_blank">Management Control Systems</a></p>
-                        <p class="text-muted"><small><span class="space-right">Oct, 2005 - Dec, 2013</span><span><i
-                                class="icon-clock mr-5"></i>8 years 2 months</span></small></p>
-                        <div class="mop-wrapper space-bottom">
-                          <p>Primary activities included supporting/extending a 24/7 top up (airtime) transaction
-                            processing system for leading telecommunication companies.</p>
-                        </div>
-                        <ul>
-                          <li class="mop-wrapper">
-                            <p>Led a team of developers</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>During my tenure, profitability of the platform increased to such a degree that the
-                              system was sold by MC Systems to a third party company which continues to grow</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Identified and resolved long standing issues in environment, thus increasing environment
-                              throughput and by extension system profitability</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Used AT commands to request SIM numbers from SIM cards used in POS terminals to allow
-                              logistics team to better track their resources in the field</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Developed jobs to automate the transfer of balances between merchant accounts across
-                              disparate systems based on sale history to reduce merchant complaints</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Developed or modified applications to consolidate multiple top up environments thus
-                              increasing operational efficiency and allowing merchants to manage their accounts from a
-                              centralized system</p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Integrated multiple additional products into environment to augment core top up business
-                            </p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Participated as a key player in relocation of environment to new hosting site after sale
-                            </p>
-                          </li>
-                          <li class="mop-wrapper">
-                            <p>Deployed instances of the top up environment across the Caribbean</p>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
+              <div class="awarder">
+                University of the West Indies
               </div>
-              <div class="detail" id="skills">
-                <div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span></div>
-                <div class="info">
-                  <h4 class="title text-uppercase">Skills</h4>
-                  <div class="content">
-                    <ul class="list-unstyled clear-margin">
-                      <li class="card card-nested card-skills">
-                        <div class="skill-info"><strong>Front End</strong>
-                          <div class="space-top labels"><span class="label label-keyword">HTML</span><span
-                              class="label label-keyword">CSS</span><span
-                              class="label label-keyword">Javascript</span><span
-                              class="label label-keyword">JSON</span><span
-                              class="label label-keyword">jQuery</span><span class="label label-keyword">Kendo
-                              UI</span><span class="label label-keyword">Telerik</span></div>
-                        </div>
-                      </li>
-                      <li class="card card-nested card-skills">
-                        <div class="skill-info"><strong>Backend</strong>
-                          <div class="space-top labels"><span class="label label-keyword">PHP</span><span
-                              class="label label-keyword">Python</span><span class="label label-keyword">ASP.NET
-                              MVC</span><span class="label label-keyword">C#</span><span
-                              class="label label-keyword">MSSQL</span><span class="label label-keyword">TSQL</span><span
-                              class="label label-keyword">MySQL</span><span class="label label-keyword">C</span><span
-                              class="label label-keyword">Quart.NET</span><span
-                              class="label label-keyword">LINQ</span><span
-                              class="label label-keyword">myBatis.NET</span><span
-                              class="label label-keyword">Ninject</span><span class="label label-keyword">Moq</span>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="card card-nested card-skills">
-                        <div class="skill-info"><strong>Web Services</strong>
-                          <div class="space-top labels"><span class="label label-keyword">WCF</span><span
-                              class="label label-keyword">ASMX</span><span class="label label-keyword">Web API</span>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="card card-nested card-skills">
-                        <div class="skill-info"><strong>Source Control/ALM</strong>
-                          <div class="space-top labels"><span class="label label-keyword">TFS</span><span
-                              class="label label-keyword">Git</span><span class="label label-keyword">Jira</span></div>
-                        </div>
-                      </li>
-                      <li class="card card-nested card-skills">
-                        <div class="skill-info"><strong>Other</strong>
-                          <div class="space-top labels"><span class="label label-keyword">Chrome Extensions</span><span
-                              class="label label-keyword">Google App Engine</span><span
-                              class="label label-keyword">Bamboo</span><span
-                              class="label label-keyword">Azure</span><span class="label label-keyword">SQL Server
-                              Reporting Services</span><span class="label label-keyword">K2 BlackPearl</span><span
-                              class="label label-keyword">Scribe Insight and Online</span><span
-                              class="label label-keyword">Jitterbit</span></div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+            </div>
+            <div class="date">
+              2004
+            </div>
+          </header>
+          
+          <div class="item">
+          </div>
+        </section>
+        <section class="award-item">
+            <input id="award-item-1" type="checkbox" class="toggle-item" />
+            <label for="award-item-1"></label>
+    
+          <header>
+            <div class="header-left">
+              <div class="title">
+                Merville Campbell Prize
               </div>
-              <div class="detail" id="education">
-                <div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span>
-                </div>
-                <div class="info">
-                  <h4 class="title text-uppercase">Education</h4>
-                  <div class="content">
-                    <ul class="list-unstyled clear-margin">
-                      <li class="card card-nested">
-                        <div class="content">
-                          <p class="clear-margin relative"><strong>Computer Science &amp; Electronics, Bachelor of
-                              Science,&nbsp;</strong>University of the West Indies, Mona</p>
-                          <p class="text-muted"><small>Aug, 2002 - May, 2005</small></p><i>4.0</i>
-                          <div class="space-top labels"><span class="label label-keyword">CS11A - Introduction to
-                              Computer Science I</span><span class="label label-keyword">M10A - Basic Introductory
-                              Mathematics</span><span class="label label-keyword">P14A - Introductory Physics
-                              A</span><span class="label label-keyword">CS11B - Introduction to Computer Science
-                              II</span><span class="label label-keyword">M10B - Functions of Real Variables</span><span
-                              class="label label-keyword">P14B - Introductory Physics B</span><span
-                              class="label label-keyword">CS20Q - Discrete Mathematics for Computer
-                              Scientists</span><span class="label label-keyword">CS21Q - Digital Logic and Computer
-                              Architectures</span><span class="label label-keyword">FD13A - Law, Governance, Economy and
-                              Society in the Caribbean</span><span class="label label-keyword">P24F - Signals and
-                              Systems</span><span class="label label-keyword">P24H - Communication Systems</span><span
-                              class="label label-keyword">CS20A - Information Structures and Algorithms</span><span
-                              class="label label-keyword">CS28A - Systems Programming</span><span
-                              class="label label-keyword">FD11A - Caribbean Civilization</span><span
-                              class="label label-keyword">P24J - Analog Electronics</span><span
-                              class="label label-keyword">P24K - Digital Electronics</span><span
-                              class="label label-keyword">CS31A - Operating Systems</span><span
-                              class="label label-keyword">CS33Q - Introduction to Artificial Intelligence</span><span
-                              class="label label-keyword">P34F - Digital Signal Processing</span><span
-                              class="label label-keyword">P34K - Microprocessors</span><span
-                              class="label label-keyword">CS32Q - Computer Communications and Networks</span><span
-                              class="label label-keyword">CS37Q - Logic, Computability and Complexity Theory</span><span
-                              class="label label-keyword">P34H - Digital Communications</span><span
-                              class="label label-keyword">P34J - Microcontroller Applications</span></div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+              <div class="awarder">
+                University of the West Indies
               </div>
-              <div class="detail" id="awards">
-                <div class="icon"><i class="fs-lg icon-trophy"></i><span class="mobile-title">Awards</span></div>
-                <div class="info">
-                  <h4 class="title text-uppercase">Awards</h4>
-                  <div class="content">
-                    <ul class="list-unstyled clear-margin">
-                      <li class="card card-nested">
-                        <div class="content">
-                          <p class="clear-margin" itemprop="award"><strong>Jasmine Chin Memorial Scolarship
-                            </strong>University of the West Indies</p>
-                          <p class="text-muted"><small>Awarded on: Jun 01, 2003</small></p>
-                          <div class="mop-wrapper"></div>
-                        </div>
-                      </li>
-                      <li class="card card-nested">
-                        <div class="content">
-                          <p class="clear-margin" itemprop="award"><strong>Merville Campbell Prize </strong>University
-                            of the West Indies</p>
-                          <p class="text-muted"><small>Awarded on: Jun 01, 2003</small></p>
-                          <div class="mop-wrapper">
-                            <p>Best Performance in Level 1 Mathematics</p>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="card card-nested">
-                        <div class="content">
-                          <p class="clear-margin" itemprop="award"><strong>Level 1 Physics Departmental Prize
-                            </strong>University of the West Indies</p>
-                          <p class="text-muted"><small>Awarded on: Jun 01, 2003</small></p>
-                          <div class="mop-wrapper">
-                            <p>Best Performance</p>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="card card-nested">
-                        <div class="content">
-                          <p class="clear-margin" itemprop="award"><strong>Karl Robinson Award for Computer Science
-                            </strong>University of the West Indies</p>
-                          <p class="text-muted"><small>Awarded on: Jun 01, 2003</small></p>
-                          <div class="mop-wrapper">
-                            <p>Best Performance</p>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="card card-nested">
-                        <div class="content">
-                          <p class="clear-margin" itemprop="award"><strong>Level 2 Physics Departmental Prize
-                            </strong>University of the West Indies</p>
-                          <p class="text-muted"><small>Awarded on: Jun 01, 2004</small></p>
-                          <div class="mop-wrapper">
-                            <p>Best Performance</p>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="detail" id="interests">
-                <div class="icon"><i class="fs-lg icon-heart"></i><span class="mobile-title">Interests</span></div>
-                <div class="info">
-                  <h4 class="title text-uppercase">Interests</h4>
-                  <div class="content">
-                    <ul class="list-unstyled clear-margin">
-                      <li class="card card-nested">
-                        <p><strong>Scrabble</strong></p>
-                        <div class="space-top labels"><span class="label label-keyword">Tournaments</span><span
-                            class="label label-keyword">Online</span></div>
-                      </li>
-                      <li class="card card-nested">
-                        <p><strong>Math</strong></p>
-                        <div class="space-top labels"><span class="label label-keyword">Calculus</span></div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="detail" id="references">
-                <div class="icon"><i class="fs-lg icon-thumbs-up"></i><span class="mobile-title">References</span></div>
-                <div class="info">
-                  <h4 class="title text-uppercase">References</h4>
-                  <div class="content">
-                    <ul class="list-unstyled clear-margin">
-                      <li class="card card-nested">Delton Phillips<blockquote class="quote">
-                          <div class="mop-wrapper">
-                            <p>Many things could be said about this developer, one word that comes to mind is reliable,
-                              open and knowledgeable. As a technical lead, I relied heavily on Dale's recommendations
-                              and his ability to work through technical challenges. His pragmatic approach to problem
-                              solving coupled with his advanced knowledge of various technologies contributed
-                              significantly to the profitability of the company</p>
-                          </div>
-                        </blockquote>
-                      </li>
-                      <li class="card card-nested">Ryan Simons<blockquote class="quote">
-                          <div class="mop-wrapper">
-                            <p>I worked with Dale for just under 4 years at Management Control Systems and I found him
-                              to be an exceptional colleague. Resourceful, dedicated to timelines and adept at finding
-                              creative solutions to issues faced, even outside of his preferred languages. In time, Dale
-                              became the person with whom I'd trade development ideas and game changing proof of
-                              concepts. His work speaks volumes.</p>
-                          </div>
-                        </blockquote>
-                      </li>
-                      <li class="card card-nested">Nathaniel Nation<blockquote class="quote">
-                          <div class="mop-wrapper">
-                            <p>As it relates to mathematics, software engineering and analysis, just to name a few, Dale
-                              is the one. He is very good problem solver and can very quickly come up with solutions to
-                              open doors, break barriers and make anything a success.</p>
-                          </div>
-                        </blockquote>
-                      </li>
-                      <li class="card card-nested">Wayne Baker<blockquote class="quote">
-                          <div class="mop-wrapper">
-                            <p>Working with Dale is one of my best experiences. Learning from him helped me to develope
-                              into a senior developer I am today. He is very focused and adapts quickly to new
-                              technologies. I am comfortable recommending his work to anyone that's interested.</p>
-                          </div>
-                        </blockquote>
-                      </li>
-                      <li class="card card-nested">Kay Möller<blockquote class="quote">
-                          <div class="mop-wrapper">
-                            <p>I know Dale V Ross through our membership of an online Scrabble/word game group, and he
-                              has proved himself invaluable when it comes to the technical aspects of score-keeping,
-                              etc. When the official Scrabble site changed the format of the game recently, omitting key
-                              features, Dale designed an app to address these shortfalls, improving vastly on the
-                              original. I can thoroughly recommend Dale as someone who anticipates others’ needs before
-                              they are aware of them, and solves problems promptly and with a (virtual) smile.</p>
-                          </div>
-                        </blockquote>
-                      </li>
-                      <li class="card card-nested">Gean Martinez<blockquote class="quote">
-                          <div class="mop-wrapper">
-                            <p>As a developer on my team, Dale worked on various complex projects and I was always very
-                              impressed with his ability to receive high level requirements and produce great results.
-                              Often times, I had no real requirements for him but a vision and he was able to deliver
-                              each time. His development skills span client side and server side components and he is a
-                              great Microsoft technologist. We worked on innovative solutions including a mobile-first
-                              asp.net MVC project utilizing the Telerik Kendo Framework. We also worked on creating a
-                              custom Single Sign On (SSO) solution which we implemented on an already built custom
-                              application. I appreciated his cool and calm demeanor which I found helpful when dealing
-                              with complex solutions.</p>
-                          </div>
-                        </blockquote>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+            </div>
+            <div class="date">
+              2004
+            </div>
+          </header>
+          
+          <div class="item">
+            <div class="summary">
+              <p><p>Best Performance in Level 1 Mathematics</p></p>
             </div>
           </div>
         </section>
-      </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script>$(function () {
-        var toggleFloatingMenu = function () {
-          $('.js-floating-nav').toggleClass('is-visible');
-          $('.js-floating-nav-trigger').toggleClass('is-open');
-        };
+        <section class="award-item">
+            <input id="award-item-2" type="checkbox" class="toggle-item" />
+            <label for="award-item-2"></label>
+    
+          <header>
+            <div class="header-left">
+              <div class="title">
+                Level 1 Physics Departmental Prize
+              </div>
+              <div class="awarder">
+                University of the West Indies
+              </div>
+            </div>
+            <div class="date">
+              2004
+            </div>
+          </header>
+          
+          <div class="item">
+            <div class="summary">
+              <p><p>Best Performance</p></p>
+            </div>
+          </div>
+        </section>
+        <section class="award-item">
+            <input id="award-item-3" type="checkbox" class="toggle-item" />
+            <label for="award-item-3"></label>
+    
+          <header>
+            <div class="header-left">
+              <div class="title">
+                Karl Robinson Award for Computer Science
+              </div>
+              <div class="awarder">
+                University of the West Indies
+              </div>
+            </div>
+            <div class="date">
+              2005
+            </div>
+          </header>
+          
+          <div class="item">
+            <div class="summary">
+              <p><p>Best Performance</p></p>
+            </div>
+          </div>
+        </section>
+        <section class="award-item">
+            <input id="award-item-4" type="checkbox" class="toggle-item" />
+            <label for="award-item-4"></label>
+    
+          <header>
+            <div class="header-left">
+              <div class="title">
+                Level 2 Physics Departmental Prize
+              </div>
+              <div class="awarder">
+                University of the West Indies
+              </div>
+            </div>
+            <div class="date">
+              2005
+            </div>
+          </header>
+          
+          <div class="item">
+            <div class="summary">
+              <p><p>Best Performance</p></p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section margin1">
+      <header>
+        <h2 class='section-title'>Languages</h2>
+      </header>
+      <section id="languages">
+        <div class="display">
+          <h3 class="language">
+            English
+          </h3>
+          <div class="item">
+            <div class="level fluency native speaker">
+              <em>Native speaker</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <h3 class="language">
+            Spanish
+          </h3>
+          <div class="item">
+            <div class="level fluency amateur">
+              <em>Amateur</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <h3 class="language">
+            German
+          </h3>
+          <div class="item">
+            <div class="level fluency learning">
+              <em>Learning</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="section margin1">
+      <header>
+        <h2 class='section-title' class='section-title'>Interests</h2>
+      </header>
+      <section id="interests">
+        <div class="item">
+          <h3 class="name">
+            Scrabble
+          </h3>
+          <ul class="keywords">
+            <li>Tournaments</li>
+            <li>Online</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Math
+          </h3>
+          <ul class="keywords">
+            <li>Calculus</li>
+          </ul>
+        </div>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>References</h2>
+      </header>
+      <section id="references">
+        <div class="item">
+          <blockquote class="reference">
+            &#8220;&#32;Many things could be said about this developer, one word that comes to mind is reliable, open and knowledgeable. As a technical lead, I relied heavily on Dale&#x27;s recommendations and his ability to work through technical challenges. His pragmatic approach to problem solving coupled with his advanced knowledge of various technologies contributed significantly to the profitability of the company&#32;&#8221;
+          </blockquote>
+          <div class="name">
+            Delton Phillips
+          </div>
+        </div>
+        <div class="item">
+          <blockquote class="reference">
+            &#8220;&#32;I worked with Dale for just under 4 years at Management Control Systems and I found him to be an exceptional colleague. Resourceful, dedicated to timelines and adept at finding creative solutions to issues faced, even outside of his preferred languages. In time, Dale became the person with whom I&#x27;d trade development ideas and game changing proof of concepts. His work speaks volumes.&#32;&#8221;
+          </blockquote>
+          <div class="name">
+            Ryan Simons
+          </div>
+        </div>
+        <div class="item">
+          <blockquote class="reference">
+            &#8220;&#32;As it relates to mathematics, software engineering and analysis, just to name a few, Dale is the one. He is very good problem solver and can very quickly come up with solutions to open doors, break barriers and make anything a success.&#32;&#8221;
+          </blockquote>
+          <div class="name">
+            Nathaniel Nation
+          </div>
+        </div>
+        <div class="item">
+          <blockquote class="reference">
+            &#8220;&#32;Working with Dale is one of my best experiences. Learning from him helped me to develope into a senior developer I am today. He is very focused and adapts quickly to new technologies. I am comfortable recommending his work to anyone that&#x27;s interested.&#32;&#8221;
+          </blockquote>
+          <div class="name">
+            Wayne Baker
+          </div>
+        </div>
+        <div class="item">
+          <blockquote class="reference">
+            &#8220;&#32;I know Dale V Ross through our membership of an online Scrabble/word game group, and he has proved himself invaluable when it comes to the technical aspects of score-keeping, etc. When the official Scrabble site changed the format of the game recently, omitting key features, Dale designed an app to address these shortfalls, improving vastly on the original. I can thoroughly recommend Dale as someone who anticipates others’ needs before they are aware of them, and solves problems promptly and with a (virtual) smile.&#32;&#8221;
+          </blockquote>
+          <div class="name">
+            Kay Möller
+          </div>
+        </div>
+        <div class="item">
+          <blockquote class="reference">
+            &#8220;&#32;As a developer on my team, Dale worked on various complex projects and I was always very impressed with his ability to receive high level requirements and produce great results. Often times, I had no real requirements for him but a vision and he was able to deliver each time. His development skills span client side and server side components and he is a great Microsoft technologist. We worked on innovative solutions including a mobile-first asp.net MVC project utilizing the Telerik Kendo Framework. We also worked on creating a custom Single Sign On (SSO) solution which we implemented on an already built custom application. I appreciated his cool and calm demeanor which I found helpful when dealing with complex solutions.&#32;&#8221;
+          </blockquote>
+          <div class="name">
+            Gean Martinez
+          </div>
+        </div>
+      </section>
+    </section>
 
-        $(".background-card").css("min-height", window.screen.availHeight + "px");
-        $("[data-toggle=tooltip]").tooltip();
-        $('.js-floating-nav-trigger').on('click', function (e) {
-          e.preventDefault();
-          toggleFloatingMenu();
-        });
-        $('.js-floating-nav a').on('click', toggleFloatingMenu);
-
-        $("#remaining-profiles").on('show.bs.collapse', function () {
-          $('.js-profiles-collapse > i')
-            .removeClass('icon-chevron-down')
-            .addClass('icon-chevron-up');
-        });
-
-        $("#remaining-profiles").on('hidden.bs.collapse', function () {
-          $('.js-profiles-collapse > i')
-            .removeClass('icon-chevron-up')
-            .addClass('icon-chevron-down');
-        });
-      });
-    </script>
-    <script>WebFontConfig = {
-        google: { families: ['Lato:300,400,700:latin'] }
-      };
-      (function () {
-        var wf = document.createElement('script');
-        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-        wf.type = 'text/javascript';
-        wf.async = 'true';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(wf, s);
-      })();</script>
   </body>
-
 </html>
