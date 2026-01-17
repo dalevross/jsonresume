@@ -5,8 +5,8 @@
         "picture": "http://www.gravatar.com/avatar/7dfee93ad99243a655235d037e1cd59d?s=100&r=pg&d=mm",
         "email": "dalevross@gmail.com",
         "phone": "(352) 364-3453",
-        "website": "https://www.dalevross.com",
-        "summary": "Dale currently resides in Lansdowne, PA. He has earned a B. Sc. (Hons) degree from the University of West Indies, majoring in Computer Science and Electronics. While his work focuses on Software Engineering, primarily on the .NET Framework, his non-work interests span a wide range of areas including AI, Data Science and Machine Learning.",
+        "website": "https://dalevross.rosssquared.org",
+        "summary": "Dale currently resides in Lansdowne, PA. He has earned a B. Sc. (Hons) degree from the University of West Indies, majoring in Computer Science and Electronics and a M. Sc. degree from Grand Canyon University, majoring in Computer Science. While his work focuses on Software Engineering, primarily on the .NET Framework, his non-work interests span a wide range of areas including AI, Data Science and Machine Learning.",
         "location": {
             "postalCode": "19050",
             "city": "Lansdowne",
@@ -64,15 +64,16 @@
             "startDate": "2020-01-11",
             "summary": "Simultaneously Lead Software Engineer and Chief Technical Officer",
             "highlights": [
-                "Initiated conversations with Church to start bring the vision of teaching coding to underserved groups to life",
-		"Tagged as Lead Developer on Pressurized Tank Level Monitoring System (PTLMS) project for client Integral Energy",
+        "Tagged as Lead Developer on Pressurized Tank Level Monitoring System (PTLMS) project for client Integral Energy",
 		"Overseeing Azure DevOps project for release pipeline and sprint management for PTLMS project",
                 "Developing a web application using ASP.NET Core to be hosted on Ubuntu in the cloud.",
 		"In discussions with California based developer concerning a potential partnership for bringing multiple ideas to life", 
 		"Mentored at We Connect The Dots (WCTD) Code-A-Thon event in Lansdowne, PA",
 		"Working with a team of four, myself included, along with a mentee from Code-A-Thon (WCTD), an Engineer and Teacher learning to code",
 		"Establishing a mastermind with the aforementioned team of 4, to encourage personal growth and the ultimate success of each member",
-		"Consolidating Ross family brand under one umbrella (Christian Ministry, Music, Event Planning, etc)."
+		"Consolidating Ross family brand under one umbrella (Christian Ministry, Music, Event Planning, etc).",
+        "Developed Piphilia game, playable at http://tinyurl.com/piphilia",
+        "Initiated development of the Amnathrig asset management/repository platform"
             ]
         },
         {
@@ -80,11 +81,11 @@
             "position": "Independent Software Contractor",
             "website": "https://www.dalevross.com",
             "startDate": "2019-12-02",
+	    "endDate": "2020-04-06",
             "summary": "Joined an undisclosed company as an independent contractor for a payroll management product",
             "highlights": [
                 "Responsible for potential migration of Kotlin based Android Application to Xamarin",
-		"Responsible for supporting/extending Kotlin application while  Xamarin app is being developed",
-                "Looking into client-server solution using Signal-R to solve an issue where clients aren't comfortable exposing a public IP in their environment"
+		"Responsible for supporting/extending Kotlin application while  Xamarin app is being developed"
             ]
         },
         {
@@ -122,7 +123,7 @@
             "position": "Co Founder",
             "website": "https://www.youtube.com/watch?v=BZIHsA0emtE",
             "startDate": "2013-07-03",
-            "endDate": "2017-06-01",
+            "endDate": "2015-01-15",
             "summary": "Member of start up team working to make the internet audible",
             "highlights": [
                 "Primary chrome extension developer, JavaScript guy",
@@ -235,6 +236,26 @@
                 "P34H - Digital Communications",
                 "P34J - Microcontroller Applications"
             ]
+        },
+        {
+            "institution": "Grand Canyon University",
+            "area": "Computer Science",
+            "studyType": "Master of Science",
+            "startDate": "2023-04-20",
+            "endDate": "2024-10-16",
+            "gpa": "4.0",
+            "courses": [
+                "UNV-507 - Introduction to Graduate Studies in CSET",
+                "DSC-510 - Advanced Probability and Statistics",
+                "CST-520 - Design and Analysis of Algorithms",
+                "CST-530 - Advanced Operating Systems",
+                "CST-540 - Programming Languages",
+                "CST-550 - Parallel Programming",
+                "CST-560 - Research Methods in Computational Sciences",
+                "CST-570 - Machine Learning for Computer Science",
+                "CST-580 - Artificial Intelligence",
+                "CST-590 - Computer Science Capstone Project"                
+            ]
         }
     ],
     "awards": [
@@ -292,7 +313,7 @@
                 "TSQL",
                 "MySQL",
                 "C",
-                "Quart.NET",
+                "Quartz.NET",
                 "LINQ",
                 "myBatis.NET",
                 "Ninject",
@@ -409,6 +430,6 @@
         }
     ],
     "meta": {
-        "theme": "stackoverflow"
+        "theme": "elegant"
     }
 }
