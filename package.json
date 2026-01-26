@@ -6,7 +6,7 @@
   "dependencies": {
     "jsonresume-theme-elegant": "^1.16.1",
     "jsonresume-theme-stackoverflow": "^1.4.0",
-    "resume-cli": "^1.2.7"
+    "resume-cli": "^3.0.8"
   },
   "devDependencies": {},
   "scripts": {
