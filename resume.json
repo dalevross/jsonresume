@@ -1,435 +1,452 @@
 {
-    "basics": {
-        "name": "Dale V. Ross",
-        "label": "Software Engineer/Problem Solver",
-        "picture": "http://www.gravatar.com/avatar/7dfee93ad99243a655235d037e1cd59d?s=100&r=pg&d=mm",
-        "email": "dalevross@gmail.com",
-        "phone": "(352) 364-3453",
-        "website": "https://dalevross.rosssquared.org",
-        "summary": "Dale currently resides in Lansdowne, PA. He has earned a B. Sc. (Hons) degree from the University of West Indies, majoring in Computer Science and Electronics and a M. Sc. degree from Grand Canyon University, majoring in Computer Science. While his work focuses on Software Engineering, primarily on the .NET Framework, his non-work interests span a wide range of areas including AI, Data Science and Machine Learning.",
-        "location": {
-            "postalCode": "19050",
-            "city": "Lansdowne",
-            "countryCode": "US",
-            "region": "Pennsylvania"
-        },
-        "profiles": [
-            {
-                "network": "Twitter",
-                "username": "dalevross",
-                "url": "https://twitter.com/dalevross"
-            },
-            {
-                "network": "LinkedIn",
-                "username": "dalevross",
-                "url": "http://linkedin.com/in/dalevross"
-            },
-            {
-                "network": "Github",
-                "username": "dalevross",
-                "url": "http://github.com/dalevross"
-            },
-            {
-                "network": "Instagram",
-                "username": "dalevivianross",
-                "url": "https://instagram.com/dalevivianross"
-            },
-            {
-                "network": "Leetcode",
-                "username": "dalevross",
-                "url": "https://leetcode.com/dalevross"
-            },
-            {
-                "network": "HackerRank",
-                "username": "dalevross",
-                "url": "https://www.hackerrank.com/dalevross"
-            },
-            {
-                "network": "Degreed",
-                "username": "dvross",
-                "url": "https://degreed.com/dvross/index/1"
-            },
-            {
-                "network": "freeCodeCamp",
-                "username": "dalevross",
-                "url": "https://www.freecodecamp.org/dalevross"
-            }
-        ]
+  "basics": {
+    "name": "Dale V. Ross",
+    "label": "Software Engineer/Problem Solver",
+    "picture": "http://www.gravatar.com/avatar/7dfee93ad99243a655235d037e1cd59d?s=100&r=pg&d=mm",
+    "email": "dalevross@gmail.com",
+    "phone": "(352) 364-3453",
+    "website": "https://dalevross.rosssquared.org",
+    "summary": "Dale currently resides in Philadelphia, PA. He has earned a B. Sc. (Hons) degree from the University of West Indies, majoring in Computer Science and Electronics and a M. Sc. degree from Grand Canyon University, majoring in Computer Science. While his work focuses on Software Engineering, primarily on the .NET Framework, his non-work interests span a wide range of areas including AI, Data Science and Machine Learning.",
+    "location": {
+      "postalCode": "19121",
+      "city": "Philadelphia",
+      "countryCode": "US",
+      "region": "Pennsylvania"
     },
-    "work": [
-	    {
-            "company": "Ross Squared",
-            "position": "CTO and Principal Innovator",
-            "website": "https://www.rosssquared.org",
-            "startDate": "2020-01-11",
-            "summary": "Simultaneously Lead Software Engineer and Chief Technical Officer",
-            "highlights": [
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "dalevross",
+        "url": "https://twitter.com/dalevross"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "dalevross",
+        "url": "http://linkedin.com/in/dalevross"
+      },
+      {
+        "network": "Github",
+        "username": "dalevross",
+        "url": "http://github.com/dalevross"
+      },
+      {
+        "network": "Instagram",
+        "username": "dalevross",
+        "url": "https://instagram.com/dalevross"
+      },
+      {
+        "network": "Leetcode",
+        "username": "dalevross",
+        "url": "https://leetcode.com/dalevross"
+      },
+      {
+        "network": "HackerRank",
+        "username": "dalevross",
+        "url": "https://www.hackerrank.com/dalevross"
+      },
+      {
+        "network": "Degreed",
+        "username": "dvross",
+        "url": "https://degreed.com/dvross/index/1"
+      },
+      {
+        "network": "freeCodeCamp",
+        "username": "dalevross",
+        "url": "https://www.freecodecamp.org/dalevross"
+      }
+    ],
+    "url": "https://dalevross.rosssquared.org"
+  },
+  "work": [
+    {
+      "name": "Ross Squared",
+      "position": "CTO and Principal Innovator",
+      "website": "https://www.rosssquared.org",
+      "startDate": "2020-01-11",
+      "summary": "Simultaneously Lead Software Engineer and Chief Technical Officer",
+      "highlights": [
         "Tagged as Lead Developer on Pressurized Tank Level Monitoring System (PTLMS) project for client Integral Energy",
-		"Overseeing Azure DevOps project for release pipeline and sprint management for PTLMS project",
-                "Developing a web application using ASP.NET Core to be hosted on Ubuntu in the cloud.",
-		"In discussions with California based developer concerning a potential partnership for bringing multiple ideas to life", 
-		"Mentored at We Connect The Dots (WCTD) Code-A-Thon event in Lansdowne, PA",
-		"Working with a team of four, myself included, along with a mentee from Code-A-Thon (WCTD), an Engineer and Teacher learning to code",
-		"Establishing a mastermind with the aforementioned team of 4, to encourage personal growth and the ultimate success of each member",
-		"Consolidating Ross family brand under one umbrella (Christian Ministry, Music, Event Planning, etc).",
+        "Oversaw Azure DevOps project for release pipeline and sprint management for PTLMS project",
+        "Developing a web application using ASP.NET Core to be hosted on Ubuntu in the cloud.",
+        "Mentored at We Connect The Dots (WCTD) Code-A-Thon event in Lansdowne, PA",
+        "Consolidating Ross family brand under one umbrella (Christian Ministry, Music, Event Planning, etc).",
         "Developed Piphilia game, playable at http://tinyurl.com/piphilia",
-        "Initiated development of the Amnathrig asset management/repository platform"
-            ]
-        },
-        {
-            "company": "Self Employed",
-            "position": "Independent Software Contractor",
-            "website": "https://www.dalevross.com",
-            "startDate": "2019-12-02",
-	    "endDate": "2020-04-06",
-            "summary": "Joined an undisclosed company as an independent contractor for a payroll management product",
-            "highlights": [
-                "Responsible for potential migration of Kotlin based Android Application to Xamarin",
-		"Responsible for supporting/extending Kotlin application while  Xamarin app is being developed"
-            ]
-        },
-        {
-            "company": "Zero Chaos",
-            "position": "Application Developer",
-            "website": "https://www.zerochaos.com",
-            "startDate": "2016-01-29",
-            "endDate": "2016-12-23",
-            "summary": "Started as a member of the Implementations Development team responsible for developing custom integrations for new clients being imported and eventually migrated to primary Integrations developer (internal)",
-            "highlights": [
-                "Quickly became a dependable go-to guy after team reorganizations shortly after start",
-                "Participated in requirements gathering, discovery and development planning for new client onboarding",
-                "Developed and/or supported tools used for inbound/outbound feed management",
-                "Investigated and resolved issues identified in existing feeds",
-                "Helped new team members to understand processes I had 'mastered', while at the same time increasing my mastery",
-                "Kept team spirits high with a positive attitude towards problem solving",
-                "Helped to standardize authentication methods used by replacing legacy library with Auth0",
-                "Got tagged for improving integrations between internal systems through reducing redundancies and identifying other general opportunities for improvement"
-            ]
-        },
-        {
-            "company": "DaJen Group/Ross Squared",
-            "position": "CEO/President",
-            "website": "https://blog.dalevross.com",
-            "startDate": "2012-10-01",
-            "endDate": "2017-07-08",
-            "summary": "Dajen Group is a software solutions provider which aims to solve problems that affect a wide cross section of society",
-            "highlights": [
-                "Built a chrome extension to add features to online word games",
-                "Built a score management system for an online scrabble league"
-            ]
-        },
-        {
-            "company": "Rastival",
-            "position": "Co Founder",
-            "website": "https://www.youtube.com/watch?v=BZIHsA0emtE",
-            "startDate": "2013-07-03",
-            "endDate": "2015-01-15",
-            "summary": "Member of start up team working to make the internet audible",
-            "highlights": [
-                "Primary chrome extension developer, JavaScript guy",
-                "Circumvented CSP for media sources on medium to allow chrome extension to perform necessary functions"
-            ]
-        },
-        {
-            "company": "Vacation Innovations",
-            "position": "Software Developer",
-            "website": "http://www.vactioninnovations.com",
-            "startDate": "2015-10-07",
-            "endDate": "2015-12-17",
-            "summary": "Member of small team of .NET developers working on products in the timeshare industry.",
-            "highlights": [
-                "Analyzed existing applications to identify and resolve defects",
-                "Developed ASP.NET MVC application with Quartz.NET to automate data transfer and provide statistics",
-                "Performed enhancements to existing applications"
-            ]
-        },
-        {
-            "company": "AgriLogic Crop Insurance Services",
-            "position": "Software Developer",
-            "website": "http://www.agrilogic.com",
-            "startDate": "2015-03-16",
-            "endDate": "2015-09-04",
-            "summary": "Worked primarily on maintenance team to extend or support leagacy system",
-            "highlights": [
-                "Investigated and resolved issues with limited knowledge of complex crop insurance system",
-                "Resolved assigned tickets with a wide range of complexities",
-                "Quickly conformed to software practices used by team"
-            ]
-        },
-        {
-            "company": "Infinity Info Systems",
-            "position": "Software Developer",
-            "website": "http://www.infinityinfo.com",
-            "startDate": "2014-06-10",
-            "endDate": "2015-02-18",
-            "summary": "Accomplishments include extending or customizing multiple MSCRM environments, writing tools to support SalesLogix/Infor CRM deployments and developing custom applications. Infinity Info’s clients range from mid-sized to multinational Fortune 500 corporations",
-            "highlights": [
-                "Wrote an application that integrated with multiple ads endpoints including Google AdWords, Google Analytics, Facebook and Bing Ads",
-                "Developed components of  a web based meeting management system for a company that pioneered the development of treatment for patients with rare diseases",
-                "Obtained a  MS CRM Certification: MS: Microsoft Dynamics Customization and Configuration in CRM 2013 Specialist"
-            ]
-        },
-        {
-            "company": "Genesis 10",
-            "position": "Consultant",
-            "website": "http://www.genesis10.com",
-            "startDate": "2013-12-19",
-            "endDate": "2014-05-16",
-            "summary": "Outsourced to Stag Parkway, a leading provider of products and services to RV Dealers",
-            "highlights": [
-                "Participated in the preparation of the initial project plans and discussions for a major client requested system upgrade",
-                "Resolved multiple issues client was experiencing in SSIS packages, ASP.NET MVC web applications and other technologies",
-                "Documented critical SSIS ETL packages in preparation for environment upgrade"
-            ]
-        },
-        {
-            "company": "Management Control Systems",
-            "position": "Software Engineer/Team Lead",
-            "website": "http://www.mcsystems.com",
-            "startDate": "2005-10-03",
-            "endDate": "2013-12-18",
-            "summary": "Primary activities included supporting/extending a 24/7 top up (airtime) transaction processing system for leading telecommunication companies.",
-            "highlights": [
-                "Led a team of developers",
-                "During my tenure, profitability of the platform increased to such a degree that the system was sold by MC Systems to a third party company which continues to grow",
-                "Identified and resolved long standing issues in environment, thus increasing environment throughput and by extension system profitability",
-                "Used AT commands to request SIM numbers from SIM cards used in POS terminals to allow logistics team to better track their resources in the field",
-                "Developed jobs to automate the transfer of balances between merchant accounts across disparate systems based on sale history to reduce merchant complaints",
-                "Developed or modified applications to consolidate multiple top up environments thus increasing operational efficiency and allowing merchants to manage their accounts from a centralized system",
-                "Integrated multiple additional products into environment to augment core top up business",
-                "Participated as a key player in relocation of environment to new hosting site after sale",
-                "Deployed instances of the top up environment across the Caribbean"
-            ]
-        }
-    ],
-    "education": [
-        {
-            "institution": "University of the West Indies, Mona",
-            "area": "Computer Science & Electronics",
-            "studyType": "Bachelor of Science",
-            "startDate": "2002-08-16",
-            "endDate": "2005-05-01",
-            "gpa": "4.0",
-            "courses": [
-                "CS11A - Introduction to Computer Science I",
-                "M10A - Basic Introductory Mathematics",
-                "P14A - Introductory Physics A",
-                "CS11B - Introduction to Computer Science II",
-                "M10B - Functions of Real Variables",
-                "P14B - Introductory Physics B",
-                "CS20Q - Discrete Mathematics for Computer Scientists",
-                "CS21Q - Digital Logic and Computer Architectures",
-                "FD13A - Law, Governance, Economy and Society in the Caribbean",
-                "P24F - Signals and Systems",
-                "P24H - Communication Systems",
-                "CS20A - Information Structures and Algorithms",
-                "CS28A - Systems Programming",
-                "FD11A - Caribbean Civilization",
-                "P24J - Analog Electronics",
-                "P24K - Digital Electronics",
-                "CS31A - Operating Systems",
-                "CS33Q - Introduction to Artificial Intelligence",
-                "P34F - Digital Signal Processing",
-                "P34K - Microprocessors",
-                "CS32Q - Computer Communications and Networks",
-                "CS37Q - Logic, Computability and Complexity Theory",
-                "P34H - Digital Communications",
-                "P34J - Microcontroller Applications"
-            ]
-        },
-        {
-            "institution": "Grand Canyon University",
-            "area": "Computer Science",
-            "studyType": "Master of Science",
-            "startDate": "2023-04-20",
-            "endDate": "2024-10-16",
-            "gpa": "4.0",
-            "courses": [
-                "UNV-507 - Introduction to Graduate Studies in CSET",
-                "DSC-510 - Advanced Probability and Statistics",
-                "CST-520 - Design and Analysis of Algorithms",
-                "CST-530 - Advanced Operating Systems",
-                "CST-540 - Programming Languages",
-                "CST-550 - Parallel Programming",
-                "CST-560 - Research Methods in Computational Sciences",
-                "CST-570 - Machine Learning for Computer Science",
-                "CST-580 - Artificial Intelligence",
-                "CST-590 - Computer Science Capstone Project"                
-            ]
-        }
-    ],
-    "awards": [
-        {
-            "title": "Jasmine Chin Memorial Scolarship",
-            "awarder": "University of the West Indies",
-            "date": "2004-04-17"
-        },
-        {
-            "title": "Merville Campbell Prize",
-            "awarder": "University of the West Indies",
-            "date": "2004-03-23",
-            "summary": "Best Performance in Level 1 Mathematics"
-        },
-        {
-            "title": "Level 1 Physics Departmental Prize",
-            "awarder": "University of the West Indies",
-            "date": "2004-03-23",
-            "summary": "Best Performance"
-        },
-        {
-            "title": "Karl Robinson Award for Computer Science",
-            "awarder": "University of the West Indies",
-            "date": "2005-03-03",
-            "summary": "Best Performance"
-        },
-        {
-            "title": "Level 2 Physics Departmental Prize",
-            "awarder": "University of the West Indies",
-            "date": "2005-03-03",
-            "summary": "Best Performance"
-        }
-    ],
-    "skills": [
-        {
-            "name": "Front End",
-            "keywords": [
-                "HTML",
-                "CSS",
-                "Javascript",
-                "JSON",
-                "jQuery",
-                "Kendo UI",
-                "Telerik"
-            ]
-        },
-        {
-            "name": "Backend",
-            "keywords": [
-                "PHP",
-                "Python",
-                "ASP.NET MVC",
-                "C#",
-                "MSSQL",
-                "TSQL",
-                "MySQL",
-                "C",
-                "Quartz.NET",
-                "LINQ",
-                "myBatis.NET",
-                "Ninject",
-                "Moq"
-            ]
-        },
-        {
-            "name": "Web Services",
-            "keywords": [
-                "WCF",
-                "ASMX",
-                "Web API"
-            ]
-        },
-        {
-            "name": "Source Control/ALM",
-            "keywords": [
-                "TFS",
-                "Git",
-                "Jira"
-            ]
-        },
-        {
-            "name": "Other",
-            "keywords": [
-                "Chrome Extensions",
-                "Google App Engine",
-                "Bamboo",
-                "Azure",
-                "SQL Server Reporting Services",
-                "K2 BlackPearl",
-                "Scribe Insight and Online",
-                "Jitterbit"
-            ]
-        }
-    ],
-    "languages": [
-        {
-            "language": "English",
-            "fluency": "Native speaker"
-        },
-        {
-            "language": "Spanish",
-            "fluency": "Amateur"
-        },
-        {
-            "language": "German",
-            "fluency": "Learning"
-        }
-    ],
-    "interests": [
-        {
-            "name": "Scrabble",
-            "keywords": [
-                "Tournaments",
-                "Online"
-            ]
-        },
-        {
-            "name": "Math",
-            "keywords": [
-                "Calculus"
-            ]
-        }
-    ],
-    "references": [
-        {
-            "name": "Delton Phillips",
-            "reference": "Many things could be said about this developer, one word that comes to mind is reliable, open and knowledgeable. As a technical lead, I relied heavily on Dale's recommendations and his ability to work through technical challenges. His pragmatic approach to problem solving coupled with his advanced knowledge of various technologies contributed significantly to the profitability of the company"
-        },
-        {
-            "name": "Ryan Simons",
-            "reference": "I worked with Dale for just under 4 years at Management Control Systems and I found him to be an exceptional colleague. Resourceful, dedicated to timelines and adept at finding creative solutions to issues faced, even outside of his preferred languages. In time, Dale became the person with whom I'd trade development ideas and game changing proof of concepts. His work speaks volumes."
-        },
-        {
-            "name": "Nathaniel Nation",
-            "reference": "As it relates to mathematics, software engineering and analysis, just to name a few, Dale is the one. He is very good problem solver and can very quickly come up with solutions to open doors, break barriers and make anything a success."
-        },
-        {
-            "name": "Wayne Baker",
-            "reference": "Working with Dale is one of my best experiences. Learning from him helped me to develope into a senior developer I am today. He is very focused and adapts quickly to new technologies. I am comfortable recommending his work to anyone that's interested."
-        },
-        {
-            "name": "Kay Möller",
-            "reference": "I know Dale V Ross through our membership of an online Scrabble/word game group, and he has proved himself invaluable when it comes to the technical aspects of score-keeping, etc. When the official Scrabble site changed the format of the game recently, omitting key features, Dale designed an app to address these shortfalls, improving vastly on the original. I can thoroughly recommend Dale as someone who anticipates others’ needs before they are aware of them, and solves problems promptly and with a (virtual) smile."
-        },
-        {
-            "name": "Gean Martinez",
-            "reference": "As a developer on my team, Dale worked on various complex projects and I was always very impressed with his ability to receive high level requirements and produce great results. Often times, I had no real requirements for him but a vision and he was able to deliver each time. His development skills span client side and server side components and he is a great Microsoft technologist. We worked on innovative solutions including a mobile-first asp.net MVC project utilizing the Telerik Kendo Framework. We also worked on creating a custom Single Sign On (SSO) solution which we implemented on an already built custom application. I appreciated his cool and calm demeanor which I found helpful when dealing with complex solutions."
-        },
-        {
-            "name": "Elisabeth Jardine",
-            "reference": "As a long-standing member of the Scrabble world, I got to know Dale through his involvement in the on-line Scrabble community. He has been a tremendous help setting up many tools to improve the functionality and enjoyment of the game. He is always on hand to help with problems and his knowledge is immense and invaluable."
-        },
-        {
-            "name": "Adebiyi Mabadeje",
-            "reference": "Just like Elisabeth, I'm also a long standing member of the online Scrabble community and the tools developed by Dale have been immensely helpful in making our game play seamless & he has also always expressed his willingness to lend a hand if & when the need arises."
-        },
-        {
-            "name": "Anne Sparrow",
-            "reference": "Dale has provided technical advice and assistance to myself and colleagues with politeness and no expectation of anything in return. His volunteer time contributions, efforts, and patience, to assist those who know less than him is a credit to himself. I wish him well in his endeavors."
-        },        
-        {
-            "name": "Elliott Manley",
-            "reference": "A couple of years ago I had an enjoyable and rewarding time collaborating remotely with Dale on a Chrome extension. What we (mostly Dale) created continues to be used by an ever-growing community. He is always willing to learn and always willing to teach. He also always puts \"the right thing to do\" above all else. I sincerely hope we'll have the opportunity to collaborate again. I wish him well in all he does."
-        },
-        {
-            "name": "Daniel Stembridge",
-            "reference": "Dale has been a friend to me for many years over the information highway, and I very much hope to meet him in person one day to shake his hand and thank him for all the time, effort, assistance and dedication he has always offered to me freely in this time. He is one of those people who see Solutions rather than Problems, and is always my 'go-to guy' for all things tech. I wish him a bright and rewarding future, and I do not doubt he would prove to be a valuable member of any team."
-        },
-        {
-            "name": "Jamie Barrett",
-            "reference": "I've had the pleasure of knowing Amnathrig (Dale) for over a month and he's always been a pleasant person to work with. He is a considerate, compassionate and intelligent individual who strives daily to make a positive impact in this world. He always keeps his word and holds a high standard for conducting any business with integrity and honesty. He has a strong drive and puts 100% into all of his work. I believe he is a valuable asset to anyone's team."
-        }
-    ],
-    "meta": {
-        "theme": "elegant"
+        "Developing the Amnathrig asset management/repository platform which utilizes .NET 8, Duende Identity Server 7 and React. Also hosted on Ubuntu in the cloud."
+      ]
+    },
+    {
+      "name": "Self Employed",
+      "position": "Independent Software Contractor",
+      "website": "https://www.dalevross.com",
+      "startDate": "2019-12-02",
+      "endDate": "2020-04-06",
+      "summary": "Joined an undisclosed company as an independent contractor for a payroll management product",
+      "highlights": [
+        "Responsible for potential migration of Kotlin based Android Application to Xamarin",
+        "Responsible for supporting/extending Kotlin application while  Xamarin app is being developed"
+      ]
+    },
+    {
+      "name": "Zero Chaos",
+      "position": "Application Developer",
+      "website": "https://www.zerochaos.com",
+      "startDate": "2016-01-29",
+      "endDate": "2016-12-23",
+      "summary": "Started as a member of the Implementations Development team responsible for developing custom integrations for new clients being imported and eventually migrated to primary Integrations developer (internal)",
+      "highlights": [
+        "Quickly became a dependable go-to guy after team reorganizations shortly after start",
+        "Participated in requirements gathering, discovery and development planning for new client onboarding",
+        "Developed and/or supported tools used for inbound/outbound feed management",
+        "Investigated and resolved issues identified in existing feeds",
+        "Helped new team members to understand processes I had 'mastered', while at the same time increasing my mastery",
+        "Kept team spirits high with a positive attitude towards problem solving",
+        "Helped to standardize authentication methods used by replacing legacy library with Auth0",
+        "Got tagged for improving integrations between internal systems through reducing redundancies and identifying other general opportunities for improvement"
+      ]
+    },
+    {
+      "name": "DaJen Group/Ross Squared",
+      "position": "CEO/President",
+      "website": "https://blog.dalevross.com",
+      "startDate": "2012-10-01",
+      "endDate": "2017-07-08",
+      "summary": "Dajen Group is a software solutions provider which aims to solve problems that affect a wide cross section of society",
+      "highlights": [
+        "Built a chrome extension to add features to online word games",
+        "Built a score management system for an online scrabble league"
+      ]
+    },
+    {
+      "name": "Rastival",
+      "position": "Co Founder",
+      "website": "https://www.youtube.com/watch?v=BZIHsA0emtE",
+      "startDate": "2013-07-03",
+      "endDate": "2015-01-15",
+      "summary": "Member of start up team working to make the internet audible",
+      "highlights": [
+        "Primary chrome extension developer, JavaScript guy",
+        "Circumvented CSP for media sources on medium to allow chrome extension to perform necessary functions"
+      ]
+    },
+    {
+      "name": "Vacation Innovations",
+      "position": "Software Developer",
+      "website": "http://www.vactioninnovations.com",
+      "startDate": "2015-10-07",
+      "endDate": "2015-12-17",
+      "summary": "Member of small team of .NET developers working on products in the timeshare industry.",
+      "highlights": [
+        "Analyzed existing applications to identify and resolve defects",
+        "Developed ASP.NET MVC application with Quartz.NET to automate data transfer and provide statistics",
+        "Performed enhancements to existing applications"
+      ]
+    },
+    {
+      "name": "AgriLogic Crop Insurance Services",
+      "position": "Software Developer",
+      "website": "http://www.agrilogic.com",
+      "startDate": "2015-03-16",
+      "endDate": "2015-09-04",
+      "summary": "Worked primarily on maintenance team to extend or support leagacy system",
+      "highlights": [
+        "Investigated and resolved issues with limited knowledge of complex crop insurance system",
+        "Resolved assigned tickets with a wide range of complexities",
+        "Quickly conformed to software practices used by team"
+      ]
+    },
+    {
+      "name": "Infinity Info Systems",
+      "position": "Software Developer",
+      "website": "http://www.infinityinfo.com",
+      "startDate": "2014-06-10",
+      "endDate": "2015-02-18",
+      "summary": "Accomplishments include extending or customizing multiple MSCRM environments, writing tools to support SalesLogix/Infor CRM deployments and developing custom applications. Infinity Info’s clients range from mid-sized to multinational Fortune 500 corporations",
+      "highlights": [
+        "Wrote an application that integrated with multiple ads endpoints including Google AdWords, Google Analytics, Facebook and Bing Ads",
+        "Developed components of  a web based meeting management system for a company that pioneered the development of treatment for patients with rare diseases",
+        "Obtained a  MS CRM Certification: MS: Microsoft Dynamics Customization and Configuration in CRM 2013 Specialist"
+      ]
+    },
+    {
+      "name": "Genesis 10",
+      "position": "Consultant",
+      "website": "http://www.genesis10.com",
+      "startDate": "2013-12-19",
+      "endDate": "2014-05-16",
+      "summary": "Outsourced to Stag Parkway, a leading provider of products and services to RV Dealers",
+      "highlights": [
+        "Participated in the preparation of the initial project plans and discussions for a major client requested system upgrade",
+        "Resolved multiple issues client was experiencing in SSIS packages, ASP.NET MVC web applications and other technologies",
+        "Documented critical SSIS ETL packages in preparation for environment upgrade"
+      ]
+    },
+    {
+      "name": "Management Control Systems",
+      "position": "Software Engineer/Team Lead",
+      "website": "http://www.mcsystems.com",
+      "startDate": "2005-10-03",
+      "endDate": "2013-12-18",
+      "summary": "Primary activities included supporting/extending a 24/7 top up (airtime) transaction processing system for leading telecommunication companies.",
+      "highlights": [
+        "Led a team of developers",
+        "During my tenure, profitability of the platform increased to such a degree that the system was sold by MC Systems to a third party company which continues to grow",
+        "Identified and resolved long standing issues in environment, thus increasing environment throughput and by extension system profitability",
+        "Used AT commands to request SIM numbers from SIM cards used in POS terminals to allow logistics team to better track their resources in the field",
+        "Developed jobs to automate the transfer of balances between merchant accounts across disparate systems based on sale history to reduce merchant complaints",
+        "Developed or modified applications to consolidate multiple top up environments thus increasing operational efficiency and allowing merchants to manage their accounts from a centralized system",
+        "Integrated multiple additional products into environment to augment core top up business",
+        "Participated as a key player in relocation of environment to new hosting site after sale",
+        "Deployed instances of the top up environment across the Caribbean"
+      ]
     }
+  ],
+  "education": [
+    {
+      "institution": "University of the West Indies, Mona",
+      "area": "Computer Science & Electronics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2002-08-16",
+      "endDate": "2005-05-01",
+      "gpa": "4.0",
+      "courses": [
+        "CS11A - Introduction to Computer Science I",
+        "M10A - Basic Introductory Mathematics",
+        "P14A - Introductory Physics A",
+        "CS11B - Introduction to Computer Science II",
+        "M10B - Functions of Real Variables",
+        "P14B - Introductory Physics B",
+        "CS20Q - Discrete Mathematics for Computer Scientists",
+        "CS21Q - Digital Logic and Computer Architectures",
+        "FD13A - Law, Governance, Economy and Society in the Caribbean",
+        "P24F - Signals and Systems",
+        "P24H - Communication Systems",
+        "CS20A - Information Structures and Algorithms",
+        "CS28A - Systems Programming",
+        "FD11A - Caribbean Civilization",
+        "P24J - Analog Electronics",
+        "P24K - Digital Electronics",
+        "CS31A - Operating Systems",
+        "CS33Q - Introduction to Artificial Intelligence",
+        "P34F - Digital Signal Processing",
+        "P34K - Microprocessors",
+        "CS32Q - Computer Communications and Networks",
+        "CS37Q - Logic, Computability and Complexity Theory",
+        "P34H - Digital Communications",
+        "P34J - Microcontroller Applications"
+      ]
+    },
+    {
+      "institution": "Grand Canyon University",
+      "area": "Computer Science",
+      "studyType": "Master of Science",
+      "startDate": "2023-04-20",
+      "endDate": "2024-10-16",
+      "gpa": "4.0",
+      "courses": [
+        "UNV-507 - Introduction to Graduate Studies in CSET",
+        "DSC-510 - Advanced Probability and Statistics",
+        "CST-520 - Design and Analysis of Algorithms",
+        "CST-530 - Advanced Operating Systems",
+        "CST-540 - Programming Languages",
+        "CST-550 - Parallel Programming",
+        "CST-560 - Research Methods in Computational Sciences",
+        "CST-570 - Machine Learning for Computer Science",
+        "CST-580 - Artificial Intelligence",
+        "CST-590 - Computer Science Capstone Project"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Jasmine Chin Memorial Scolarship",
+      "awarder": "University of the West Indies",
+      "date": "2004-04-17"
+    },
+    {
+      "title": "Merville Campbell Prize",
+      "awarder": "University of the West Indies",
+      "date": "2004-03-23",
+      "summary": "Best Performance in Level 1 Mathematics"
+    },
+    {
+      "title": "Level 1 Physics Departmental Prize",
+      "awarder": "University of the West Indies",
+      "date": "2004-03-23",
+      "summary": "Best Performance"
+    },
+    {
+      "title": "Karl Robinson Award for Computer Science",
+      "awarder": "University of the West Indies",
+      "date": "2005-03-03",
+      "summary": "Best Performance"
+    },
+    {
+      "title": "Level 2 Physics Departmental Prize",
+      "awarder": "University of the West Indies",
+      "date": "2005-03-03",
+      "summary": "Best Performance"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Front End",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "JSON",
+        "jQuery",
+        "Kendo UI",
+        "Telerik"
+      ]
+    },
+    {
+      "name": "Backend",
+      "keywords": [
+        "PHP",
+        "Python",
+        "ASP.NET MVC",
+        "C#",
+        "MSSQL",
+        "TSQL",
+        "MySQL",
+        "C",
+        "Quartz.NET",
+        "LINQ",
+        "myBatis.NET",
+        "Ninject",
+        "Moq"
+      ]
+    },
+    {
+      "name": "Web Services",
+      "keywords": ["WCF", "ASMX", "Web API"]
+    },
+    {
+      "name": "Source Control/ALM",
+      "keywords": ["TFS", "Git", "Jira"]
+    },
+    {
+      "name": "Other",
+      "keywords": [
+        "Chrome Extensions",
+        "Google App Engine",
+        "Bamboo",
+        "Azure",
+        "SQL Server Reporting Services",
+        "K2 BlackPearl",
+        "Scribe Insight and Online",
+        "Jitterbit"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Amateur"
+    },
+    {
+      "language": "German",
+      "fluency": "Learning"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Scrabble",
+      "keywords": ["Tournaments", "Online"]
+    },
+    {
+      "name": "Math",
+      "keywords": ["Calculus"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Delton Phillips",
+      "reference": "Many things could be said about this developer, one word that comes to mind is reliable, open and knowledgeable. As a technical lead, I relied heavily on Dale's recommendations and his ability to work through technical challenges. His pragmatic approach to problem solving coupled with his advanced knowledge of various technologies contributed significantly to the profitability of the company"
+    },
+    {
+      "name": "Ryan Simons",
+      "reference": "I worked with Dale for just under 4 years at Management Control Systems and I found him to be an exceptional colleague. Resourceful, dedicated to timelines and adept at finding creative solutions to issues faced, even outside of his preferred languages. In time, Dale became the person with whom I'd trade development ideas and game changing proof of concepts. His work speaks volumes."
+    },
+    {
+      "name": "Nathaniel Nation",
+      "reference": "As it relates to mathematics, software engineering and analysis, just to name a few, Dale is the one. He is a very good problem solver and can very quickly come up with solutions to open doors, break barriers and make anything a success."
+    },
+    {
+      "name": "Wayne Baker",
+      "reference": "Working with Dale is one of my best experiences. Learning from him helped me to develop into the senior developer I am today. He is very focused and adapts quickly to new technologies. I am comfortable recommending his work to anyone that's interested."
+    },
+    {
+      "name": "Kay Möller",
+      "reference": "I know Dale V Ross through our membership of an online Scrabble/word game group, and he has proved himself invaluable when it comes to the technical aspects of score-keeping, etc. When the official Scrabble site changed the format of the game recently, omitting key features, Dale designed an app to address these shortfalls, improving vastly on the original. I can thoroughly recommend Dale as someone who anticipates others’ needs before they are aware of them, and solves problems promptly and with a (virtual) smile."
+    },
+    {
+      "name": "Gean Martinez",
+      "reference": "As a developer on my team, Dale worked on various complex projects and I was always very impressed with his ability to receive high level requirements and produce great results. Often times, I had no real requirements for him but a vision and he was able to deliver each time. His development skills span client side and server side components and he is a great Microsoft technologist. We worked on innovative solutions including a mobile-first asp.net MVC project utilizing the Telerik Kendo Framework. We also worked on creating a custom Single Sign On (SSO) solution which we implemented on an already built custom application. I appreciated his cool and calm demeanor which I found helpful when dealing with complex solutions."
+    },
+    {
+      "name": "Elisabeth Jardine",
+      "reference": "As a long-standing member of the Scrabble world, I got to know Dale through his involvement in the on-line Scrabble community. He has been a tremendous help setting up many tools to improve the functionality and enjoyment of the game. He is always on hand to help with problems and his knowledge is immense and invaluable."
+    },
+    {
+      "name": "Adebiyi Mabadeje",
+      "reference": "Just like Elisabeth, I'm also a long standing member of the online Scrabble community and the tools developed by Dale have been immensely helpful in making our game play seamless & he has also always expressed his willingness to lend a hand if & when the need arises."
+    },
+    {
+      "name": "Anne Sparrow",
+      "reference": "Dale has provided technical advice and assistance to myself and colleagues with politeness and no expectation of anything in return. His volunteer time contributions, efforts, and patience, to assist those who know less than him is a credit to himself. I wish him well in his endeavors."
+    },
+    {
+      "name": "Elliott Manley",
+      "reference": "A couple of years ago I had an enjoyable and rewarding time collaborating remotely with Dale on a Chrome extension. What we (mostly Dale) created continues to be used by an ever-growing community. He is always willing to learn and always willing to teach. He also always puts \"the right thing to do\" above all else. I sincerely hope we'll have the opportunity to collaborate again. I wish him well in all he does."
+    },
+    {
+      "name": "Daniel Stembridge",
+      "reference": "Dale has been a friend to me for many years over the information highway, and I very much hope to meet him in person one day to shake his hand and thank him for all the time, effort, assistance and dedication he has always offered to me freely in this time. He is one of those people who see Solutions rather than Problems, and is always my 'go-to guy' for all things tech. I wish him a bright and rewarding future, and I do not doubt he would prove to be a valuable member of any team."
+    },
+    {
+      "name": "Jamie Barrett",
+      "reference": "I've had the pleasure of knowing Amnathrig (Dale) for over a month and he's always been a pleasant person to work with. He is a considerate, compassionate and intelligent individual who strives daily to make a positive impact in this world. He always keeps his word and holds a high standard for conducting any business with integrity and honesty. He has a strong drive and puts 100% into all of his work. I believe he is a valuable asset to anyone's team."
+    }
+  ],
+  "meta": {
+    "theme": "elegant"
+  },
+  "projects": [
+    {
+      "name": "Amnathrig",
+      "description": "Amnathrig is a secure asset management system that allows for encrypted asset storage, transfer, and management. The system is designed with security in mind, allowing assets to be encrypted with user-specific keys.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2024-09-18",
+      "endDate": "2026-03-14",
+      "url": "https://amnathrig.app",
+      "roles": []
+    },
+    {
+      "name": "Piphilia",
+      "description": "This is a memory game! You progress through the game by clicking the next correct element in the bottom row. Clicking the correct element removes that row. Using Pi sequence as an example, first you'd click 3, then 1, then 4. If an incorrect element is clicked, that block will be changed to red. The Pi sequence is not infinite but if you're able to get through the 3142 digits, kudos! You win.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2023-04",
+      "endDate": "2026-03-14",
+      "url": "https://apps.rosssquared.org/piphilia",
+      "roles": []
+    },
+    {
+      "name": "pub-recs npm package",
+      "description": "A CLI tool to fetch and display GitHub recommendations from a public gist. This package allows you to easily view recommendations (both given and received) stored in a user's GitHub gist.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2025-09-29",
+      "endDate": "2025-09-29",
+      "url": "https://www.npmjs.com/package/pub-recs",
+      "roles": []
+    }
+  ]
 }
